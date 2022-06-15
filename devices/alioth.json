@@ -1,0 +1,27 @@
+{
+	"response": [
+		{
+			"maintainer": "johnmart19",
+			"oem": "Poco",
+			"device": "Redmi K40/ POCO F3/ Mi 11x",
+			"filename": "VoidUI-Eternity-alioth-12.1-20220624-0127-OFFICIAL.zip",
+			"download": "https://ppui.sidgdrive.workers.dev/0:/VoidUI-Eternity-alioth-12.1-20220624-0127-OFFICIAL.zip",
+			"timestamp": 1656034037,
+			"md5": "5ab7e41fcbd391ca9db562188dacf9ca",
+			"sha256": "00cf3d5ff8515b5ced2c0da02963eeca0b123f52cc27fbbcd82dc885d5c85ed6",
+			"size": 1911683509,
+			"version": Eternity,
+			"buildtype": "Eternity Bringup",
+			"forum": "https://t.me/VoidUI",
+			"firmware": "https://xiaomifirmwareupdater.com/firmware/alioth/",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://eu.dl.twrp.me/alioth/",
+			"paypal": "https://www.patreon.com/johnmart19",
+			"telegram": "https://t.me/voidui_alioth",
+			"dt": "https://github.com/VoidUI-Devices/device_xiaomi_alioth",
+			"common-dt": "https://github.com/VoidUI-Devices/device_xiaomi_sm8250-common",
+			"kernel": "https://github.com/VoidUI-Devices/kernel_xiaomi_sm8250"
+		}
+	]
+}

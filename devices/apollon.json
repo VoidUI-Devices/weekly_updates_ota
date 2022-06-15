@@ -1,0 +1,28 @@
+{
+        "response": [
+                {
+                        "maintainer": "Ahmed_Tohamy",
+                        "oem": "Xiaomi",
+                        "device": "Mi 10T/Pro",
+                        "filename": "VoidUI-Eternity-apollon-12.1-20220619-1231-OFFICIAL.zip",
+                        "download": "https://index.agmaddrive.workers.dev/0:/VoidUI-Eternity-apollon-12.1-20220619-1231-OFFICIAL.zip",
+                        "timestamp": 1655641727,
+                        "md5": "fa9c205d9a8f7af71d943260ffb48230",
+                        "sha256": "4f84f10d838bdc08547345c281480f3d5e716279cd83504f7eac57b7c2535079",
+                        "size": 2142117480,
+                        "version": Eternity,
+                        "buildtype": "Monthly",
+                        "forum": "",
+			"firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+			"paypal": "",
+                        "telegram": "https://t.me/voidui_apollo",
+                        "dt": "",
+                        "common-dt": "https://github.com/ahmedtohamy1/device_xiaomi_sm8250-common",
+                        "kernel": ""
+                }
+        ]
+}
+
