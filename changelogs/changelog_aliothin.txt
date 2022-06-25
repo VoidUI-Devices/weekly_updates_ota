@@ -1,3 +1,5 @@
-==============
-Initial Commit
-==============
+=====================================
+VoidUI Ethernity - Daily Release v1.0
+=====================================
+Initial Daily Release with Rebranding to Weekly and adding OTA support
+=====================================
