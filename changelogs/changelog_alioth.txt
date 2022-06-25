@@ -1,5 +1,10 @@
 =====================================
-VoidUI Ethernity - Daily Release v1.0
+VoidUI Eternity - Daily Releases v1.1
 =====================================
-Initial Daily Release with Rebranding to Weekly and adding OTA support
+- sm8250-common: Sepolicy:
+Allow Private apps to find com.android.vndk.current.on_vendor.apex
+Allow System apps to read /proc/pagetypeinfo
+Add Palm Sensor to TouchScreen GenFS (Potential TouchScreen work improvements)
+- system/vold: Remove change "Set correct SELinux labels on new user directories" from mainline 
+(Potential issue of Multi-User permissions after creation)
 =====================================
