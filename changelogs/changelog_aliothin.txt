@@ -1,4 +1,19 @@
 =====================================
+VoidUI Eternity - Daily Releases v1.2
+=====================================
+- kernel: Clean up kernel copy recipes 
+- kernel: Avoid unnecessary savedefconfig 
+- kernel: Ensure dtb(o) always get rebuilt 
+- VoidUI: Update our Wallpaper 
+- kernel: Use LLVM's substitutes for GNU binutils if possible
+- VoidUI: config: Don't pass CFLAGS_MODULE="-fno-pic" if using LLVM
+- kernel: Switch to AOSP DTC instead of using scripts/dtc
+- kernel: Move TARGET_KERNEL_ADDITIONAL_FLAGS to kernel task
+- sm8250-common: Decommonize popup camera service
+- sm8250-common: parts: Improve popup camera service HIDL detection
+- sm8250-common: Address QCOM WFD denials
+- Clean Rebuild
+=====================================
 VoidUI Eternity - Daily Releases v1.1
 =====================================
 - sm8250-common: Sepolicy:
