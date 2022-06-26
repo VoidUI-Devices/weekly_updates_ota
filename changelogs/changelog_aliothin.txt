@@ -1,4 +1,21 @@
 =====================================
+VoidUI Eternity - Daily Releases v1.3
+=====================================
+- SystemUI: screenshot: open long screenshot activity for partial screenshots
+- SystemUI: screenshot: remove misplaced call to set crop view padding
+- SystemUI: screenshot: remove duplicate clamping on move action
+- SystemUI: screenshot: add extra crop boundaries
+- SystemUI: screenshot: disable magnification for partial screenshots
+- Show the vibrate icon in the Status Bar by default 
+- Biometrics: Allow disabling of fingerprint cleanups
+- SystemUI: Disable tuner by default 
+- SystemUI: Fix double unlock sound issue
+- services: fix a synchronization issue in CachedAppOptimizer
+- AudioService: Fix issue with linked notification volume 
+- Settings: Set "Show the vibrate icon in the Status Bar" by default ON
+- Revert "sm8250-common: Disable gms components for better WiFi speeds" 
+(It disables Working Quick Pair service, which users need for BT devices.)
+=====================================
 VoidUI Eternity - Daily Releases v1.2
 =====================================
 - kernel: Clean up kernel copy recipes 
