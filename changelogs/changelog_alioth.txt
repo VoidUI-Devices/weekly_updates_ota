@@ -1,4 +1,39 @@
 =====================================
+VoidUI Eternity - Daily Releases v1.4
+=====================================
+- sm8250-common: Switch to QTI Health Hal
+- sm8250-common: rootdir:Create directory used by powermodule
+- alioth: overlay: Fixed status bar glitch for apps that access internal resource dimen
+- Gapps: Update Pixel Launcher to June Release
+- GameSpace: Reimport with latest updates from crDroid, import latest translations, pick back bringup from EvoX
+
+- Frameworks/base:
+* Add CHANNEL_MODE_DUAL_CHANNEL constant
+* Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+* Allow SBC as HD audio codec in Bluetooth device configuration
+* Explicitly make SBC Dual Channel an optional (HD) codec
+* MediaCodecInfo: when explicitly specified reset default bitrate mode
+* Extend "Trace: Disable debug tracing in production builds" to userdebug
+* Add missing INTERACT_ACROSS_USERS_FULL permission
+* Fix google widget timing issue
+* Consolidate clearing mImeInsetsFrozenUntilStartInput
+* Fix StageCoordinator unexpected onDisplayAreaVanished
+* core: Remove old app target SDK dialog
+* services: WindowOrientationListener: bail out if rotation resolver service instance is null
+* ThemeOverlayApplier: Catch a potential NPE.
+* TunerService: Prevent NPE with tunable
+* MountService: Prevent NPE with DropBoxManager
+* SystemUI: fix black qqs on keyguard in light theme
+* SystemUI: Remove trace counter from ScrimState
+* Change the wakeup alarms for "light-doze-maintenance step" to non-wakeup alarms
+* Kill off provider info logspam
+* Decode the input of both setStream and setResource calls first
+* base: notifications: set emphasized button bg to accentColor
+
+- Packages/apps/Settings:
+* Phone fails to switch channel mode from stereo to mono
+* Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+=====================================
 VoidUI Eternity - Daily Releases v1.3
 =====================================
 - SystemUI: screenshot: open long screenshot activity for partial screenshots
