@@ -1,4 +1,13 @@
 =====================================
+VoidUI Eternity - Daily Releases v1.5
+=====================================
+- Add support of manual changing volume steps (Settings - Sound - Volume Steps)
+- Add preference for toggling the wallpaper zooming animation
+- Update LTE+ icon as per new Silk design
+- core: Fix menu popup ripple
+- Various updates for BT backend environment
+- Various updates for fixing Permissions denials to different parts of system/vold
+=====================================
 VoidUI Eternity - Daily Releases v1.4
 =====================================
 - sm8250-common: Switch to QTI Health Hal
