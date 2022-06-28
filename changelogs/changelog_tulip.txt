@@ -1,0 +1,16 @@
+=====================================
+VoidUI Ethernity - Weekly Release v1.0
+=====================================
+- Add support of manual changing volume steps (Settings - Sound - Volume Steps)
+- Add preference for toggling the wallpaper zooming animation
+- Add window ignore secure feature
+- Add Toggle for data usage view on QS footer
+- Update LTE+ icon as per new Silk design
+- core: Fix menu popup ripple
+- Various updates for BT backend environment
+- Various updates for fixing Permissions denials to different parts of system/vold
+- Follow monet color in settings icon like aosp
+- Import missing lottie animations
+- Implement background process killer
+- Update caffeine tile icon
+=====================================

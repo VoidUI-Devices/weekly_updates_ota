@@ -1,0 +1,28 @@
+
+{
+        "response": [
+                {
+                        "maintainer": "muti605",
+                        "oem": "Redmi",
+                        "device": "Note 6 Pro",
+                        "filename": "VoidUI-Weekly-tulip-12.1-20220628-1738-OFFICIAL.zip",
+                        "download": "https://ppui.sidgdrive.workers.dev/0:/VoidUI-Weekly-tulip-12.1-20220628-1738-OFFICIAL.zip",
+                        "timestamp": 1656437881,
+                        "md5": "55719493b367006322c0105fdb1ae457",
+                        "sha256": "03b09193824b468bb485ec2c5e4eeefc84840edc4427d34207647458add69bcc",
+                        "size": 1581369536,
+                        "version": Weekly,
+                        "buildtype": "Tulip Weekly Updates",
+                        "forum": "https://t.me/VoidUI",
+			            "firmware": "https://xiaomifirmwareupdater.com/firmware/tulip/",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "https://dl.twrp.me/tulip/",
+			            "paypal": "",
+                        "telegram": "https://t.me/voidui_tulip",
+                        "dt": "https://github.com/VoidUI-Devices/device_xiaomi_tulip",
+                        "common-dt": "https://github.com/VoidUI-Devices/device_xiaomi_sdm660-common",
+                        "kernel": "https://github.com/VoidUI-Devices/kernel_xiaomi_sdm660"
+                }
+        ]
+}
