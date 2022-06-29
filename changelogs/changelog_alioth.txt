@@ -1,4 +1,12 @@
 =====================================
+VoidUI Eternity - Daily Releases v1.7
+=====================================
+- Disable various parts of Debugging
+- Improve scrolling cache
+- aapt2: disable leak detection
+- Toast: Fix JE caused by service not bind
+- Fix WMS instance leakage of WmTests (Display Manager Improvements)
+=====================================
 VoidUI Eternity - Daily Releases v1.6
 =====================================
 - SystemUI: Better QS detail clip animation
