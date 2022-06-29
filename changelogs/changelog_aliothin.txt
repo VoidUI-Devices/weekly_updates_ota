@@ -1,4 +1,15 @@
 =====================================
+VoidUI Eternity - Daily Releases v1.6
+=====================================
+- SystemUI: Better QS detail clip animation
+- Implement background process killer 
+- Add support for window ignore secure
+- Fix suspicious spaces around mobile icons
+- Spoof more packages to raven
+- Show daily data usage in QS footer 
+- Settings: import missing lottie animations 
+- More improvements and fixes
+=====================================
 VoidUI Eternity - Daily Releases v1.5
 =====================================
 - Add support of manual changing volume steps (Settings - Sound - Volume Steps)
