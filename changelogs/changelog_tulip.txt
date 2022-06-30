@@ -1,4 +1,29 @@
 =====================================
+VoidUI Eternity - Weekly Releases v1.1
+=====================================
+- Frameworks/base:
+use SharedPreferences to save verify results
+CEC: Do not allow null callback
+SystemUI: Fix issue that log can't be enabled in MobileSignalController
+Add a config to control split-screen task dimming
+- System/core:
+restorecon /dev/console at the second stage boot
+init: log services requested restart
+Make sure all expected actions get run.
+init: Purge empty process groups on zygote restart
+libprocessgroup: Activate controllers in cgroup v2 hierarchy at intermediate levels
+libprocessgroup: Add CgroupGetControllerFromPath API function
+Micro-optimize CgroupMap::ActivateControllers()
+libprocessgroup: Add a function to remove only empty process groups
+init: try converting writepid used with cgroups into task_profiles command
+- tulip:
+Disabled zram writeback
+- sdm660-common:
+Kang surfaceflinger props from newer display hals
+Disable triple frame buffer
+Compact cached app heaps in the background
+Optimize native executables for Cortex-A73 CPU
+=====================================
 VoidUI Ethernity - Weekly Release v1.0
 =====================================
 - Add support of manual changing volume steps (Settings - Sound - Volume Steps)
