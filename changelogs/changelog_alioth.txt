@@ -1,9 +1,15 @@
 =====================================
+VoidUI Eternity - Daily Releases v1.8.1
+=====================================
+- Immensity 5.0.0 Enrollment
+https://github.com/VoidUI-Devices/kernel_xiaomi_sm8250/tree/immensity-5.0.0
+Picked latest updated version + our modded changes with part of cleanup.
+This build already tested for ~14 hours, all seems fine for daily drive
+=====================================
 VoidUI Eternity - Daily Releases v1.8
 =====================================
 - Frameworks/base:
 use SharedPreferences to save verify results 
-CEC: Do not allow null callback 
 SystemUI: Fix issue that log can't be enabled in MobileSignalController
 Add a config to control split-screen task dimming
 - System/core:
@@ -11,10 +17,7 @@ restorecon /dev/console at the second stage boot
 init: log services requested restart
 Make sure all expected actions get run. 
 init: Purge empty process groups on zygote restart
-libprocessgroup: Activate controllers in cgroup v2 hierarchy at intermediate levels
-libprocessgroup: Add CgroupGetControllerFromPath API function
-Micro-optimize CgroupMap::ActivateControllers()
-libprocessgroup: Add a function to remove only empty process groups 
+Backport libprocessgroup / cgroup v2 changes from Android 13
 init: try converting writepid used with cgroups into task_profiles command
 =====================================
 VoidUI Eternity - Daily Releases v1.7
