@@ -1,4 +1,39 @@
 =====================================
+VoidUI Eternity - Daily Releases v1.9
+=====================================
+Short changelog:
+- Backport Cgrops changes from Mainline
+- Add more Boot Reasons
+- Fixup charger info
+=====================================
+Long Changelog:
+- bootstat: add more bootreasons 
+- charger: fix charger display stuck
+- Cgroups:
+Use the 'override' keyword where appropriate 
+Make two error messages more detailed
+Introduce interface class IProfileAttribute
+Support process path for WriteFileAction
+Simplify cgroups.json
+Fix cgroup directory permissions
+Use uid_t for user IDs and gid_t for group IDs 
+Add support for optional cgroup attributes
+Add support for memcg v2 attributes
+Enable the memory_recursiveprot mount option
+Use the proper memcg directory for the v2 hierarchy 
+Fix the stat() return value check in createProcessGroupInternal() 
+Fix support for optional cgroup attributes 
+Micro-optimize MergeCgroupToDescriptors()
+Canonicalize cgroup paths
+Add a comment to explain how errno is set 
+libprocessgroup: return false on failure
+c wrapper for SetProcessProfiles
+Add profile for VM compilation
+Fix: null name is added when using android_set_process_profiles 
+Make VMCompilationPerformance an aggregated profile with default
+Rename VMCompilationPerformance to SCHED_SP_COMPUTE
+libprocessgroup: Handle temporarily non-empty group removal failure
+=====================================
 VoidUI Eternity - Daily Releases v1.8.1
 =====================================
 - Immensity 5.0.0 Enrollment
