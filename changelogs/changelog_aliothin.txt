@@ -1,4 +1,23 @@
 =====================================
+VoidUI Eternity - Daily Releases v2.0
+=====================================
+- PermissionController: Show up to 7 days of permission usage history
+- SystemUI: Use new privacy indicators for location
+- stop auto-granting location to system browsers
+- Fix 32-bit userspace on 64-bit kernel quota2 compatibility.
+- Add native debugging setting
+- Further improve system sepolicy
+- Add missing display cutout overlays
+- Migration for legacy fingerprint keyguard toggle to modern biometric keyguard toggle
+- Use more loadDrawableAsUser in MediaDataManager
+- Enable backup service for non-owner users
+- Always show APN settings on CDMA carriers
+- Constify JNINativeMethod tables
+- Enable app compaction by default 
+- Use rounded corners in system UI
+- Enable doze and app standby
+- Improve PendingIntent security check compatibility
+=====================================
 VoidUI Eternity - Daily Releases v1.9
 =====================================
 Short changelog:
