@@ -1,4 +1,14 @@
 =====================================
+VoidUI Eternity - Daily Releases v2.1
+=====================================
+- Checkout system/update_engine to latest crDroid sources
+- core: Disable Dalvik lock contention logging
+- Fix coredump_enable() in envsetup.sh
+- Fix potential error for sys.platform 
+- Don't build QuickSearchBox
+- Update Frameworks/av & Frameworks/native from crDroid
+- Add com.android.systemui to indicator exemptions
+=====================================
 VoidUI Eternity - Daily Releases v2.0
 =====================================
 - PermissionController: Show up to 7 days of permission usage history
