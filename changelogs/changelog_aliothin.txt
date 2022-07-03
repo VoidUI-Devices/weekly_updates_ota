@@ -1,4 +1,21 @@
 =====================================
+VoidUI Eternity - Daily Releases v2.3
+=====================================
+- Merge latest ARM-software/optimized-routines
+- Import Bionic updates from ARM-software & AOSPA
+- init: Add --only-if-running argument to restart command.
+- surfaceflinger: Only restart zygote if already running. 
+- init: remove debug logging
+- Shutdown f2fs to avoid fsck 
+- Load kernel modules in parallel 
+- Fix a race condition in Service::Start() 
+- Remove references to nonplat sepolicy 
+- Sets 'verity_update_state' in init.rc
+- Fix the cgroup directory owner in createProcessGroupInternal()
+- sm8250-common: parts: Don't explicitely set android:theme for activities 
+- sm8250-common: sepolicy: Drop DFPS props labelling
+- Tons of additional Backend improvements0
+=====================================
 VoidUI Eternity - Daily Releases v2.2
 =====================================
 - Screenshot: Add delete action chip intent
