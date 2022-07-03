@@ -1,4 +1,10 @@
 =====================================
+VoidUI Eternity - Daily Releases v2.2
+=====================================
+- Screenshot: Add delete action chip intent
+- SystemUI: Fix QS mobile icon disappearing on theme switch 
+- Additional Improvements & upstreams
+=====================================
 VoidUI Eternity - Daily Releases v2.1
 =====================================
 - Checkout system/update_engine to latest crDroid sources
