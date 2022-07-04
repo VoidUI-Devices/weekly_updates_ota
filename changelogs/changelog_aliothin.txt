@@ -1,4 +1,9 @@
 =====================================
+VoidUI Eternity - Daily Releases v2.4
+=====================================
+- Fix application being stuck / not opening
+- Update to latest Immensity 5.0.0-next
+=====================================
 VoidUI Eternity - Daily Releases v2.3
 =====================================
 - Merge latest ARM-software/optimized-routines
