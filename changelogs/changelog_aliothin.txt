@@ -1,4 +1,10 @@
 =====================================
+VoidUI Eternity - Daily Releases v2.6
+=====================================
+- Merge Android 12.1.0_R11
+- July Security Patch
+- Safetynet pass
+=====================================
 VoidUI Eternity - Daily Releases v2.5
 =====================================
 - Remove unnessesary kernel commits
