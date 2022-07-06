@@ -1,4 +1,13 @@
 =====================================
+VoidUI Eternity - Daily Releases v2.5
+=====================================
+- Remove unnessesary kernel commits
+- Update to latest Immensity updates
+- Settings: check wifi direct feature for showing preferences 
+- Settings: Fix WifiSettings FC when rotating screen
+- Settings: sim: Fix NPE regarding SimList
+- Cleanup and further improve frameworks/base commits
+=====================================
 VoidUI Eternity - Daily Releases v2.4
 =====================================
 - Fix application being stuck / not opening
