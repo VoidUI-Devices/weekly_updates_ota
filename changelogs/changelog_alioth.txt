@@ -1,4 +1,22 @@
 =====================================
+VoidUI Eternity - Daily Releases v2.7
+=====================================
+- Resync Gapps with PE, pick back permissions fixes
+- Update Bootanimation
+- Improve APN-s for different contries
+- device_config: Disable always screen on
+- Revert "config: Disable remote keyguard animation until it's fixed"
+- Import Latest Translations from PE: Settings, FaceUnlock, TouchGestures, DeviceSettings
+- system/vold & sepolicy: Import SDcard Support
+- extract-utils: Add script to reorder blobs
+- Camera2: Remove Unused Drawables, Remove duplications, Remove Help & Feedback
+- system/core: Don't spoof props in recovery mode 
+- frameworks/base: 
+Allow flags to be overrideable 
+Revert "Ignore the charging ripple flag." 
+SystemUI: Make battery & clock clickable again in QuickStatusBarHeader
+QS: Define state for sound tile
+=====================================
 VoidUI Eternity - Daily Releases v2.6
 =====================================
 - Merge Android 12.1.0_R11
