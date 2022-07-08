@@ -1,4 +1,21 @@
 =====================================
+VoidUI Eternity - Daily Releases v2.8
+=====================================
+- sm8250-common: Sepolicy: Further improve Mi_Thermald sepolicy
+- sm8250-common: Sepolicy: Import & Improve qtidataservices Sepolicy
+- ART:
+[master] dex2oat: Faster class pruning. 
+[master] Force inlining in CodeInfo constructors. 
+- Frameworks/base:
+Revert "Keep the fsck log in /dev/fscklogs/fsck for bug report" 
+Revert "Upload f2fs fscklog"
+PixelCopy: align with legacy GLConsumer::computeTransformMatrix
+Unhide Parcel.writeTypedList() with additional flag
+SystemUI: Fix signal bar icon overlay issue 
+SystemUI: Avoid NPE in volume dialog 
+SystemUI: Bring in drawables for statusbar icon toggles
+Revert "Do not re-inflate QS and SB when CONFIG_UI_MODE" 
+=====================================
 VoidUI Eternity - Daily Releases v2.7
 =====================================
 - Resync Gapps with PE, pick back permissions fixes
