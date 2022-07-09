@@ -1,4 +1,14 @@
 =====================================
+VoidUI Eternity - Daily Releases v3.0
+=====================================
+- Make smart idle maint update write amount record every period
+- sm8250-common: Rootdir: Remove unexported property trigger
+- sm8250-common: Move audio.offload.gapless.enabled to system.props 
+- sm8250-common: Enable Iorapd Readahead
+- sm8250-common: Move device config props to kona.mk
+- sm8250-common: Declare smart idle maint's period
+- sm8250-common: BT: Enable persist.vendor.btstack.connect.peer_earbud Feature
+=====================================
 VoidUI Eternity - Daily Releases v2.9
 =====================================
 - Introduce app lock
