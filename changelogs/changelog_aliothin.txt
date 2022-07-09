@@ -1,4 +1,11 @@
 =====================================
+VoidUI Eternity - Daily Releases v2.9
+=====================================
+- Introduce app lock
+- Improve and Update to latest version of AppLock improvements & fixes
+- Add setting for open stock security option screen
+- Bluetooth: Add support for showing battery level for AirPods series
+=====================================
 VoidUI Eternity - Daily Releases v2.8
 =====================================
 - sm8250-common: Sepolicy: Further improve Mi_Thermald sepolicy
