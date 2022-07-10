@@ -1,4 +1,68 @@
 =====================================
+VoidUI Eternity - Daily Releases v3.1
+=====================================
+- sm8250-common: Resync with DT & Update ADSP modules (aptX) from Miui MI 13.0.4.0 Alioth
+- sm8250-common: Update ADSP Blobs from Miui Alioth 13.0.4.0 Mi
+- sm8250-common: Update Audio Blobs from Miui Alioth 13.0.4.0 Mi
+- sm8250-common: Bluetooth: Drop non-existing file from prebuilts
+- sm8250-common: Update CDSP Blobs from Miui Alioth 13.0.4.0 Mi
+- sm8250-common: Update CNE Blobs from Miui Alioth 13.0.4.0 Mi
+- sm8250-common: Update Configstore Blobs from Miui Alioth 13.0.4.0 Mi
+- sm8250-common: Update Consumer IR Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update DPM Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update DRM (QSEECom) Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update DRM (OEM Crypto API) Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update DRM (Widevine) Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update DSP service Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Embedded Secure Element power manager Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Feature enabler client Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Gatekeeper Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Graphics (Adreno firmware) Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update GNSS Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update IMS Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update IPA firmware Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update IRQ balance Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Keymaster Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Listen Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Media Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Mink-Lowi Interface daemon Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Mlipay Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Neural networks Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update NFC Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update nv_mac Blob from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update OMX Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Peripheral manager Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Power-off alarm Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update QCC Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update QMI Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update RIL Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Secure element Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Service Tracker QTI Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Snapdragon Computer Vision Engine Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Soter Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Time services Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Trusted Execution Environment connector Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update Trusted User Interface Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update VPP Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update WiFi Display Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Update WiFi Blobs from Miui Alioth 13.0.4.0 MI
+- sm8250-common: Audio: Enforce stock AUDIO_FORMAT_PCM_8_24_BIT to primary input
+- sm8250-common: MediaConfigs: Update from Miui Alioth 13.0.4.0 Mi
+- Alioth: Update ACDB blobs from Miui 13.0.4.0 Global MI
+- Alioth: Update ADSP blobs from Miui 13.0.4.0 Global MI
+- Alioth: Update Audio Hardware Blobs from Miui 13.0.4.0 Global MI
+- Alioth: Update Camera Blobs from Miui 13.0.4.0 Global MI
+- Alioth: Update Charger Blobs from Miui 13.0.4.0 Global MI
+- Alioth: Update Fingerprint Blobs from Miui 13.0.4.0 Global MI
+- Alioth: Update Sensor calibrate Blobs from Miui 13.0.4.0 Global MI
+- Alioth: Update Sensors Blobs from Miui 13.0.4.0 Global MI
+- Alioth: Update Thermal configs from Miui 13.0.4.0 Global MI
+- Alioth: Update Thermal engine from Miui 13.0.4.0 Global MI
+- Alioth: Update MiThermald engine from Miui 13.0.4.0 Global MI
+- Alioth: Update Vibrator (Xiaomi) from Miui 13.0.4.0 Global MI
+- Alioth: Import all ADSP modules from Miui 13.0.4.0 Mi
+- Alioth: Import missing audiohalext-impl and libaudioconfigstore
+=====================================
 VoidUI Eternity - Daily Releases v3.0
 =====================================
 - Make smart idle maint update write amount record every period
