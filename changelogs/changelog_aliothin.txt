@@ -1,4 +1,17 @@
 =====================================
+VoidUI Darkness - Daily Releases v1.1
+=====================================
+- Motodolby: Configs: Update band_regulator from Miui Alioth 13.0.4.0 Mi
+- sm8250-common: Audio: Enable flag related to AHAL
+- sm8250-common: Audio: Declare TARGET_USES_AOSP_FOR_AUDIO
+- sm8250-common: Switch to 24bit audio, add support 24bit for Wired headphones
+More Details about Audio:
+Speaker Defaults moved to AUDIO_FORMAT_PCM_24_BIT_PACKED
+Added support of sampling_rates 48000|192000
+AUDIO_FORMAT_PCM_16_BIT moved to Legacy
+Wired Headphones (Output) - Moved to AUDIO_FORMAT_PCM_24_BIT_PACKED
+Wired Headphones (Output) - Added support of samplingRates="48000,192000"
+=====================================
 VoidUI Darkness - Daily Releases v1.0
 =====================================
 - Clear previous Changelogs
