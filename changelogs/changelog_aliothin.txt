@@ -1,25 +1,32 @@
 =====================================
-VoidUI Darkness - Daily Releases v1.2
+VoidUI Darkness - Daily Releases v1.3
 =====================================
-Audio Changes | Part 2:
-Rework from scratch on top of QCOM changes of configs
+Audio Changes:
+Rework from scratch on top of QCOM & Miui changes of configs
 
-Includes 24Bit Audio for:
-- Main Speaker
-- Wired USB Headphones
-- Bluetooth OUT Devices
-
-Extras:
-- Changed samplingRates for USB out 44100 -> 48000 & 192000
-- Added 192000 samplingRate for speaker (Requires Codecs support)
-- Updated to latest available version of configs from CAF
-- Cleanup of QTI BT Implementation
-- Cleanup of Xiaomi Implementation
-- Hide app_types for ACDB loader to force 24bit by default
-- Force 24Bit for Most devices
-- Rework environment to have info about both 16 and 24bit codecs
+- sm8250-common: Update Audio Configs from LA.UM.9.12.r1-14300-SMxx50.0 & MIUI
+- sm8250-common: Audio: Improve Props for Current Configuration
+- sm8250-common: Audio: Swtich to AUDIO_FORMAT_PCM_8_24_BIT
 =====================================
-VoidUI Darkness - Daily Releases v1.1
+VoidUI Darkness - Daily Releases v1.2 -- reverted
+=====================================
+// Audio Changes | Part 2: //
+// Rework from scratch on top of QCOM changes of configs //
+// Includes 24Bit Audio for: //
+// - Main Speaker //
+// - Wired USB Headphones //
+// - Bluetooth OUT Devices //
+// Extras: //
+// - Changed samplingRates for USB out 44100 -> 48000 & 192000 //
+// - Added 192000 samplingRate for speaker (Requires Codecs support) //
+// - Updated to latest available version of configs from CAF //
+// - Cleanup of QTI BT Implementation //
+// - Cleanup of Xiaomi Implementation //
+// - Hide app_types for ACDB loader to force 24bit by default //
+// - Force 24Bit for Most devices //
+// - Rework environment to have info about both 16 and 24bit codecs //
+=====================================
+VoidUI Darkness - Daily Releases v1.1 
 =====================================
 - Motodolby: Configs: Update band_regulator from Miui Alioth 13.0.4.0 Mi
 - sm8250-common: Audio: Enable flag related to AHAL
