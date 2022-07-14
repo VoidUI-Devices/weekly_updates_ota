@@ -1,4 +1,20 @@
 =====================================
+VoidUI Darkness - Daily Releases v1.4
+=====================================
+Kernel:
+techpack: q6afe: Silence cal_block unavailability logs
+techpack: audio: Silence session unavailability logs
+drm/msm/dsi-staging: Don't bail out when debugfs creation fails
+drm/msm/dsi-staging: Allow multiple timing modes for video mode panels
+drm/msm/sde: Trigger panel reset after first kickoff on non-60 Hz 
+DT/Vendor:
+sm8250-common: proprietary-files: Add missing nqnfcinfo prebuilt
+sm8250-common: rootdir: Drop init.qti.can.sh init 
+sm8250-common: rootdir: Stop using hardcoded boot device
+sm8250-common: vibrator: Add support for aw8624_haptic 
+sm8250-common: Move WCNSS_qcom_cfg.ini out of qca6390 subdir 
+sm8250-common: Enforce fstab suffix to qcom 
+=====================================
 VoidUI Darkness - Daily Releases v1.3
 =====================================
 Audio Changes:
