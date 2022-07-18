@@ -1,4 +1,22 @@
 =====================================
+VoidUI Darkness - Daily Releases v1.5
+=====================================
+ART:
+- Avoid inopportune GC with explicit gc() call 
+- Only madvise for jank-perceptible processes
+- Add a null check for suppressed exception. 
+- Don't call entry callbacks when moving to JITed from interpreter
+- Avoid PushLocalFrame(0) CHECK failure 
+- Do not preload ThreadLocalRandom class.
+- Do not fail internally in the executable check if the file is missing.
+- Fix missing receiver NPE checks for field get/set MH 
+- Fix the empty profile slow down the dex2oat
+- Unlock suspend count lock before dumping threads 
+Frameworks:
+- SystemUI: Set lockscreen clock font dynamically
+Bionic:
+- arm64: memset: Use p2align instead of nop
+=====================================
 VoidUI Darkness - Daily Releases v1.4
 =====================================
 Kernel:
