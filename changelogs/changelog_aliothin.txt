@@ -1,105 +1,94 @@
-=====================================
-VoidUI Darkness - Daily Releases v1.5
-=====================================
-ART:
-- Avoid inopportune GC with explicit gc() call 
-- Only madvise for jank-perceptible processes
-- Add a null check for suppressed exception. 
-- Don't call entry callbacks when moving to JITed from interpreter
-- Avoid PushLocalFrame(0) CHECK failure 
-- Do not preload ThreadLocalRandom class.
-- Do not fail internally in the executable check if the file is missing.
-- Fix missing receiver NPE checks for field get/set MH 
-- Fix the empty profile slow down the dex2oat
-- Unlock suspend count lock before dumping threads 
-Frameworks:
-- SystemUI: Set lockscreen clock font dynamically
-Bionic:
-- arm64: memset: Use p2align instead of nop
-=====================================
-VoidUI Darkness - Daily Releases v1.4
-=====================================
-Kernel:
-techpack: q6afe: Silence cal_block unavailability logs
-techpack: audio: Silence session unavailability logs
-drm/msm/dsi-staging: Don't bail out when debugfs creation fails
-drm/msm/dsi-staging: Allow multiple timing modes for video mode panels
-drm/msm/sde: Trigger panel reset after first kickoff on non-60 Hz 
-DT/Vendor:
-sm8250-common: proprietary-files: Add missing nqnfcinfo prebuilt
-sm8250-common: rootdir: Drop init.qti.can.sh init 
-sm8250-common: rootdir: Stop using hardcoded boot device
-sm8250-common: vibrator: Add support for aw8624_haptic 
-sm8250-common: Move WCNSS_qcom_cfg.ini out of qca6390 subdir 
-sm8250-common: Enforce fstab suffix to qcom 
-=====================================
-VoidUI Darkness - Daily Releases v1.3
-=====================================
-Audio Changes:
-Rework from scratch on top of QCOM & Miui changes of configs
-
-- sm8250-common: Update Audio Configs from LA.UM.9.12.r1-14300-SMxx50.0 & MIUI
-- sm8250-common: Audio: Improve Props for Current Configuration
-- sm8250-common: Audio: Swtich to AUDIO_FORMAT_PCM_8_24_BIT
-=====================================
-VoidUI Darkness - Daily Releases v1.2 -- reverted
-=====================================
-// Audio Changes | Part 2: //
-// Rework from scratch on top of QCOM changes of configs //
-// Includes 24Bit Audio for: //
-// - Main Speaker //
-// - Wired USB Headphones //
-// - Bluetooth OUT Devices //
-// Extras: //
-// - Changed samplingRates for USB out 44100 -> 48000 & 192000 //
-// - Added 192000 samplingRate for speaker (Requires Codecs support) //
-// - Updated to latest available version of configs from CAF //
-// - Cleanup of QTI BT Implementation //
-// - Cleanup of Xiaomi Implementation //
-// - Hide app_types for ACDB loader to force 24bit by default //
-// - Force 24Bit for Most devices //
-// - Rework environment to have info about both 16 and 24bit codecs //
-=====================================
-VoidUI Darkness - Daily Releases v1.1 
-=====================================
-- Motodolby: Configs: Update band_regulator from Miui Alioth 13.0.4.0 Mi
-- sm8250-common: Audio: Enable flag related to AHAL
-- sm8250-common: Audio: Declare TARGET_USES_AOSP_FOR_AUDIO
-- sm8250-common: Switch to 24bit audio, add support 24bit for Wired headphones
-More Details about Audio:
-Speaker Defaults moved to AUDIO_FORMAT_PCM_24_BIT_PACKED
-Added support of sampling_rates 48000|192000
-AUDIO_FORMAT_PCM_16_BIT moved to Legacy
-Wired Headphones (Output) - Moved to AUDIO_FORMAT_PCM_24_BIT_PACKED
-Wired Headphones (Output) - Added support of samplingRates="48000,192000"
-=====================================
-VoidUI Darkness - Daily Releases v1.0
-=====================================
-- Clear previous Changelogs
-- Based on VoidUI Darkness release
-- frameworks/av: Replace writepid with tasks profiles and modify services priorities
-- device_qcom_sepolicy: Merge LA.QSSI.12.0.r1-08200-qssi.0 TAG
-- frameworks/base:
-Fix potential race condition due to missing lock 
-Fix IndexOutOfBoundsException in onAnimationFinished of RemoteAnimationController
-base: Add com.qualcomm.qti.cne to indicator exemptions
-hwui: Increase thread prio
-SystemUI: Whitelist PREVENT_POWER_KEY permission
-Add whitelist permissions needed for SystemUIGoogle 
-SystemUI: add missing permissions 
-Add missing perms that exists on the systemui manifest to allowlist
-permissions: Update settingsintelligence allowlist 
-permissions: Update settings app allowlist
-permissions: Update cellbroadcastreceiver allowlist
-permissions: Update SettingsProvider permissions
-disable compaction by default
-NotificationPlayer: use AUDIOFOCUS_GAIN_TRANSIENT instead of AUDIOFOCUS_GAIN in looping mode
-[Bugfix][Stability] Fix system_server kills itself by mistake.
-Fix possible NullPointerException in method shouldUseEmptySplashScreen. 
-ActivityManager: Port CLO's memory optimizations 
-Fix virtual display cannot be relased.
-base: Make reduceOpsTaskSplitting property persistent 
-HWUI: Use kMirror instead of kClamp
-BlurShader: Use kMirror shader instead of edge treatment
-SystemUI: Layout the slices vertically SystemUI: disable keyguard screen off animation if we use split notification shade
-=====================================
+================================
+VoidUI Darkness - Weekly Releases v2.0
+================================
+!!Clean installation Mandatory!!
+================================
+Required firmware: Miui 13.0.7.0 EU
+================================
+- Clean start of Trees, based on latest LOS19.1 Changes
+- All vendors reworked from scratch on top of LOS19.1 Changes + Updated to Miui 13.0.7.0 EU Alioth base
+================================
+Main changes in sm8250-common that picked back or added:
+================================
+- Switch back to kryo785 + kryo385 Optimization
+- Switch back to SkiaGL Threaded
+- Manifests: Inherit Audiohalext for device deps
+- Import back Parts changes with proper cleanup and fixup changes
+- Kernel: Kill Console Parameters
+- Compile kernel with SDClang 14.1.2
+- Implement back SunlightEnhancement LiveDisplay HAL
+- Livedisplay: Update to version 2.1 (Reworked fixed version)
+- Labeled android.hardware.drm@1.[0-4]-service.clearkey 
+- Audio: upgrade Audio.usb.default from v1 to v2 (This time complete implementation)
+- Disable vsync for CPU rendered Apps 
+- Audio: offload 24 bits playback supports mp3/aac format
+- Audio: Use QCOM implementation for Audio effects 
+- Disable QCOM system daemon 
+- Disable phantom process monitoring
+- WFD Green Display Fix 
+- rootdir: Import latest changes from CAF 
+- Enable IORAP feature
+- Enable UXE IO Prefetcher 
+- Provide Sepolicy and overlays for FPS Counter access
+- Import back entire mdmhelper & kickstart sepolicy topic
+- Inherit Build time optimizations for platform
+- Audio Effects: Drop useless volume_listener
+- manifest: Declare com.fingerprints.extension@3.0
+- FCM: Update QTI DisplayComposer to @3.1
+- Implement support of vendor.qti.hardware.btconfigstore@2.0
+- Guard qti thermal 2.0 service hals 
+- Switch to QTI BT Stack (Reworked, cleaned implementation)
+- Enable Iorapd Readahead
+- Declare MultiGen LRU & USAP Pool Props
+- Declare smart idle maint's period
+- Use MIUI poweroff charging animation
+- Audio: Enforce stock Audio_FORMAT_PCM_8_24_BIT to primary input
+- Import more updated libs for GNSS From Miui Alioth 13.0.7.0 EU
+- Add missing nqnfcinfo prebuilt
+- Use Proper NFC Fixup
+- Update CNE|IMS|RIL|TEE from Miui 13.0.7.0 EU Alioth (Also import part of ImsRcsService blobs, Update Hals to latest version:
+vendor.qti.data.factory@2.2 | vendor.qti.hardware.radio.ims@1.7 | vendor.qti.hardware.radio.lpa@1.1 | vendor.qti.ims.factory@2.0)
+- sepolicy: Import & Improve qtidataservices Sepolicy
+- sepolicy: Add Palm Sensor to TouchScreen GenFS
+- sepolicy: Address iorapd policy
+- bdroid_buildcfg.h: Increase number of supported channels
+- Add AOSP RCS packages
+- Fix TWRP: Revert improper vAB commits
+- Update Media configs list from Miui Alioth 13.0.7.0 EU
+- Import CNE configs from Miui Alioth 13.0.7.0 EU
+- Import Dpps lib from Miui Alioth 13.0.7.0 EU 
+- Import wfd policy from Miui Alioth 13.0.7.0 EU
+- Wifi: Update for vendor.qti.hardware.wifi.supplicant@2.2
+- vendor props: Import part of props from Miui 13.0.7.0 EU
+- sepolicy: Allow hvdcp to write to /dev/kmsg
+- Add back Moto Dolby
+- Dolby: Partly update Config from Miui Alioth 
+This also includes changes:
+- sm8250-common: Dolby: Enable bass-enhancer for Headphones and "Other" devices
+- sm8250-common: Dolby: Disable volume-leveler for all devices
+- sm8250-common: Dolby: Update band_regulator from Miui Alioth 13.0.4.0 Mi
+================================
+Main changes in Alioth that picked back or added:
+================================
+- Alioth: Properly configure corner roundness
+- Alioth: Update overlays to show Minimum and Maximum refresh rate options
+- Alioth: Set default Settings.Global.DEVICE_NAME according to MIUI
+- Alioth: overlay: Configure display cutout
+- Alioth: set config_defaultRefreshRateInZone
+- Alioth: Adjust Thresholds Of Peak Refresh Rate
+- Alioth: set Night Display Default Color Temperature
+- Alioth: overlays: display correct charging speed
+- Alioth: Declare default screen density = 420
+- Alioth: overlay: Set config_defaultRefreshRate to 0
+- Alioth: Improve Ultrasound Proximity Sensor
+- Alioth: Import all ADSP modules from Miui 13.0.4.0 Mi
+- Alioth: Update Audio Configs from Miui 13.0.4.0 Mi
+- Alioth: Import missing Audiohalext-impl and libAudioconfigstore
+- Alioth: vendor props: Set frame rate multiple threshold to 120
+- Alioth: proprietary-files: Sync ADSP modules with Miui 13.0.7.0 EU
+- Alioth: proprietary-files: Sync Audio (Firmware) with Miui 13.0.7.0 EU
+- Alioth: Import display calibration blobs from HelluvaOS
+- Alioth: Import Enrire pack of configs from Miui 13.0.7.0 EU
+- Alioth: Audio: Define acdb ids for voice recorder 
+- Alioth: Use DMIC instead of UNPROCESSED for recorder
+================================
