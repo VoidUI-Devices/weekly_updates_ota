@@ -1,4 +1,22 @@
 ================================
+VoidUI Darkness - Weekly Releases v2.1
+================================
+- Rebased on PE+ | Included all our Customizations and features | Huge commits cleanup of following repos:
+frameworks/base | frameworks/av | frameworks/native
+- Rebased on PE+ | Reworked all customly added Customizations and features with linking all to VoidUI custom file: Settings
+- Settings: Add Crowdin support: https://crwd.in/VoidUI
+- Settings: Add Translations:
+ Spanish Translations (Thanks to @nmayorga)
+ Romanian Translations (Thanks to @wintechN47)
+ Vietnamese Translation (Thanks to @CaHoiHop)
+ Russian Translations (Thanks to @johnmart19 :D)
+- sm8250-common:
+ Clean part of imported props from Miui 13.0.7.0 EU
+ Reverted "sm8250-common: Update volume steps props"
+ Dolby: Set <peak-value value="256" />
+ CarrierConfig: Disable global mode and CDMA choices
+ Props: Declare that we support NR (5G) internet
+================================
 VoidUI Darkness - Weekly Releases v2.0
 ================================
 !!Clean installation Mandatory!!
