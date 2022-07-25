@@ -1,4 +1,11 @@
 ================================
+VoidUI Darkness - Active Development Releases v2.2
+================================
+- Kernel: Immensity 6.0.0 Release
+- GameSpace: Import latest changes from crDroid
+- Frameworks/base: Import minimal implementation for reTicker only for GameSpace
+- Includes latest available Translations of Settings at moment of compilation
+================================
 VoidUI Darkness - Weekly Releases v2.1
 ================================
 - Rebased on PE+ | Included all our Customizations and features | Huge commits cleanup of following repos:
