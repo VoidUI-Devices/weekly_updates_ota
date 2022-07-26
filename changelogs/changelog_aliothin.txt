@@ -1,4 +1,27 @@
 ================================
+VoidUI Darkness - Active Development Releases v2.3
+================================
+- Resync with latest available Translations (Available a bit down below)
+- Alioth: Fix Potrait StatusBar position
+================================
+Translations Information:
+================================
+- Current Translations Progress:
+Russian 100% - johnmart19
+Arabic 100% - Ahmad Sa (Ahmad_sa)
+Bengali 100% - nhAsif
+Chinese Simplified 100% - Gavin Goh (keyoke) & CM Yao (ycmmonkey) / Need someone for ProofRead
+German 100% - Christian Henze (heyhenze)
+Greek 66% / Need ProofRead & Finish
+Hindi 100% - Keyur (Keyur1291)
+Indonesian 100% - Gunawan Ismiadi (gunawanismiadi19) & JJeamy (JJeamy)
+Italian 16% - Fabio Del Conte (fabiodelconte77) // Need finish & ProofRead
+Portugese, Brazilian 100% - Bumbo (vinidosantos) & Antoniel Silva (Scartoni)
+Romanian 100% - Wintech (WintechX) 
+Spanish 100% - Nicolás (nmayorga)
+Ukrainian 100% - johnmart19
+Vietnamese 100% - Minh Quân Nguyễn (minhhquan1205)
+================================
 VoidUI Darkness - Active Development Releases v2.2
 ================================
 - Kernel: Immensity 6.0.0 Release
