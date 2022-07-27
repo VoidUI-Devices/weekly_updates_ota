@@ -1,4 +1,25 @@
 ================================
+VoidUI Darkness - Active Development Releases v2.4
+================================
+- Settings: Battery: show battery temp on power summary 
+- Sepolicy: Sync with Utsav changes: https://github.com/VoidUI/device_qcom_sepolicy_vndr/commits/aosp-12.1
+- Frameworks/base: 
+ GameSpace: Fix issue with multiple users
+ base: Prevent NPE for Demo mode
+ Allow apps receiving MediaSession callbacks to start FGS from BG. 
+ Allow shell uid without checking the package name.
+ [NMS] Call isServiceTokenValidLocked with lock. 
+ Add always full location check to LocationAccessPolicy 
+ Cache least recently used output buffer.
+ Minor update canHandleType() 
+ Fix weak global reference overflow
+ Parcel marshall error explain objects
+ Parcel marshall - disallow RPC Parcels 
+- Frameworks/av: codec2: add smoothfactor when checking n-th work
+- hardware_qcom-caf_sm8250_display: Merge LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
+- hardware_qcom-caf_sm8250_audio: Merge LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
+- sm8250-common: Sepolicy: Drop debugfs from vendor_init 
+================================
 VoidUI Darkness - Active Development Releases v2.3
 ================================
 - Resync with latest available Translations (Available a bit down below)
