@@ -1,4 +1,23 @@
 ================================
+VoidUI Darkness - Active Development Releases v2.5
+================================
+- SystemUI: Enable back blur wakeup animation 
+- ripple: Replace with Fluent Design-inspired ripple animation 
+- base: Add rounded corners to activity open/close animation
+- Add colors to assistant animation 
+- PackageManagerService: Load APKs from system_ext/framework 
+- SystemUI: VolumeDialogImpl: Change bg tint for inactive rows
+- KernelCpuUidActiveTimeReader: Do not spam log with negative active time 
+- SystemUI: Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
+- SystemUI: Remove user setup check for alarm icon
+- base: Force fullscreen for Google Dialer
+- [REPICK] SettingsProvider: Handle WRITE_DEVICE_CONFIG permission denial for gms
+- LayoutInflater: remove less frequently used apps
+- Revert "Remove fixed grant of READ_PHONE_STATE and cleanup" 
+- Turn off carrier provisioning by default to allow tethering 
+- Revert "sm8250-common: Import LMK props from stock" 
+- sm8250-common: LMK Props: Force disable low ram config
+================================
 VoidUI Darkness - Active Development Releases v2.4
 ================================
 - Settings: Battery: show battery temp on power summary 
