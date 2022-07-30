@@ -1,4 +1,15 @@
 ================================
+VoidUI Darkness - Active Development Releases v3.0.1
+================================
+- Update to IMMENSITY - X Next 7.0.0
+Included Changes:
+disp: msm: Revert all panel power state modification changes 
+lrng: merge v45 from linux-5.15.y
+ASoC: lsm: Do not create any wakeup_source for keyword detection
+BACKPORT: fs: align IOCB_* flags with RWF_* flags
+- sm8250-common: Enable asyncronous power updates on HWC
+- sm8250-common: Sepolicy: Suppress warning related to NNAPI HAL accessing zeroth.debuglog.logmask
+================================
 VoidUI Darkness - Active Development Releases v3.0
 ================================
 Clean flash recommended
