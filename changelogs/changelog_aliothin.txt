@@ -1,4 +1,31 @@
 ================================
+VoidUI Darkness - Active Development Releases v3.0
+================================
+Clean flash recommended
+================================
+- external_vixl: Upstream from Mainline
+ART:
+- "Faster deduplication of CodeInfo tables." 
+- Fix perfetto debug library. 
+- zeroing BitMemoryRegion buffer.
+- libprofile: Clear method bitmap padding bits. 
+- Fix ProfileCompilationInfo to handle extra descriptors correctly.
+- Reduce an error log to a warning. 
+- Fix dex file lookup in DumpInfo when dex file locations have full paths. 
+- VIXL Dissassembler Integration Upgrade May. 2022 
+Frameworks:
+- fixup! DeviceGroup: Framework changes for Group Device operations.
+- Exclude dumpsys from incident in dumpstate
+- VoidUI: Frameworks/base: Regenerate current API
+Device Side:
+- sm8250-common: vibrator: Nuke debug logs
+- sm8250-common: rootdir: tune zram performance
+- sm8250-common: Enable zram writeback
+- sm8250-common: Remove zram cold page writeback file
+- sm8250-common: rootdir: Set 50% Zram size
+- sm8250-common: fstab: Apply 64-bit inode version support for all ext4 partitions
+- sepolicy_vndr: generic: kona: Add some misc wakeup nodes for kona 
+================================
 VoidUI Darkness - Active Development Releases v2.5
 ================================
 - SystemUI: Enable back blur wakeup animation 
