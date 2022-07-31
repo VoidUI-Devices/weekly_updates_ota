@@ -1,4 +1,12 @@
 ================================
+VoidUI Darkness - Active Development Releases v3.1
+================================
+- Settings: fuelgauge: Don't use Enhanced Battery Prediction from Turbo 
+- Frameworks: Revert "EnhancedEstimates: Get estimates from Device Health Services" 
+- sm8250-common: Set xiaomi thermal data path
+- sm8250-common: Import GPS lowi.conf to DT & disable debugging
+- Alioth: overlays: Reconfigure power profile configuration for alioth
+================================
 VoidUI Darkness - Active Development Releases v3.0.1
 ================================
 - Update to IMMENSITY - X Next 7.0.0
