@@ -1,4 +1,21 @@
 ================================
+VoidUI Darkness - Active Development Releases v3.2
+================================
+- sm8250-common: Grant to create qipcrtr_socket for QXDM logging (Userdebug only, here mute denial)
+- sm8250-common: sepolicy: Allow toolbox to rm -rf /data/per_boot
+- sm8250-common: sepolicy: Allow kernel to access /data/per_boot/zram_swap
+- sm8250-common: sepolicy: ADPF: Allow PowerHAL to set sched
+- sm8250-common: sepolicy: Allow PowerHAL to change sched for ADPF
+- sm8250-common: sepolicy: Address vendor_qti_init_shell denials 
+- sm8250-common: sepolicy: Allow mi_thermald to access vendor_sysfs_battery_supply
+- sm8250-common: sepolicy: Allow system_app to get qemu_hw_prop
+- system_bpf Topic: Totally remove logspam & fixes:
+grant bpfloader explicit membership in some groups 
+fix a potential invalid dereference
+Remove redundant line feed in log
+Increase the log size for larger bpf programs
+LibBpfLoader: Move all logs to ALOGV (Verbose ONLY) 
+================================
 VoidUI Darkness - Active Development Releases v3.1
 ================================
 - Settings: fuelgauge: Don't use Enhanced Battery Prediction from Turbo 
