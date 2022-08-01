@@ -1,14 +1,27 @@
 ================================
+VoidUI Darkness - Active Development Releases v3.3
+================================
+- sm8250-common: rootdir: Partly update from munch V13.0.4.0.SLMMIXM
+- Revert "sm8250-common: enable idle timer with kernel support" 
+- sm8250-common: rootdir: Cleanup post_boot script
+- sm8250-common: rootdir: Cleanup early_boot script
+- sm8250-common: rootdir: Do not touch sleep disabled
+- sm8250-common: rootdir: Cleanup post_boot zram setup
+- system/core: libutils: don't call SetTaskProfiles around priority 
+- system/core: libutils: Remove a little dead code
+- frameworks/base: Revert "PMS and WMS deadlock when uninstalling APP"
+================================
 VoidUI Darkness - Active Development Releases v3.2
 ================================
 - sm8250-common: Grant to create qipcrtr_socket for QXDM logging (Userdebug only, here mute denial)
-- sm8250-common: sepolicy: Allow toolbox to rm -rf /data/per_boot
-- sm8250-common: sepolicy: Allow kernel to access /data/per_boot/zram_swap
-- sm8250-common: sepolicy: ADPF: Allow PowerHAL to set sched
-- sm8250-common: sepolicy: Allow PowerHAL to change sched for ADPF
-- sm8250-common: sepolicy: Address vendor_qti_init_shell denials 
-- sm8250-common: sepolicy: Allow mi_thermald to access vendor_sysfs_battery_supply
-- sm8250-common: sepolicy: Allow system_app to get qemu_hw_prop
+- sm8250-common: sepolicy: 
+Allow toolbox to rm -rf /data/per_boot
+Allow kernel to access /data/per_boot/zram_swap
+ADPF: Allow PowerHAL to set sched
+Allow PowerHAL to change sched for ADPF
+Address vendor_qti_init_shell denials 
+Allow mi_thermald to access vendor_sysfs_battery_supply
+Allow system_app to get qemu_hw_prop
 - system_bpf Topic: Totally remove logspam & fixes:
 grant bpfloader explicit membership in some groups 
 fix a potential invalid dereference
