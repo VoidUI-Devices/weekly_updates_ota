@@ -1,4 +1,14 @@
 ================================
+VoidUI Darkness - Active Development Releases v3.4
+================================
+- vendor_qcom_opensource_audio-hal_st-hal: Rebase on TAG: LA.UM.9.14.r1-20000.01-LAHAINA.QSSI12.0
+- sm8250-common: livedisplay: Fix racy init
+- sm8250-common: audio: Add back libmisound and audiosphere
+- sm8250-common: Build OSS sound trigger HAL
+- sm8250-common: Drop prebuilt SoundTrigger 
+- sm8250-common: Build android.hardware.power@1.2.vendor 
+- Settings: Sync with Latest Crowdin Translations
+================================
 VoidUI Darkness - Active Development Releases v3.3
 ================================
 - sm8250-common: rootdir: Partly update from munch V13.0.4.0.SLMMIXM
