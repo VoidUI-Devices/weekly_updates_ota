@@ -1,4 +1,12 @@
 ================================
+VoidUI Darkness - Active Development Releases v3.6
+================================
+- Included all changes from Sound Testing Release
+- Fixed Volume Curves for media
+- hardware/qcom/caf/display & media: Merge TAG: LA.UM.9.12.r1-14400.02-SMxx50.QSSI13.0
+- hardware_qcom-caf_wlan: Merge tag LA.UM.9.12.r1-14400.02-SMxx50.QSSI13.0
+- sm8250-common: props: display: Steal surfaceflinger offsets from taro [2/2]
+================================
 VoidUI Darkness - Sound Testing Release
 ================================
 - Alioth: Update microphone_characteristics from HelluvaOS
