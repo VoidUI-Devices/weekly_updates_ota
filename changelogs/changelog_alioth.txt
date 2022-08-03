@@ -1,4 +1,24 @@
 ================================
+VoidUI Darkness - Sound Testing Release
+================================
+- Alioth: Update microphone_characteristics from HelluvaOS
+- Alioth: Mixer_paths: Enforce USB Audio Format to S24_LE 
+- Alioth: Mixer_Paths: Add configuration for speaker-stereo-dmic-ef 
+- Alioth: Mixer_paths_overlay_dynamic: Use same values for HPHL & HPHR Volume
+- sm8250-common: audio: Enforce AUDIO_FORMAT_PCM_8_24_BIT audio for Phone Speaker
+* sm8250-common: Audio Policy: Import part of updates from HelluvaOS:
+Included changes:
+- Drop FM & FM Tuner from Audio Policy
+- Switch to 24bit Deep Buffer
+- Update supported Formats of compress passthrough
+- Add AUDIO_OUTPUT_FLAG_GAPLESS_OFFLOAD flag
+- Add missing 44100 sampling rate for record_16
+- Switch to AUDIO_FORMAT_PCM_8_24_BIT for record_24bit
+- Add voip_tx audio_io policy
+- Add missing 44100 sampling rate for deep_buffer
+- Drop "address="" " from Speaker device port
+- Update audio Policy volumes
+================================
 VoidUI Darkness - Active Development Releases v3.5
 ================================
 - Clean Rebuild
