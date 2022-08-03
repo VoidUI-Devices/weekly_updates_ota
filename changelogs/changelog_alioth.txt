@@ -1,4 +1,17 @@
 ================================
+VoidUI Darkness - Active Development Releases v3.5
+================================
+- Clean Rebuild
+- Drop LiveDisplay change by which was flickering
+- Update to latest version of hardware_xiaomi
+- Alioth: Sync Display calibration blobs list with HelluvaOS
+- Immensity: 
+IMMENSITY - X Next 7.0.0 + scsi: ufs: Guard ufs_qcom_parse_lpm for UMI
+- external/faceunlock:
+faceunlock: Fix naming conflict with vendor libs
+faceunlock: Preserve original lib names using stem
+- Drop prebuilt vendor.qti.hardware.audiohalext@1.0 lib 
+================================
 VoidUI Darkness - Active Development Releases v3.4
 ================================
 - vendor_qcom_opensource_audio-hal_st-hal: Rebase on TAG: LA.UM.9.14.r1-20000.01-LAHAINA.QSSI12.0
