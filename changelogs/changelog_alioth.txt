@@ -1,4 +1,14 @@
 ================================
+VoidUI Darkness - Sound Testing Release v1.3
+================================
+- Drop libstagefright_soft_mpeg2dec & libeffectproxy.so prebuilts | They are compiled from sources
+- audio_policy_configuration: Add Stereo config channel support to usb surround sound
+- audio_policy_configuration: Remove dynamic attributes from APS config
+- audio_policy_configuration: Set valid and supported channel mask for earpiece
+- audio_io_policy: Add support for voip record low latency path
+- audio_io_policy: Add compress recording configurations
+- configs: correct the pcm id for USECASE_AUDIO_PLAYBACK_OFFLOAD3
+================================
 VoidUI Darkness - Sound Testing Release v1.2
 ================================
 - Remove all previous changes from Sound testing Release
