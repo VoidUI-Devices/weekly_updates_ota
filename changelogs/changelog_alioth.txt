@@ -1,4 +1,24 @@
 ================================
+VoidUI Darkness - Sound Testing Release v1.2
+================================
+- Remove all previous changes from Sound testing Release
+- Import mininal configuration on top of v3.6 release:
+* Remove Motodolby
+* extract-files: Do not remove Dolby Configs
+* Enable AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP 
+* Import audio_effects.xml from miui 13.0.7.0
+* Add support of AUDIO_FORMAT_AC3|AUDIO_FORMAT_AC4|AUDIO_FORMAT_E_AC3|AUDIO_FORMAT_E_AC3_JOC formats
+* Add vendor.dolby.hardware.dms@2.0 and android.hardware.media.c2@1.0-2 to FCM
+* Remove MusicFX 
+* Import Sepolicy for DAX2.0
+* Import required props from Miui for Dolby, MiSound and SoundTrigger
+* Import Oneplus Dolby App for Tuning Configs on top of Miui Dolby
+* Import Audio Ozo Processing blobs
+* Import missing Audio Libraries
+* Import Dolby Miui Alioth Libraries and Deps
+* Import Dolby MediaCodecs Libraries
+* Patch media_codecs_kona_vendor.xml to load Dolby Audio
+================================
 VoidUI Darkness - Sound Testing Release
 ================================
 - Inherit hardware/qcom-caf/sm8250/audio configurations
