@@ -1,4 +1,9 @@
 ================================
+VoidUI Darkness - VoidUI Weekly/Daily Releases v3.7
+================================
+- Alioth: Import back previously dropped display modified blobs
+- Alioth: Import Display Advanced Offsets config from Miui 13.0.7.0 EU
+================================
 VoidUI Darkness - Sound Testing Release v1.4
 ================================
 - Properly rework commits from scratch related to Dolby
