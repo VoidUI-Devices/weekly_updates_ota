@@ -1,4 +1,16 @@
 ================================
+VoidUI Darkness - VoidUI Weekly/Daily Releases v3.8
+================================
+- sm8250-common: Audio Effects: Disable loudness_enhancer
+* This one was making issues when sound is louder or lower vs needed
+- sm8250-common: Import part of configs from Miui Alioth 13.0.7.0 EU:
+Disable dpm log
+Gnss Geofence switch
+mdm_helper: Enable modem bootup fail_action for try
+Quick charge type detect
+sysprops for WLAN
+ro.vendor.audio.soundtrigger.pangaea=1
+================================
 VoidUI Darkness - VoidUI Weekly/Daily Releases v3.7
 ================================
 - Alioth: Import back previously dropped display modified blobs
