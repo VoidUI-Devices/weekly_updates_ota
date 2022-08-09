@@ -1,4 +1,12 @@
 ================================
+VoidUI Darkness - Sound Testing Release v1.4
+================================
+- Properly rework commits from scratch related to Dolby
+- Cleanup HOS audio changes from alioth DT, now volume might be a bit more proper
+
+Known issues - With Miui Dolby backend it is unable to Turn back Dolby if disable it while there is sound in output.
+Known bypass - Stop Music or application which outputs audio, turn on dolby, change to any other config, enable music back
+================================
 VoidUI Darkness - Sound Testing Release v1.3
 ================================
 - Drop libstagefright_soft_mpeg2dec & libeffectproxy.so prebuilts | They are compiled from sources
