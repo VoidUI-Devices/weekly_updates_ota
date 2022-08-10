@@ -1,4 +1,14 @@
 ================================
+VoidUI Darkness - VoidUI Weekly/Daily Releases v4.0
+================================
+- Potentially fixup of going lower and higher volume while listening music
+- Enable back loudness_enhancer
+- sm8250-common: Audio Policy: Drop maxOpenCount & maxActiveCount
+* We dropped FM modes, so this is not needed anymore
+* Following Miui & CAF Changes
+* Fixes some apps unable to reach mic while other app is using
+- Cleanup of Alioth changes regarding to SoundTrigger
+================================
 VoidUI Darkness - VoidUI Weekly/Daily Releases v3.9
 ================================
 - sm8250-common: Audio Policy: Drop unneeded FM Tuner
