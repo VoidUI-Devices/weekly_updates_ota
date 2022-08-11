@@ -1,4 +1,12 @@
 ================================
+VoidUI Darkness - VoidUI Weekly/Daily Releases v4.1
+================================
+- Add Fortnite 90FPS by hiding as OnePlus 9 Pro (Thanks to t.me/contabanida0 for info)
+- Add hide for Tower of Fantasy as Mi11 Ultra (No significant diff, but why nope)
+- sm8250-common: rootdir: Report max frequency to LevelInfitnite games
+- sm8250-common: Audio Policy: Switch Fast Input to AUDIO_FORMAT_PCM_8_24_BIT
+- sm8250-common: Audio Policy: Add missing Built-In Mic | Built-In Back Mic to Primary Input devices
+================================
 VoidUI Darkness - VoidUI Weekly/Daily Releases v4.0
 ================================
 - Potentially fixup of going lower and higher volume while listening music
