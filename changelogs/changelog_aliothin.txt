@@ -1,4 +1,12 @@
 ================================
+VoidUI Darkness - VoidUI Weekly/Daily Releases v4.2
+================================
+- Revert - sm8250-common: rootdir: Report max frequency to LevelInfitnite games
+- sm8250-common: init: Fix memory parameters for non-QCOM targets
+- sm8250-common: rootdir: Replace writepid with task_profiles command for cgroup migration
+- sm8250-common: sepolicy: label /proc/sys/vm/rswappiness 
+(Fixed improper work of Zram due to missing Sepolicy commits)
+================================
 VoidUI Darkness - VoidUI Weekly/Daily Releases v4.1
 ================================
 - Add Fortnite 90FPS by hiding as OnePlus 9 Pro (Thanks to t.me/contabanida0 for info)
