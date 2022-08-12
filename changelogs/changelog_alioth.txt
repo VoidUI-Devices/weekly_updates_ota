@@ -1,4 +1,17 @@
 ================================
+VoidUI Darkness - VoidUI Weekly/Daily Releases v4.3
+================================
+- sm8250-common: Move back to usual HIDL version of memtrack
+- Revert "sm8250-common: disable phantom process monitoring"
+- Frameworks/base: responsiveness optimizations
+- ActivityManager: Sync max phantom processes with bg apps
+- Frameworks/base: IS_DEBUGGABLE -> IS_ENG
+- Frameworks/base & Settings: Add strict standby policy
+- Frameworks/base & Settings: Add force background freezer
+- Various updates for Freezer/OOM
+- Changing max SampleRate limits for raw audio decoder to 192000
+- Screenrecord: Allow to select AVC codec profile level (Default - v4.2)
+================================
 VoidUI Darkness - VoidUI Weekly/Daily Releases v4.2
 ================================
 - Revert - sm8250-common: rootdir: Report max frequency to LevelInfitnite games
