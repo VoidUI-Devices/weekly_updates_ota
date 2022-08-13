@@ -1,4 +1,10 @@
 ================================
+VoidUI Darkness - VoidUI Weekly/Daily Releases v4.5
+================================
+- Fix PD QuickCharge 5/9V
+- sm8250-common: sepolicy: Allow ioctl to zram_swap for performance
+- sm8250-common: sepolicy: Address init.qcom.post.boot rules
+================================
 VoidUI Darkness - VoidUI Weekly/Daily Releases v4.4
 ================================
 - Update to current staging version Immensity 7.0.0-NEXT
