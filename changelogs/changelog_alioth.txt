@@ -1,4 +1,24 @@
 ================================
+VoidUI Darkness - VoidUI Weekly/Daily Releases v4.6
+================================
+- Alioth: Props: Drop frame_rate_multiple_threshold props
+- Alioth: Import HbmSV overlays from gourami
+- Alioth: Overlays: Declare Preferred refresh rate at keyguard for Device 
+- Revert "alioth: Adjust Thresholds Of Peak Refresh Rate" 
+- Alioth: Enable burnin protection in status bar
+- sm8250-common: Increase audio buffering & Hal Period Multipler
+- sm8250-common: Default Call Volume Steps: 11
+- sm8250-common: Adjust Dynamic HZ scaling times 
+- Revert "sm8250-common: Audio Policy: Add missing Built-In Mic | Built-In Back Mic to Primary Input devices"
+- SF: set debug.sf.frame_rate_multiple_threshold to 60 by default
+- SF: rename debug.sf.frame_rate_multiple_threshold 
+- SF: Scheduler: add more window types to consider NoVote
+- SF: Scheduler: vote max for NOTIFICATION_SHADE
+- RESTRICT AUTOMERGE SurfaceFlinger: fix a potential race condition in stealReceiveChannel
+- Fix the shadow problem caused by layer parent switching 
+- SF: Scheduler: remove redundant null checks 
+- SF: Scheduler: maintain current refresh rate if no layers are detected
+================================
 VoidUI Darkness - VoidUI Weekly/Daily Releases v4.5
 ================================
 - Fix PD QuickCharge 5/9V
