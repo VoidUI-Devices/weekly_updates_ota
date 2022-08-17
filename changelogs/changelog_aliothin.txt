@@ -1,4 +1,12 @@
 ================================
+VoidUI Darkness - VoidUI Weekly/Daily Releases v4.7
+================================
+- Rebase frameworks/base, frameworks/native, frameworks/av, vendor/aosp, Settings on Latest PE changes
+- Cleanup part of changes of frameworks, settings
+- Merge Android 12.1.0 Release 22
+- Rebase Updater on Latest crDroid changes
+- Import system/update_engine changes from crDroid
+================================
 VoidUI Darkness - VoidUI Weekly/Daily Releases v4.6
 ================================
 - Alioth: Props: Drop frame_rate_multiple_threshold props
