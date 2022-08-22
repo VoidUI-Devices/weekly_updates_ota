@@ -1,4 +1,11 @@
 ================================
+VoidUI Darkness - VoidUI Weekly/Daily Releases v5.0
+================================
+- Alioth: Include Pixel CarrierSettings
+- sm8250-common: Props: Remove mobile data in roaming declaration from common props
+- sm8250-common: rro_overlays: Update wifi package name from Google
+- Settings: Sync and rebuild with latest Crowdin Translations
+================================
 VoidUI Darkness - VoidUI Weekly/Daily Releases v4.9
 ================================
 - Alioth: Inherit Updatable Google Apex
