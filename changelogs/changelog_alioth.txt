@@ -1,4 +1,12 @@
 ================================
+VoidUI Darkness - VoidUI Weekly/Daily Releases v4.9
+================================
+- Alioth: Inherit Updatable Google Apex
+- Import of Google Play system updates support (Settings - Security - Google Play System Update)
+- System: Bump Security String to 2022-08-05
+- PixelPropsUtils: Update fingerprints to Android 13 August 2022 release
+- Settings: Update Translations to latest
+================================
 VoidUI Darkness - VoidUI Weekly/Daily Releases v4.8
 ================================
 - sm8250-common: Remove MultiGen LRU, USAP Pool, Iorapd, Iorapd Readahead Props
