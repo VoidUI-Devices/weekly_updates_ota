@@ -1,52 +1,13 @@
 =====================================
-VoidUI Supernova Edition Release | Final Android 12.1.0 Release
+VoidUI Supernova Weekly - v1.0
 =====================================
-Alioth/In - Clean installation from Darkness version Mandatory
-=====================================
-- August Security Patch 
-- Merge Android 12.1.0 Release 22
-- Add Crowdin Platform Support
-- Redesign Settings/ About Phone / Android Version
-- Update Gapps, Updater and GameSpace to latest Available version
-- Import system/update_engine changes from crDroid
-- Improvements of SystemUI smoothness and responsiveness
-- Various updates for Freezer/OOM
-- Changing max SampleRate limits for raw audio decoder to 192000
-- Added rounded corners to activity open/close animation
-- Frameworks/base & Settings: Add strict standby policy
-- Frameworks/base & Settings: Add force background freezer
-- ART backend Improvements, including update external_vixl to Mainline
-* VIXL Dissassembler Integration Upgrade May. 2022
-- PixelPropsUtils: Add Fortnite 90FPS | Hide Tower of Fantasy as Mi11 Ultra
-- Update Hardware/xiaomi to latest available version
-- BPF Loader | Custom Version: Totally remove logspam & fixes
-- external/faceunlock:
-faceunlock: Fix naming conflict with vendor libs
-faceunlock: Preserve original lib names using stem
-- Add support of loading Dolby ac3, eac3, eac3-joc and ac4 Codecs
-- Add ReTicker to Settings (Settings - Notifications - reTicker)
-And way more backend improvements and fixes
-================================
-- CAF Repos updates:
-* hardware_qcom-caf_sm8250_display: 
-Clean rebase on top of TAG: LA.UM.9.12.r1-14500-SMxx50.0 / Merge LA.UM.9.12.r1-14600-SMxx50.QSSI13.0
-* hardware_qcom-caf_sm8250_audio: Clean rebase on top of TAG: LA.UM.9.12.r1-14500-SMxx50.0
-* hardware_qcom-caf_sm8250_media: Clean rebase on top of TAG: LA.UM.9.12.r1-14500-SMxx50.0
-* vendor_qcom_opensource_commonsys-intf_display: Merge tag LA.QSSI.12.0.r1-08500-qssi.0
-* vendor_qcom_opensource_commonsys_display: Merge tag LA.QSSI.12.0.r1-08500-qssi.0
-* vendor_qcom_opensource_audio-hal_st-hal: Rebase on TAG: LA.UM.9.14.r1-20000.01-LAHAINA.QSSI12.0
-* hardware_qcom-caf_wlan - Reimport from AOSPA / Merge TAG: LA.UM.9.12.r1-14400.02-SMxx50.QSSI13.0
-* vendor_qcom_opensource_commonsys_display -  Merge TAG: LA.QSSI.12.0.r1-08500-qssi.0
-* vendor_qcom_opensource_commonsys-intf_display - Merge TAG: TAG: LA.QSSI.12.0.r1-08500-qssi.0
-=====================================
-Device Side:
-=====================================
-- Introducing Miui Dolby Engine with OnePlus DAXUI App
-- Inherit Updatable Google Play APEX 
-- Inherit CarrierSettings from Google Pixel
-- Device and Vendor trees clean rework with cleanup
-- Disable Dolby Volume leveler
-- Update Device Trees and vendor from Miui 13.0.7.0 Europe Alioth
-- Enable burnin protection in status bar
-- Update to Immensity V6.0.0
+- Update Immensity from android12-next branch (IMMENSITY - X Next 7.0.0)
+Included Kernel changes:
+Linux 4.19.255
+LA.UM.9.12.r1-14500-SMxx50.0 \ LA.UM.9.12.r1-14600-SMxx50.QSSI13.0
+Update of f2fs-stable
+Kernel DTS: LA.UM.9.12.r1-14000-SMxx50.0
+Add Xiaomi Munch (Poco F4) Support
+techpack: dsp: Remove proximity sensor blocking on Telegram
+- sm8250-common: Audio: Drop Audio Post-Processing from effects
 =====================================
