@@ -1,4 +1,18 @@
 =====================================
+VoidUI Tiramisu Daily - v1.1 - Stability Improvements
+=====================================
+- Rebase System & Qualcomm Sepolicy on TAG LA.QSSI.13.0.r1-05700-qssi.0
+- PreviewInflater: Fix issue with google dialer widget on keyguard 
+- BiometricScheduler: Cancel operation if not idle 
+- Import SmartSpace
+- Merge LA.QSSI.13.0.r1-05700-qssi.0 Tag to: 
+* vendor_codeaurora_telephony
+* vendor_qcom_opensource_interfaces 
+- Merge LA.UM.9.12.r1-14600-SMxx50.QSSI13.0 Tag to:
+* vendor_qcom_opensource_data-ipa-cfg-mgr
+* hardware_qcom-caf_bootctrl
+- sm8250-common: Update QCOM Display Targets
+=====================================
 VoidUI Tiramisu - AOSP 13.1.0 R3 Based - Beta
 =====================================
 - Initial daily/weekly release
