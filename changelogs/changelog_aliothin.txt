@@ -1,4 +1,22 @@
 =====================================
+VoidUI Tiramisu Daily - v1.2
+=====================================
+- Settings: 
+* Add VoidUI Codename Version to Firmware version window 
+* Disable Storage Manager.
+* allow hiding navbar
+* allow changing the length of gesture navbar
+* Fixup start padding for battery usage graph 
+- sepolicy_vndr: 
+* Add support for AIDL DRM hal
+* Allow radio to bind to IMSRTP and RCS
+* sepolicy_vndr: Allow subsystem ramdump to bind to netlink
+* Merge tag 'LA.UM.9.12.r1-14600-SMxx50.QSSI13.0'
+- Frameworks:
+* Enable lockscreen media artwork even if qs media is enabled 
+* Make DPC respect overlaid min/max brightness values
+* Fix Unlimited Google Photos
+=====================================
 VoidUI Tiramisu Daily - v1.1 - Stability Improvements
 =====================================
 - Rebase System & Qualcomm Sepolicy on TAG LA.QSSI.13.0.r1-05700-qssi.0
