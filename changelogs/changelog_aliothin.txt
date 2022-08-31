@@ -1,4 +1,16 @@
 =====================================
+VoidUI Tiramisu Daily - v1.3
+=====================================
+- device_qcom_sepolicy_vndr: Clean rework on top of LA.UM.9.12.r1-14600-SMxx50.QSSI13.0
+- Remove restrictions for system audio record 
+- frameworks/av: Overall improvements and bugfixes
+- Add three-fingers-swipe to screenshot
+- Parts: Improve speed of loading settings after reboot
+- Alioth: Update ACDB | ADSP | Audio Hardware blobs from Miui 13.0.5.0 MI
+- Alioth: Update Audio props from Miui 13.0.5.0 Mi
+- sm8250-common: Update OzoProcessing blobs from Miui Alioth 13.0.5.0 MI
+- Add MiSound to Settings - Audio - Mi Sound Enhancer (Requires clean install (Wipe Data) to be shown in Settings)
+=====================================
 VoidUI Tiramisu Daily - v1.2
 =====================================
 - Settings: 
