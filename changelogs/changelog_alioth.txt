@@ -1,4 +1,27 @@
 =====================================
+VoidUI Tiramisu Daily - v1.4
+=====================================
+- sm8250-common: 
+* Update display stack from Miui Alioth 13.0.5.0 Mi 
+* BT: Import LDAC and LHDC prebuilts
+* rro_overlays: WifiResCommon: Update from munch
+* disable phantom process monitoring
+- Frameworks/av: 
+* Add group audio to vendor.media.omx service
+* codec2: add smoothfactor when checking n-th work
+* libstagefright: use 64-bit usage for native_window_set_usage
+- Frameworks/base:
+* app_process: Fix className check
+* Enable USAP by default
+* core: jni: Switch to -O3 
+* Move PackageManager new user logic after dispatching
+* fwb: GLSurfaceView: Be less picky about EGLConfig alpha sizes 
+* Changing max SampleRate limits for raw audio decoder
+PixelPropsUtils: 
+* Fix up GMS workaround logic
+* Spoof Nexus 6P for GMS unstable process 
+- Update part of Tiramisu-CAF Repos
+=====================================
 VoidUI Tiramisu Daily - v1.3
 =====================================
 - device_qcom_sepolicy_vndr: Clean rework on top of LA.UM.9.12.r1-14600-SMxx50.QSSI13.0
