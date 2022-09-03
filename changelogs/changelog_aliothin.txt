@@ -1,4 +1,28 @@
 =====================================
+VoidUI Tiramisu Daily - v1.5
+=====================================
+- Initial import of lineagehw
+- Add Touch HIDL support
+- Port LiveDisplay to Android 13 | Add LiveDisplay tile
+- Add reading mode | caffeine | AmbientDisplay | AntiFlicker | NFC | AOD QS tiles
+- Enable LTE+ icon | Update 4G+ icon to Silk design as well 
+- Import CutoutUtils
+- Import additional Permissions
+- VoidUI: support: Add CustomDialogPreference
+- Require unlocking to use sensitive QS tiles 
+- Fix QS status font weight mismatch in dark mode
+- Remove default aspect ratio limit for old apps 
+- Trace: Disable debug tracing on production builds 
+- Allow APK signature scheme v1 for API 30+ apps
+- SystemUI: Enable production-ready feature flags
+- SystemUI: Update keyguard clock metrics for GSans Clock font
+- SystemUI: use google sans font for lockscreen clock
+- Disable part of Debugging
+- Allow user to add/remove QS with one click
+- SystemUI: Show bluetooth battery level 
+- SystemUI: Allow flags to be overrideable
+- Switch to ro.build.version.incremental to signal Updates
+=====================================
 VoidUI Tiramisu Daily - v1.4
 =====================================
 - sm8250-common: 
