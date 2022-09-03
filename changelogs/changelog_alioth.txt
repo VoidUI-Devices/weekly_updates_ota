@@ -1,4 +1,11 @@
 =====================================
+VoidUI Tiramisu Daily - v1.6 - Fixup Version
+=====================================
+- sm8250-common: Build missing Soundtrigger @2.0 Version
+- Cleanup part of Frameworks changes
+- base: Delete media tests 
+- core: Expose method to start assistant through Binder
+=====================================
 VoidUI Tiramisu Daily - v1.5
 =====================================
 - Initial import of lineagehw
