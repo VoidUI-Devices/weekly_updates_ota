@@ -1,4 +1,15 @@
 =====================================
+VoidUI Tiramisu Daily - v1.7
+=====================================
+- Implement cutout force full screen for apps [Beta, Icons not loading]
+- Add telephony stack to allowed service state packages
+- Allow privileged system apps to access screenshot service
+- Make all activities resizable 
+- Add TARGET_ALTERNATIVE_FUTEX_WAITERS (Needed for MI camera portrait mode etc)
+- Fix 120FPS Screen Recording
+- media: update path for vendor specific config files
+- Telephony: use Build.VERSION.INCREMENTAL to check for system update 
+=====================================
 VoidUI Tiramisu Daily - v1.6 - Fixup Version
 =====================================
 - sm8250-common: Build missing Soundtrigger @2.0 Version
