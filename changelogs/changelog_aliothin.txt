@@ -1,4 +1,28 @@
 =====================================
+VoidUI Tiramisu Daily - v1.8
+=====================================
+- DeviceSettings Repo: Optimize images
+- Remove QCOM HW FDE leftowers from vendor/aosp and Interfaces (Entirely removed in A13) 
+- Use LLVM binutils for 4.19 as well
+- Cleanup Navigation gestures overlays
+- vendor: qcom: Include qcom_boards.mk
+- Add support of Initial Crowdin translations for Android 13 | https://crwd.in/voidui-tiramisu | https://crwd.in/voidui-tiramisu-frameworks
+- Add VPN Terthering to Hotspot
+- Add Live Volume Steps
+- ScreenRecorder:
+* Add blinking stop dot 
+* Add Low Quality option
+* Add Bigger file size limit (Up to 15GB)
+* Added Skip Timer option
+* Added Show touches on screen option
+- Initial Preparations for Public sources | Day 1:
+* Cleanup and make public following repos:
+frameworks/native | frameworks/av | vendor/custom-preference | art | build/soong | bionic
+system/media | packages/services/Telephony | packages/modules/Connectivity | packages/apps/RepainterService |
+bootable/recovery | system/update_engine | packages/apps/SettingsIntelligence | build/make | 
+vendor/aosp | packages/apps/Settings | packages/apps/Settings
+* To Do: Cleanup and make public frameworks/base
+=====================================
 VoidUI Tiramisu Daily - v1.7
 =====================================
 - Implement cutout force full screen for apps [Beta, Icons not loading]
