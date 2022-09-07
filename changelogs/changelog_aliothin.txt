@@ -1,4 +1,12 @@
 =====================================
+VoidUI Tiramisu Daily - v1.9
+=====================================
+- Add GameSpace
+- Add Translations
+- Fix Search in Settings
+- Initial Public Manifests
+- September Security patch
+=====================================
 VoidUI Tiramisu Daily - v1.8
 =====================================
 - DeviceSettings Repo: Optimize images
