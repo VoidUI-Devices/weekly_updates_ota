@@ -1,4 +1,11 @@
 =====================================
+VoidUI Tiramisu Daily - v2.1
+=====================================
+- Update Gapps to latest available version
+- Add support of Minimal Gapps Package
+- Immensity: Switch back to ThinLTO builds 
+- Disable updatable APEX for now
+=====================================
 VoidUI Tiramisu Daily - v2.0
 =====================================
 - sm8250-common: Update Graphics (Adreno firmware) | RIL (qti) | IPA Firmware | Mi_Thermald |  from Miui Alioth 13.0.8.0 EU
