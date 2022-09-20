@@ -1,4 +1,12 @@
 =====================================
+VoidUI Tiramisu - v3.2
+=====================================
+- Added back GameProps
+- Cleaned up Duplicates in PixelPropsUtils
+- Added Material You redesigned apps to spoof list.
+- Tune surface flinger refresh rate timers
+- BT: Import more LDAC deps & Import back legacy BT Audio Target
+=====================================
 VoidUI Tiramisu - v3.1
 =====================================
 - Fix three-fingers-swipe to screenshot | cutout force full screen for apps | Live Volume Steps customizations
