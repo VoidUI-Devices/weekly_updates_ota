@@ -1,4 +1,16 @@
 =====================================
+VoidUI Tiramisu - v3.1
+=====================================
+- Fix three-fingers-swipe to screenshot | cutout force full screen for apps | Live Volume Steps customizations
+- Add Double tap to trigger doze  | Add Advanced Reboot Toggle
+- Add back Repainter Service
+- Fix capability to allow tethering to use VPN upstreams
+- BT: Import LDAC and LHDC prebuilts
+- sepolicy: Allow init.qcom.usb.sh to create files in uvc.0 dir
+- Switch to SkiaGL Threaded & Surfaceflinger content detection API
+- Partial Implementation of 60/120hz dynamic
+- Frameworks/av: Don't crash when codec fails to load / Improvements in cases of fails / switch to 64bit native window usage
+=====================================
 VoidUI Tiramisu - v3.0
 =====================================
 Clean Installation from v2.1 or Monthly Needed
