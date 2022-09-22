@@ -1,4 +1,9 @@
 =====================================
+VoidUI Tiramisu - v3.3
+=====================================
+- Update Immensity to latest available version
+- Import initial Crowdin Translations
+=====================================
 VoidUI Tiramisu - v3.2
 =====================================
 - Added back GameProps
