@@ -1,4 +1,19 @@
 =====================================
+VoidUI Tiramisu - v3.5
+=====================================
+- Sync latest changes from LOS trees: 
+* Updated Statusbar & navbar Padding (Update overlays from stock)
+* Enable back VideoCalls
+* Enable video pause workaround for video calling
+- Update Snapdragon LLVM ARM Compiler to version 14.1.5
+The following are the changes in the 14.1.5 release over the 14.1.4 release:
+1. Fix performance regression seen in a few corner cases
+2. Prevent unaligned reads in optimized memset
+- System Custom Sepolicy:
+* Allowed system_server to read and write to sysfs_battery_supply
+* Allowed platform access for fps info
+* Allowed apps to access usap pool
+=====================================
 VoidUI Tiramisu - v3.4
 =====================================
 - Make current sources available public in https://github.com/VoidUI-Tiramisu
