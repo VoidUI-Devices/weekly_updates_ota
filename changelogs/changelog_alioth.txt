@@ -1,4 +1,12 @@
 =====================================
+VoidUI Tiramisu - v3.4
+=====================================
+- Make current sources available public in https://github.com/VoidUI-Tiramisu
+- Allow arm-linux-gnueabi "AS" and "LD" for kernel build tools
+- sm8250-common: Sepolicy: Rework thermal part of Sepolicy 
+- Merge TAG: LA.UM.9.12.r1-14700.01-SMxx50.QSSI13.0 to hardware/qcom-caf/sm8250/*
+- Update of vendor_qcom_opensource_vibrator
+=====================================
 VoidUI Tiramisu - v3.3
 =====================================
 - Update Immensity to latest available version
