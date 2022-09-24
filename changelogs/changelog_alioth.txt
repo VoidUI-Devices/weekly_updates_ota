@@ -1,4 +1,22 @@
 =====================================
+VoidUI Tiramisu - v3.6
+=====================================
+Changelog:
+- sm8250-common: Import more Video Calls related props
+- Import back Android 12.1 GameSpace
+- GameSpace: Adapt for Android 13 Environment
+- GameSpace: Rework from crDroid env with Lineage Deps -> VoidUI A13 Env with Google Pixel SysUI
+- Frameworks/base: add API for disabling gestural navigation
+- FrameworksGoogle: add API for disabling gestural navigation
+
+Added Features in GameSpace vs previous version:
+- Notification Modes selection
+- Blocking Fullscreen Intents
+- Locking Gestures
+- Disable Swipe to Screenshot toggles
+- Disable USB debugging
+- Menu Opacity Level
+=====================================
 VoidUI Tiramisu - v3.5
 =====================================
 - Sync latest changes from LOS trees: 
