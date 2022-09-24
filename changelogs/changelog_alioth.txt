@@ -1,6 +1,67 @@
 =====================================
 VoidUI Tiramisu - v3.6
 =====================================
+Frameworks/base:
+=====================================
+- base: add API for disabling gestural navigation 
+- DreamManager: Expose doze state
+- core: Fix menu popup ripple
+- base: Add isPackageInstalled boolean
+- base: Add some static custom utilities
+- CustomUtils: Add method to turn off the screen
+- CustomUtils: Add more Utils helpers
+- CustomUtils: Adapt WiFi only check to A12 
+- CustomUtils: Method to detect a notch'd device
+- CustomUtils: Update notch check logic
+- CustomUtils: Add new cutouttype method
+- CustomUtils: Use Display.getCutout() to check if we have a center notch
+- CustomUtils: Add isVoiceCapableMethod for in-call vibrations
+- base: Forward Port Volume Long Press Skip Tracks [1/2]
+- base: Long press power button to toggle torch [1/2] 
+- frameworks: Add unlinked ringtone and notification volumes 
+- VolumeDialogImpl: Don't vibrate when volume dialog is not visible 
+- SystemUI: runtime configurable audio panel location
+- VolumePanel: Add long click for expand icon
+- VolumeDialogImpl: Respect multiple visible rows in landscape
+- VolumeDialogImpl: Don't hide the default stream when adjusting the music stream
+- VolumeDialogImpl: Fix cuttered layout when on setup or lock task mode 
+- SystemUI: Make the volume dialog expandable
+- SystemUI: VolumeDialogImpl: Fix inactive rows tint 
+- SystemUI: VolumeDialogImpl: Change bg tint for inactive rows
+- SystemUI: Show notification row when it's unlinked to ringer volume
+- VolumeDialog: notifyVisible after the volume panel is fully hidden 
+- VolumeDialog: Display default row when active row is notification
+- SystemUI: Avoid NPE in volume dialog
+- base: support per-app volume [2/3] 
+- SystemUI: Allow to always show settings in volume dialog [1/2]
+=====================================
+Settings:
+=====================================
+- Don't reset A2DP offload when disabling developer settings
+- Settings: add more controllers to calc gesture visibility 
+- Settings: Forward Port Volume Long Press Skip Tracks [2/2] 
+- Settings: Long press power button to toggle torch [2/2
+- DarkMode Settings: Use List Preference rather ugly Drop Down
+- Settings: Add switch for linked ring and media notification volumes
+- Settings: Add volume panel on left toggle [2/2]
+- Settings: support per-app volume [3/3] 
+- Settings: Allow to always show settings in volume dialog [2/2]
+- Settings: Update all classes which inherit from TogglePreferenceController
+=====================================
+Frameworks/av:
+=====================================
+- av: support per-app volume [1/3] 
+=====================================
+vendor_pixel-framework:
+=====================================
+- SettingsGoogle: Add Volume Long Press Skip Tracks
+- SettingsGoogle: Add switch for linked ring and media notification volumes
+- SettingsGoogle: Add volume panel on left toggle
+- SettingsGoogle: Add Support per-app volume
+- SettingsGoogle: Allow to always show settings in volume dialog
+=====================================
+VoidUI Tiramisu - v3.5.1
+=====================================
 Changelog:
 - sm8250-common: Import more Video Calls related props
 - Import back Android 12.1 GameSpace
