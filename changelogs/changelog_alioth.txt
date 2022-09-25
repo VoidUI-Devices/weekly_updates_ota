@@ -1,4 +1,15 @@
 =====================================
+VoidUI Tiramisu - v3.7.1
+=====================================
+- Update to IMMENSITY - X Release 7.1.0
+- sm8250-common: Build android.hardware.bluetooth.a2dp
+- sm8250-common: Drop liba2dpoffload target
+- sm8250-common: Implement support of vendor.qti.hardware.btconfigstore@2.0
+* Import blobs from Alioth Miui 13.0.8.0 Europe
+* Import vendor.qti.hardware.fm impl, declare to compile hal
+* Import com.dsi.ant impl, declare to compile hal
+* Declare to use vendor.qti.hardware.bluetooth_audio@2.0-1
+=====================================
 VoidUI Tiramisu - v3.7
 =====================================
 sm8250-common:
