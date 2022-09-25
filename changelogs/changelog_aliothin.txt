@@ -1,4 +1,33 @@
 =====================================
+VoidUI Tiramisu - v3.7
+=====================================
+sm8250-common:
+=====================================
+Vibrator: Import qti vibrator effect
+Vibrator: Rename qti vibrator effect
+Vibrator: Remove duplicated Common_CFlags
+Vibrator: Read vibration effects fifo data from vendor
+Vibrator: Update effect names
+Improve haptic and vibe patterns
+Enable vibration intensity control
+=====================================
+Alioth:
+=====================================
+Alioth: Import Vibrator Effects firmware
+=====================================
+Frameworks/base:
+=====================================
+Import new Crowdin Translations 
+Add missing INTERACT_ACROSS_USERS_FULL permission
+Always show APN settings on CDMA carriers
+add check for empty TTS engine name
+disable bluetooth by default
+PixelPropsUtils: Spoof more packages to raven
+=====================================
+Settings:
+=====================================
+Import new Crowdin Translations
+=====================================
 VoidUI Tiramisu - v3.6
 =====================================
 Frameworks/base:
