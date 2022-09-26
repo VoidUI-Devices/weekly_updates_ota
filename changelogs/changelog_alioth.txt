@@ -1,4 +1,9 @@
 =============================
+VoidUI Tiramisu - v3.8.3 - Sound testing Release
+=============================
+sm8250-common: Audio Policy: add offload gapless support flag 
+sm8250-common: audio: use QCOM Implementation for Audio Effects
+=============================
 VoidUI Tiramisu - v3.8.2 - Sound testing Release
 =============================
 sm8250-common: Audio: Remove Dynamic Channel Masks
