@@ -1,4 +1,20 @@
 =============================
+VoidUI Tiramisu - v3.8.2 - Sound testing Release
+=============================
+sm8250-common: Audio: Remove Dynamic Channel Masks
+sm8250-common: Audio Policy: Drop unneeded FM Tuner 
+sm8250-common: Audio Policy: Drop maxOpenCount & maxActiveCount
+sm8250-common: Use default paths for prebuilt files
+sm8250-common: Audio Policy: Drop duplicated A2DP Audio HAL configuration
+sm8250-common: QTI BT Audio Policy: AUDIO_FORMAT_PCM_24_BIT -> AUDIO_FORMAT_PCM_24_BIT_PACKED
+sm8250-common: Audio Policy: Drop not supported uplink downlink input
+sm8250-common: Audio Policy: Drop not supported voip record
+sm8250-common: Audio Policy: Drop duplicated voip_tx routing
+sm8250-common: Audio Policy: Regenerate to version 7.0
+sm8250-common: Audio Subsystem: Update to Audio Hal Version 7.1
+sm8250-common: Audio Policy: Disable DRC
+sm8250-common: Audio Policy: Add Speaker Gain according to Google Changes
+=============================
 VoidUI Tiramisu - v3.8.1
 =============================
 - sm8250-common: Remove GMS Premier Tier xml
