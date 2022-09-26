@@ -1,4 +1,12 @@
 =============================
+VoidUI Tiramisu - v3.8.1
+=============================
+- sm8250-common: Remove GMS Premier Tier xml
+- sm8250-common: fstab: set readahead_size_kb=128 to data
+- sm8250-common: sepolicy: Allow setting read_ahead_kb on /data partition
+- sm8250-common: sepolicy: Allow init to write discard_max_bytes on /data partition
+- Sync latest Crowdin translations for Settings and Frameworks/base
+=============================
 VoidUI Tiramisu - v3.8
 =============================
 Alioth:
