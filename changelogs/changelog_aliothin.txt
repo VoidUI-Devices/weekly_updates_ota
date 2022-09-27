@@ -1,4 +1,8 @@
 =============================
+VoidUI Tiramisu - v3.8.5.1 - Fixup - Sound testing Release
+=============================
+sm8250-common: Drop back Audio Postprocessing - Caused issues with Mi_Sound / Dolby
+=============================
 VoidUI Tiramisu - v3.8.5 - Sound testing Release
 =============================
 sm8250-common: Import Stock audio_configs.xml 
