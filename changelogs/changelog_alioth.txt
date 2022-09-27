@@ -1,4 +1,9 @@
 =============================
+VoidUI Tiramisu - v3.8.5 - Sound testing Release
+=============================
+sm8250-common: Import Stock audio_configs.xml 
+sm8250-common: Audio Effects: Enable dolby for a2dp output
+=============================
 VoidUI Tiramisu - v3.8.4 - Sound testing Release
 =============================
 sm8250-common: Audio Policy: Extended BT Sample Rate Audio Formats
