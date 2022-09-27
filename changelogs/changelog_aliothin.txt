@@ -1,4 +1,19 @@
 =============================
+VoidUI Tiramisu - v3.8.4 - Sound testing Release
+=============================
+sm8250-common: Audio Policy: Extended BT Sample Rate Audio Formats
+sm8250-common: Audio Policy: Extended Deep Buffer Sample Rate Audio Formats
+sm8250-common: Audio Policy Volumes: Inline with Redfin
+sm8250-common: Audio IO Policy: Remove AUDIO_OUTPUT_FLAG_DIRECT from Voip_RX
+sm8250-common: Audio IO Policy: Add AUDIO_OUTPUT_FLAG_GAPLESS_OFFLOAD to Compress_Offload
+sm8250-common: Audio IO Policy: AUDIO_FORMAT_PCM_24_BIT -> AUDIO_FORMAT_PCM_8_24_BIT
+sm8250-common: Audio IO Policy: Add missing 44100 sample rate to record_16bit
+sm8250-common: Audio IO Policy: low_latency_voip_tx: Swap AUDIO_INPUT_FLAG_VOIP_TX|AUDIO_INPUT_FLAG_FAST flags
+sm8250-common: Audio Policy Configuration: Remove AUDIO_OUTPUT_FLAG_DIRECT from Voip_RX
+sm8250-common: Audio Effects: Import back Post-Processing
+sm8250-common: Audio Policy: Switch Speaker to AUDIO_FORMAT_PCM_8_24_BIT 
+sm8250-common: Audio Policy: Import modified Speaker Safe
+=============================
 VoidUI Tiramisu - v3.8.3 - Sound testing Release
 =============================
 sm8250-common: Audio Policy: add offload gapless support flag 
