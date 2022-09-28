@@ -1,4 +1,25 @@
 =============================
+VoidUI Tiramisu - v3.8.6 - Sound testing Release
+=============================
+- Cleanup previous audio changes
+- Alioth: Update audio configs from Miui Alioth 13.0.8.0
+- Alioth: Import Audio Related audio Configurations
+- sm8250-common: Audio Configs: Checkout to Miui Alioth 13.0.8.0 EU
+- sm8250-common: Audio Subsystem: Update to Audio Hal Version 7.1
+- sm8250-common: Audio Policy: Regenerate to Version 7.0
+- sm8250-common: Audio Configs: Import 7.0 Bluetooth Policies
+- sm8250-common: Audio Effects: Drop PostProcessing declarations 
+- sm8250-common: Build tinymix, tinypcminfo, tinycap, tinyplay packages
+- sm8250-common: Audio Policy: Add AUDIO_OUTPUT_FLAG_RAW for raw mix port
+- sm8250-common: Audio Configs: Rework USB Audio v2 Configuration
+- sm8250-common: Audio Policy: Add hotword port for zero latency feature 
+- sm8250-common: Audio Policy: fix the wrong format on hotword input
+- sm8250-common: Audio Policy: correct routing order for voip output 
+- sm8250-common: Audio Policy: add offload gapless support flag
+- sm8250-common: Audio IO Policy: Add new flag name to compress offload case
+- sm8250-common: Audio IO Policy: Sync audio features from Redbull
+- sm8250-common: Audio Policy: Disable DRC
+=============================
 VoidUI Tiramisu - v3.8.5.1 - Fixup - Sound testing Release
 =============================
 sm8250-common: Drop back Audio Postprocessing - Caused issues with Mi_Sound / Dolby
