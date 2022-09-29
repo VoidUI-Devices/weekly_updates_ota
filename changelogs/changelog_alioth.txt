@@ -1,4 +1,9 @@
 =============================
+VoidUI Tiramisu - v3.8.8 - Sound testing Release
+=============================
+- Rework all audio changes again
+- Use QCOM implementation for audio effects 
+=============================
 VoidUI Tiramisu - v3.8.7 - Sound testing Release
 =============================
 sm8250-common: Import missing Neural networks lib
