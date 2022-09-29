@@ -1,4 +1,13 @@
 =============================
+VoidUI Tiramisu - v3.8.7 - Sound testing Release
+=============================
+sm8250-common: Import missing Neural networks lib
+sm8250-common: Audio IO Policy: add support for voip record low latency path
+Alioth: configs: Remove reset value for ADC MUX 
+Alioth: configs: add device speaker-and-usb-headphones for ULL path
+Alioth: configs: add support for voip record low latency path
+Alioth: configs: correct the pcm id for USECASE_AUDIO_PLAYBACK_OFFLOAD3
+=============================
 VoidUI Tiramisu - v3.8.6 - Sound testing Release
 =============================
 - Cleanup previous audio changes
