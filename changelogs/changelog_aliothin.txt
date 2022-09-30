@@ -1,4 +1,12 @@
 =============================
+VoidUI Tiramisu - v3.9
+=============================
+- Alioth: Use Proper NFC Fixup (fix NFC Tags and Transport Cards)
+- sm8250-common: Guard Virtual A/B XOR Flag
+- sm8250-common: parts: Set default thermal profile to '10' 
+- sm8250-common: Audio: Compile libalsautils & libnbaio_mono
+- Drop support for voip record low latency path (Path not exists)
+=============================
 VoidUI Tiramisu - v3.8.8 - Sound testing Release
 =============================
 - Rework all audio changes again
