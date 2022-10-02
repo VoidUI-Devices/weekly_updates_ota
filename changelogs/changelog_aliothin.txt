@@ -1,4 +1,10 @@
 =============================
+VoidUI Tiramisu - v3.9.3 - Sound Improvement Release
+=============================
+- sm8250-common: Dolby Config: Disable Volume Leveler
+- sm8250-common: Sepolicy: Dolby: Import missing /data/ access sepolicy
+(Small explanation - Dolby Requires to have access to own directory in /data/vendor/dolby to generate own Database for different devices and profiles configurations and tunings - and properly apply changes to audio)
+=============================
 VoidUI Tiramisu - v3.9.2 - Sound testing Release
 =============================
 - sm8250-common: rebase on latest Seba changes
