@@ -1,7 +1,23 @@
 =============================
+VoidUI Tiramisu - v3.9.2 - Sound testing Release
+=============================
+- sm8250-common: rebase on latest Seba changes
+- sm8250-common: Audio Policy: Import default speaker gain for v7.0 Table
+- sm8250-common: Audio: Build android.hardware.audio@7.1-util (android.hardware.audio@7.1 | android.hardware.audio.common@7.0 | android.hardware.audio.common@7.1-enums | android.hardware.audio.common@7.1-util)
+- sm8250-common: Rework Dolby changes, cleanup props, drop AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP flag, on stock it's = false
+- Alioth: Audio Policy: Import Xiaomi Changes on top of Stock ones
+- sm8250-common: Dolby Config: Drop all custom changes, revert back to Alioth Miui stock one
+=============================
 VoidUI Tiramisu - v3.9.1 - Sound testing Release
 =============================
-This Release will be specially without changelog, need collect information about current audio configuration based upon usage
+- Drop Qualcomm Audio Effects
+- Audio: Compile Audio Alsa Extensions
+- Audio IO Policy: Inline with Audio Policy Configuration
+-  Audio Policy: Drop support of AUDIO_FORMAT_LHDC for BT Devices
+- Audio Policy: Add hotword port for zero latency feature
+- Audio Policy: Remove FM Tuner support
+- Audio: Drop Max Open Count & Max Active Count
+- Audio Policy: Set valid and supported channel mask for earpiece
 =============================
 VoidUI Tiramisu - v3.9
 =============================
