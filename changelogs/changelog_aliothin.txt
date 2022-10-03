@@ -1,4 +1,9 @@
 =============================
+VoidUI Tiramisu - v3.9.4
+=============================
+- VoidUI: Add themed icons overlay
+- sm8250-common: parts: Set default thermal profile to '0'
+=============================
 VoidUI Tiramisu - v3.9.3 - Sound Improvement Release
 =============================
 - sm8250-common: Dolby Config: Disable Volume Leveler
