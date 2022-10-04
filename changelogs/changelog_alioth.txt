@@ -1,4 +1,14 @@
 =============================
+VoidUI Tiramisu - v3.9.6
+=============================
+- Alioth: Cleanup Vibrator Effects prebuilts, import only used by QTI HAL
+- Alioth: audio: Remove duplicate mixer paths (audio-record-compress2 bt-sco-wb)
+- Alioth: Audio: Inline with Audio Tuning Mixer (WSA_RX0 & WSA_RX1 >> 84 -> 62 )
+- sm8250-common: Drop default speaker gain from Audio Policy
+- Qualcomm sepolicy: Update to LA.QSSI.13.0.r1-07100-qssi.0
+- Added network traffic indicator (By Agmad)
+- Synced latest Crowdin translations
+=============================
 VoidUI Tiramisu - v3.9.5
 =============================
 - Alioth: overlay: Define dual sim slot counts 
