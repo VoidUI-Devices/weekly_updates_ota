@@ -1,4 +1,17 @@
 =============================
+VoidUI Tiramisu - v3.9.5
+=============================
+- Alioth: overlay: Define dual sim slot counts 
+- Alioth: Overlays: Enable physical display cutout prop
+- sm8250-common: Audio Effects: Drop hw acc 7d1580bd-297f-4683-9239-e475b6d1d69f
+- sm8250-common: sepolicy: Allow system_app to access zram sysfs nodes 
+- sm8250-common: Sepolicy: Remove bluetooth.a2dp_offload_cap property
+- sm8250-common: Address additional Radio Denials
+- sm8250-common: Sepolicy: Address Serial Number RIL denial
+- sm8250-common: RIL & IMS: Update to latest implementation
+- sm8250-common: Sepolicy: Do not remove access to sysfs_battery_supply
+- Update Snapdragon LLVM OEM Clang to Version 16.0.0
+=============================
 VoidUI Tiramisu - v3.9.4
 =============================
 - VoidUI: Add themed icons overlay
