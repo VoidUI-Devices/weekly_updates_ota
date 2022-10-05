@@ -1,4 +1,11 @@
 =============================
+VoidUI Tiramisu - v3.9.7
+=============================
+- sm8250-common: Powerhint: Fix cpu_dma_latency value
+- sm8250-common: Cleanup sepolicy changes
+- Alioth: ST Mixer Paths CDP: Remove reset value for ADC MUX 
+- Alioth: Tune down AMP PCM Gain to 14
+=============================
 VoidUI Tiramisu - v3.9.6
 =============================
 - Alioth: Cleanup Vibrator Effects prebuilts, import only used by QTI HAL
