@@ -1,4 +1,22 @@
 =============================
+VoidUI Tiramisu - v3.9.8
+=============================
+- Alioth: Import Charging props
+- sm8250-common: rebase on latest LOS changes
+- sm8250-common: overlay: Don't pin camera app in memory
+- sm8250-common: rootdir: Remove IO read_ahead_kb tune
+- sm8250-common: Suppress warning related to NNAPI HAL accessing zeroth.debuglog.logmask
+- sm8250-common: Do not touch sleep disabled
+- sm8250-common: Remove configs that do not exists.
+- sm8250-common: init: Disable QCOM system daemon
+- sm8250-common: init: Remove unnecessary QTI logkit directories
+- sm8250-common: init: Don't mount TraceFS twice
+- sm8250-common: Enable suspend while charging
+- sm8250-common: init: Fix "Invalid section keyword found" on ueventd
+- sm8250-common: Enable asynchronous library events in WPA supplicant
+- sm8250-common: init: Remove code for starting legacy ril
+- VoidUI: Frameworks/base: Revert "SystemUI: Enable session-based media actions for all apps"
+=============================
 VoidUI Tiramisu - v3.9.7
 =============================
 - sm8250-common: Powerhint: Fix cpu_dma_latency value
