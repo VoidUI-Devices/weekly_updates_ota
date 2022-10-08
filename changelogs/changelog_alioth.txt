@@ -1,4 +1,12 @@
 =============================
+VoidUI Tiramisu - v4.0.0
+=============================
+- sm8250-common: Rootdir: Disable vendor_modprobe commands
+- sm8250-common: Build Codec2 Packages on vendor
+- sm8250-common: powerhint: Decrease launch boost to 3sec
+- sm8250-common: parts: Add missing proguard.flags
+- IMMENSITY: Makefile: Properly disable Unknown Warning Option
+=============================
 VoidUI Tiramisu - v3.9.9
 =============================
 - VoidUI: Merge Android 13.0.0 Release 7 (Oct sec patch)
