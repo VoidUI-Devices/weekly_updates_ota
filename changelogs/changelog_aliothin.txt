@@ -1,4 +1,22 @@
 =============================
+VoidUI Tiramisu - v4.0.1
+=============================
+- sm8250-common: rebase to latest los changes
+- sm8250-common: Rename rild.libpath for treble compliance
+- sm8250-common: sepolicy: label vendor.rild.libpath as vendor_radio_prop
+- sm8250-common: sepolicy: Label some RIL property
+- sm8250-common: Sepolicy: Initial dontaudit rules
+- sm8250-common: props: Disable Skia tracing by default
+- sm8250-common: init.qcom.rc: Add support for tracefs when !CONFIG_DEBUG_FS
+- sm8250-common: init: qcom: Move auto PIL for CVP to post boot_completed
+- sm8250-common: init: Remove debugfs
+- sm8250-common: init.qcom.rc: Create data vendor folder for NFC
+- sm8250-common: init: Remove racey printk setups 
+- sm8250-common: init_qcom.rc: Set permission to access panel boot param node
+- sm8250-common: props: Kill IMS logspam with fire
+- sm8250-common: Drop Qualcomm WFD
+- sm8250-common: Dolby: Import Zeus (Xiaomi 12 Pro) Dolby Config
+=============================
 VoidUI Tiramisu - v4.0.0
 =============================
 - sm8250-common: Rootdir: Disable vendor_modprobe commands
