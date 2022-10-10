@@ -1,4 +1,13 @@
 =============================
+VoidUI Tiramisu - v4.0.2
+=============================
+- sm8250-common: Proprietary files: Fix path for LDAC & LHDC prebuilts
+- sm8250-common: Props: Switch to AutoSingleLayer Android 13 Setting (https://source.android.com/docs/core/graphics/unsignaled-buffer-latch)
+- sm8250-common: Hardcode media codecs deps compilation
+- Hardware/interfaces: wifi: Add provision to create/remove dynamic interface(s).
+- Frameworks/base: Camera: Add feature extensions
+- System/core: Camera: Add feature extensions
+=============================
 VoidUI Tiramisu - v4.0.1
 =============================
 - sm8250-common: rebase to latest los changes
