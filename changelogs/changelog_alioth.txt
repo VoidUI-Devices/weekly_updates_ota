@@ -1,4 +1,21 @@
 =============================
+VoidUI Tiramisu - v4.0.4
+=============================
+This update contains only VoidUI System changes
+=============================
+- Cleanup part of previous commits
+- Drop AC4 codec frameworks/av and native changes (Incomplete, not working)
+- Drop Switching audio by Volume keys (Implementation heavily bugged, delay for future versions)
+- Rework/Pick different "Add switch for linked ring and media notification volumes"
+- Remove useless icon from Settings - Display - Extra Dim
+- Add option to allow disable sound of screenshot shutter
+- Import latest Crowdin translations
+- Added CPU info and FPS info QS tiles (Also fixed CPU Info Temp divider to show correct temp)
+- Nuked oriented navbar handle (AKA fake navbar)
+- Added QS tiles vibrations
+- Fallback to double click effect for charging vibration
+- Minor system bugfixes and improvements
+=============================
 VoidUI Tiramisu - v4.0.3
 =============================
 - Cleanup Audio Policy changes, rn close to stock Xiaomi Ones
