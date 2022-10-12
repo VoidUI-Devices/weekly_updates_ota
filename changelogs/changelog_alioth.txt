@@ -1,4 +1,18 @@
 =============================
+VoidUI Tiramisu - v4.0.3
+=============================
+- Cleanup Audio Policy changes, rn close to stock Xiaomi Ones
+- sm8250-common: Custom SoundTrigger Environment flags
+- sm8250-common: Dolby: Move Permissions to Device trees
+- sm8250-common: Dolby Permissions: Update from decompiled Dolby Service & APP
+- sm8250-common: Move Dolby media codecs config to DT | Also disable AC4 Codec
+- sm8250-common: Add xiaomi cit sensor service
+- sm8250-common: Update to Boot Control HAL v1.2
+- sm8250-common: gpt-utils: Do fsync after writing partition entries
+- sm8250-common: gpt-utils: Update PTN_SWAP_LIST and handle multiimg(oem/qti)
+- VoidUI: bionic: Enable -O3
+- VoidUI: Drop AC4 Changes, they are outdated and incomplete
+=============================
 VoidUI Tiramisu - v4.0.2
 =============================
 - sm8250-common: Proprietary files: Fix path for LDAC & LHDC prebuilts
