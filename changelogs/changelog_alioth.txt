@@ -1,4 +1,25 @@
 =============================
+VoidUI Tiramisu - v4.0.5
+=============================
+- sm8250-common: Revert to Alioth Dolby Config
+- DownloadProvider: Display download speed in notification
+- DownloadProvider: Add support for manual pause/resume
+- SystemUI: add burnIn protection
+- SystemUI: Update statusbar burn-in protection shift base padding when orientation changed
+- SystemUI: Make popup menus more rounded
+- VoidUI: Update Icon for Per App Volume
+- SystemUI: Redraw display cutout on overlay changes
+- base: set scrolling friction to 0.006f
+- Makes the loading "spinner" animation smoother 
+- Increase Zenmode max hour limit from 12 to 24
+- core: added more update_engine error codes and status constants 
+- SystemUI: QS: Add heads up tile
+- Revert "Remove dependency on IME subtype from TSMS"
+- Settings: Allow disabling Camera/Mic privacy indicators
+- Settings: Allow changing style of location privacy indicator 
+- Settings: Add old style mobile data type indicator preference
+- Settings: Allow using 4G icon instead LTE
+=============================
 VoidUI Tiramisu - v4.0.4
 =============================
 This update contains only VoidUI System changes
