@@ -1,4 +1,21 @@
 =============================
+VoidUI Tiramisu - v5.0.0 - Beta
+=============================
+- Clean rework of all repos on top of Android 13.0.0 Release 11 (Pixel 7 Pro release)
+- Import back all customizations that we had
+- Adapt vendor_pixel-framework for Android 13 Release 11
+- Import back Updater, GameSpace, Translations and all related changes
+- Clean Rebuild
+----------------------
+Plans for to-do list:
+- Need make hides for Pixel 7 Pro
+- Need cleanup tracking repos without changes
+- Need update Gapps and related repos
+- Need remove all previous public repos, push new, make public
+----------------------
+Dirty installation from v3.0 - Fine
+From 12.1 Monthly - Clean installation only
+=============================
 VoidUI Tiramisu - v4.0.5
 =============================
 - sm8250-common: Revert to Alioth Dolby Config
