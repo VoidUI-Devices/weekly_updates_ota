@@ -1,4 +1,17 @@
 =============================
+VoidUI Tiramisu - v5.0.1
+=============================
+- PixelPropsUtils: Switch from Pixel 6 Pro to Pixel 7 Pro hide
+- PixelPropsUtils: Spoof Pixel 7 Pro for Adaptive VPN
+- Base: Core: Blacklist Pixel 2022 and 2022-midyear exclusive for Google Photos
+- usbaudio: handle sample rate overrides in proxy_prepare() 
+- Mark android.hardware.security.dice as system_ext_specific 
+- Support P010 with Gralloc2 on Gralloc1 passthrough 
+- Alioth: Inherit Pixel Carrier settings
+- apex: Update from TD1A.220804.031
+- CarrierSettings: Update from TD1A.220804.031
+- Settings: Remove lottie code on fingerprint edu page
+=============================
 VoidUI Tiramisu - v5.0.0 - Beta
 =============================
 - Clean rework of all repos on top of Android 13.0.0 Release 11 (Pixel 7 Pro release)
