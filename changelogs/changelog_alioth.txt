@@ -1,539 +1,63 @@
 =============================
-VoidUI Tiramisu - v5.0.2
-=============================
-- Last build on Android 13 Release 11, will rebase on latest PE for better backwards device compability (MTK etc)
-- external/fastrpc: Checkout to latest CAF updated version + 
-* fastrpc: Export headers to fastrpc header library.
-* fastrpc: Add definition for failing to connect to DSP.
-- Frameworks/base:
-* Skip screen on animation when wake and unlock via biometrics
-* SystemUI: handle camera launch gesture from keyhandler
-* SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model (But seems old tiles were removed entirely)
-- sm8250-common: Neural Networks: Declare same versions 1.3@qti
-- sm8250-common: Regenerate Framework Compability Matrix
-- sm8250-common: Overlays: Update PinnerService for SystemUIGoogle
-- hardware/qcom-caf/sm8250: Update to LA.UM.9.15.r1-06700-KAMORTA.QSSI13.0 (Newer changes vs kona)
-- Immensity: Update to Next-8.0.0 (4.19.261 | LA.UM.9.15.r1-06700-KAMORTA.QSSI13.0)
-=============================
-VoidUI Tiramisu - v5.0.1
-=============================
-- PixelPropsUtils: Switch from Pixel 6 Pro to Pixel 7 Pro hide
-- PixelPropsUtils: Spoof Pixel 7 Pro for Adaptive VPN
-- Base: Core: Blacklist Pixel 2022 and 2022-midyear exclusive for Google Photos
-- usbaudio: handle sample rate overrides in proxy_prepare() 
-- Mark android.hardware.security.dice as system_ext_specific 
-- Support P010 with Gralloc2 on Gralloc1 passthrough 
-- Alioth: Inherit Pixel Carrier settings
-- apex: Update from TD1A.220804.031
-- CarrierSettings: Update from TD1A.220804.031
-- Settings: Remove lottie code on fingerprint edu page
-=============================
-VoidUI Tiramisu - v5.0.0 - Beta
-=============================
-- Clean rework of all repos on top of Android 13.0.0 Release 11 (Pixel 7 Pro release)
-- Import back all customizations that we had
-- Adapt vendor_pixel-framework for Android 13 Release 11
-- Import back Updater, GameSpace, Translations and all related changes
-- Clean Rebuild
-----------------------
-Plans for to-do list:
-- Need make hides for Pixel 7 Pro
-- Need cleanup tracking repos without changes
-- Need update Gapps and related repos
-- Need remove all previous public repos, push new, make public
-----------------------
-Dirty installation from v3.0 - Fine
-From 12.1 Monthly - Clean installation only
-=============================
-VoidUI Tiramisu - v4.0.5
-=============================
-- sm8250-common: Revert to Alioth Dolby Config
-- DownloadProvider: Display download speed in notification
-- DownloadProvider: Add support for manual pause/resume
-- SystemUI: add burnIn protection
-- SystemUI: Update statusbar burn-in protection shift base padding when orientation changed
-- SystemUI: Make popup menus more rounded
-- VoidUI: Update Icon for Per App Volume
-- SystemUI: Redraw display cutout on overlay changes
-- base: set scrolling friction to 0.006f
-- Makes the loading "spinner" animation smoother 
-- Increase Zenmode max hour limit from 12 to 24
-- core: added more update_engine error codes and status constants 
-- SystemUI: QS: Add heads up tile
-- Revert "Remove dependency on IME subtype from TSMS"
-- Settings: Allow disabling Camera/Mic privacy indicators
-- Settings: Allow changing style of location privacy indicator 
-- Settings: Add old style mobile data type indicator preference
-- Settings: Allow using 4G icon instead LTE
-=============================
-VoidUI Tiramisu - v4.0.4
-=============================
-This update contains only VoidUI System changes
-=============================
-- Cleanup part of previous commits
-- Drop AC4 codec frameworks/av and native changes (Incomplete, not working)
-- Drop Switching audio by Volume keys (Implementation heavily bugged, delay for future versions)
-- Rework/Pick different "Add switch for linked ring and media notification volumes"
-- Remove useless icon from Settings - Display - Extra Dim
-- Add option to allow disable sound of screenshot shutter
-- Import latest Crowdin translations
-- Added CPU info and FPS info QS tiles (Also fixed CPU Info Temp divider to show correct temp)
-- Nuked oriented navbar handle (AKA fake navbar)
-- Added QS tiles vibrations
-- Fallback to double click effect for charging vibration
-- Minor system bugfixes and improvements
-=============================
-VoidUI Tiramisu - v4.0.3
-=============================
-- Cleanup Audio Policy changes, rn close to stock Xiaomi Ones
-- sm8250-common: Custom SoundTrigger Environment flags
-- sm8250-common: Dolby: Move Permissions to Device trees
-- sm8250-common: Dolby Permissions: Update from decompiled Dolby Service & APP
-- sm8250-common: Move Dolby media codecs config to DT | Also disable AC4 Codec
-- sm8250-common: Add xiaomi cit sensor service
-- sm8250-common: Update to Boot Control HAL v1.2
-- sm8250-common: gpt-utils: Do fsync after writing partition entries
-- sm8250-common: gpt-utils: Update PTN_SWAP_LIST and handle multiimg(oem/qti)
-- VoidUI: bionic: Enable -O3
-- VoidUI: Drop AC4 Changes, they are outdated and incomplete
-=============================
-VoidUI Tiramisu - v4.0.2
-=============================
-- sm8250-common: Proprietary files: Fix path for LDAC & LHDC prebuilts
-- sm8250-common: Props: Switch to AutoSingleLayer Android 13 Setting (https://source.android.com/docs/core/graphics/unsignaled-buffer-latch)
-- sm8250-common: Hardcode media codecs deps compilation
-- Hardware/interfaces: wifi: Add provision to create/remove dynamic interface(s).
-- Frameworks/base: Camera: Add feature extensions
-- System/core: Camera: Add feature extensions
-=============================
-VoidUI Tiramisu - v4.0.1
-=============================
-- sm8250-common: rebase to latest los changes
-- sm8250-common: Rename rild.libpath for treble compliance
-- sm8250-common: sepolicy: label vendor.rild.libpath as vendor_radio_prop
-- sm8250-common: sepolicy: Label some RIL property
-- sm8250-common: Sepolicy: Initial dontaudit rules
-- sm8250-common: props: Disable Skia tracing by default
-- sm8250-common: init.qcom.rc: Add support for tracefs when !CONFIG_DEBUG_FS
-- sm8250-common: init: qcom: Move auto PIL for CVP to post boot_completed
-- sm8250-common: init: Remove debugfs
-- sm8250-common: init.qcom.rc: Create data vendor folder for NFC
-- sm8250-common: init: Remove racey printk setups 
-- sm8250-common: init_qcom.rc: Set permission to access panel boot param node
-- sm8250-common: props: Kill IMS logspam with fire
-- sm8250-common: Drop Qualcomm WFD
-- sm8250-common: Dolby: Import Zeus (Xiaomi 12 Pro) Dolby Config
-=============================
-VoidUI Tiramisu - v4.0.0
-=============================
-- sm8250-common: Rootdir: Disable vendor_modprobe commands
-- sm8250-common: Build Codec2 Packages on vendor
-- sm8250-common: powerhint: Decrease launch boost to 3sec
-- sm8250-common: parts: Add missing proguard.flags
-- IMMENSITY: Makefile: Properly disable Unknown Warning Option
-=============================
-VoidUI Tiramisu - v3.9.9
-=============================
-- VoidUI: Merge Android 13.0.0 Release 7 (Oct sec patch)
-- Remove all Audio @7.0/7.1 changes
-- sm8250-common: Audio: Declare to compile out all versions of Audio HAL for kona
-- sm8250-common: Partitions: Inline size of bootimage partition with Miui
-- sm8250-common: MediaCodecs: Import missing 64bit libstagefright_soft_qtiflacdec.so
-- sm8250-common: Import QTI MediaCodecs
-- sm8250-common: Build legacy android.frameworks.sensorservice@1.0
-- sm8250-common: Audio IO Policy: Add 24bit ProAudio Channel
-- sm8250-common: Rootdir: Disable vendor_modprobe commands
-- Alioth: Remove volume tunings from Miui
-=============================
-VoidUI Tiramisu - v3.9.8
-=============================
-- Alioth: Import Charging props
-- sm8250-common: rebase on latest LOS changes
-- sm8250-common: overlay: Don't pin camera app in memory
-- sm8250-common: rootdir: Remove IO read_ahead_kb tune
-- sm8250-common: Suppress warning related to NNAPI HAL accessing zeroth.debuglog.logmask
-- sm8250-common: Do not touch sleep disabled
-- sm8250-common: Remove configs that do not exists.
-- sm8250-common: init: Disable QCOM system daemon
-- sm8250-common: init: Remove unnecessary QTI logkit directories
-- sm8250-common: init: Don't mount TraceFS twice
-- sm8250-common: Enable suspend while charging
-- sm8250-common: init: Fix "Invalid section keyword found" on ueventd
-- sm8250-common: Enable asynchronous library events in WPA supplicant
-- sm8250-common: init: Remove code for starting legacy ril
-- VoidUI: Frameworks/base: Revert "SystemUI: Enable session-based media actions for all apps"
-=============================
-VoidUI Tiramisu - v3.9.7
-=============================
-- sm8250-common: Powerhint: Fix cpu_dma_latency value
-- sm8250-common: Cleanup sepolicy changes
-- Alioth: ST Mixer Paths CDP: Remove reset value for ADC MUX 
-- Alioth: Tune down AMP PCM Gain to 14
-=============================
-VoidUI Tiramisu - v3.9.6
-=============================
-- Alioth: Cleanup Vibrator Effects prebuilts, import only used by QTI HAL
-- Alioth: audio: Remove duplicate mixer paths (audio-record-compress2 bt-sco-wb)
-- Alioth: Audio: Inline with Audio Tuning Mixer (WSA_RX0 & WSA_RX1 >> 84 -> 62 )
-- sm8250-common: Drop default speaker gain from Audio Policy
-- Qualcomm sepolicy: Update to LA.QSSI.13.0.r1-07100-qssi.0
-- Added network traffic indicator (By Agmad)
-- Synced latest Crowdin translations
-=============================
-VoidUI Tiramisu - v3.9.5
-=============================
-- Alioth: overlay: Define dual sim slot counts 
-- Alioth: Overlays: Enable physical display cutout prop
-- sm8250-common: Audio Effects: Drop hw acc 7d1580bd-297f-4683-9239-e475b6d1d69f
-- sm8250-common: sepolicy: Allow system_app to access zram sysfs nodes 
-- sm8250-common: Sepolicy: Remove bluetooth.a2dp_offload_cap property
-- sm8250-common: Address additional Radio Denials
-- sm8250-common: Sepolicy: Address Serial Number RIL denial
-- sm8250-common: RIL & IMS: Update to latest implementation
-- sm8250-common: Sepolicy: Do not remove access to sysfs_battery_supply
-- Update Snapdragon LLVM OEM Clang to Version 16.0.0
-=============================
-VoidUI Tiramisu - v3.9.4
-=============================
-- VoidUI: Add themed icons overlay
-- sm8250-common: parts: Set default thermal profile to '0'
-=============================
-VoidUI Tiramisu - v3.9.3 - Sound Improvement Release
-=============================
-- sm8250-common: Dolby Config: Disable Volume Leveler
-- sm8250-common: Sepolicy: Dolby: Import missing /data/ access sepolicy
-(Small explanation - Dolby Requires to have access to own directory in /data/vendor/dolby to generate own Database for different devices and profiles configurations and tunings - and properly apply changes to audio)
-=============================
-VoidUI Tiramisu - v3.9.2 - Sound testing Release
-=============================
-- sm8250-common: rebase on latest Seba changes
-- sm8250-common: Audio Policy: Import default speaker gain for v7.0 Table
-- sm8250-common: Audio: Build android.hardware.audio@7.1-util (android.hardware.audio@7.1 | android.hardware.audio.common@7.0 | android.hardware.audio.common@7.1-enums | android.hardware.audio.common@7.1-util)
-- sm8250-common: Rework Dolby changes, cleanup props, drop AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP flag, on stock it's = false
-- Alioth: Audio Policy: Import Xiaomi Changes on top of Stock ones
-- sm8250-common: Dolby Config: Drop all custom changes, revert back to Alioth Miui stock one
-=============================
-VoidUI Tiramisu - v3.9.1 - Sound testing Release
-=============================
-- Drop Qualcomm Audio Effects
-- Audio: Compile Audio Alsa Extensions
-- Audio IO Policy: Inline with Audio Policy Configuration
--  Audio Policy: Drop support of AUDIO_FORMAT_LHDC for BT Devices
-- Audio Policy: Add hotword port for zero latency feature
-- Audio Policy: Remove FM Tuner support
-- Audio: Drop Max Open Count & Max Active Count
-- Audio Policy: Set valid and supported channel mask for earpiece
-=============================
-VoidUI Tiramisu - v3.9
-=============================
-- Alioth: Use Proper NFC Fixup (fix NFC Tags and Transport Cards)
-- sm8250-common: Guard Virtual A/B XOR Flag
-- sm8250-common: parts: Set default thermal profile to '10' 
-- sm8250-common: Audio: Compile libalsautils & libnbaio_mono
-- Drop support for voip record low latency path (Path not exists)
-=============================
-VoidUI Tiramisu - v3.8.8 - Sound testing Release
-=============================
-- Rework all audio changes again
-- Use QCOM implementation for audio effects 
-=============================
-VoidUI Tiramisu - v3.8.7 - Sound testing Release
-=============================
-sm8250-common: Import missing Neural networks lib
-sm8250-common: Audio IO Policy: add support for voip record low latency path
-Alioth: configs: Remove reset value for ADC MUX 
-Alioth: configs: add device speaker-and-usb-headphones for ULL path
-Alioth: configs: add support for voip record low latency path
-Alioth: configs: correct the pcm id for USECASE_AUDIO_PLAYBACK_OFFLOAD3
-=============================
-VoidUI Tiramisu - v3.8.6 - Sound testing Release
-=============================
-- Cleanup previous audio changes
-- Alioth: Update audio configs from Miui Alioth 13.0.8.0
-- Alioth: Import Audio Related audio Configurations
-- sm8250-common: Audio Configs: Checkout to Miui Alioth 13.0.8.0 EU
-- sm8250-common: Audio Subsystem: Update to Audio Hal Version 7.1
-- sm8250-common: Audio Policy: Regenerate to Version 7.0
-- sm8250-common: Audio Configs: Import 7.0 Bluetooth Policies
-- sm8250-common: Audio Effects: Drop PostProcessing declarations 
-- sm8250-common: Build tinymix, tinypcminfo, tinycap, tinyplay packages
-- sm8250-common: Audio Policy: Add AUDIO_OUTPUT_FLAG_RAW for raw mix port
-- sm8250-common: Audio Configs: Rework USB Audio v2 Configuration
-- sm8250-common: Audio Policy: Add hotword port for zero latency feature 
-- sm8250-common: Audio Policy: fix the wrong format on hotword input
-- sm8250-common: Audio Policy: correct routing order for voip output 
-- sm8250-common: Audio Policy: add offload gapless support flag
-- sm8250-common: Audio IO Policy: Add new flag name to compress offload case
-- sm8250-common: Audio IO Policy: Sync audio features from Redbull
-- sm8250-common: Audio Policy: Disable DRC
-=============================
-VoidUI Tiramisu - v3.8.5.1 - Fixup - Sound testing Release
-=============================
-sm8250-common: Drop back Audio Postprocessing - Caused issues with Mi_Sound / Dolby
-=============================
-VoidUI Tiramisu - v3.8.5 - Sound testing Release
-=============================
-sm8250-common: Import Stock audio_configs.xml 
-sm8250-common: Audio Effects: Enable dolby for a2dp output
-=============================
-VoidUI Tiramisu - v3.8.4 - Sound testing Release
-=============================
-sm8250-common: Audio Policy: Extended BT Sample Rate Audio Formats
-sm8250-common: Audio Policy: Extended Deep Buffer Sample Rate Audio Formats
-sm8250-common: Audio Policy Volumes: Inline with Redfin
-sm8250-common: Audio IO Policy: Remove AUDIO_OUTPUT_FLAG_DIRECT from Voip_RX
-sm8250-common: Audio IO Policy: Add AUDIO_OUTPUT_FLAG_GAPLESS_OFFLOAD to Compress_Offload
-sm8250-common: Audio IO Policy: AUDIO_FORMAT_PCM_24_BIT -> AUDIO_FORMAT_PCM_8_24_BIT
-sm8250-common: Audio IO Policy: Add missing 44100 sample rate to record_16bit
-sm8250-common: Audio IO Policy: low_latency_voip_tx: Swap AUDIO_INPUT_FLAG_VOIP_TX|AUDIO_INPUT_FLAG_FAST flags
-sm8250-common: Audio Policy Configuration: Remove AUDIO_OUTPUT_FLAG_DIRECT from Voip_RX
-sm8250-common: Audio Effects: Import back Post-Processing
-sm8250-common: Audio Policy: Switch Speaker to AUDIO_FORMAT_PCM_8_24_BIT 
-sm8250-common: Audio Policy: Import modified Speaker Safe
-=============================
-VoidUI Tiramisu - v3.8.3 - Sound testing Release
-=============================
-sm8250-common: Audio Policy: add offload gapless support flag 
-sm8250-common: audio: use QCOM Implementation for Audio Effects
-=============================
-VoidUI Tiramisu - v3.8.2 - Sound testing Release
-=============================
-sm8250-common: Audio: Remove Dynamic Channel Masks
-sm8250-common: Audio Policy: Drop unneeded FM Tuner 
-sm8250-common: Audio Policy: Drop maxOpenCount & maxActiveCount
-sm8250-common: Use default paths for prebuilt files
-sm8250-common: Audio Policy: Drop duplicated A2DP Audio HAL configuration
-sm8250-common: QTI BT Audio Policy: AUDIO_FORMAT_PCM_24_BIT -> AUDIO_FORMAT_PCM_24_BIT_PACKED
-sm8250-common: Audio Policy: Drop not supported uplink downlink input
-sm8250-common: Audio Policy: Drop not supported voip record
-sm8250-common: Audio Policy: Drop duplicated voip_tx routing
-sm8250-common: Audio Policy: Regenerate to version 7.0
-sm8250-common: Audio Subsystem: Update to Audio Hal Version 7.1
-sm8250-common: Audio Policy: Disable DRC
-sm8250-common: Audio Policy: Add Speaker Gain according to Google Changes
-=============================
-VoidUI Tiramisu - v3.8.1
-=============================
-- sm8250-common: Remove GMS Premier Tier xml
-- sm8250-common: fstab: set readahead_size_kb=128 to data
-- sm8250-common: sepolicy: Allow setting read_ahead_kb on /data partition
-- sm8250-common: sepolicy: Allow init to write discard_max_bytes on /data partition
-- Sync latest Crowdin translations for Settings and Frameworks/base
-=============================
-VoidUI Tiramisu - v3.8
-=============================
-Alioth:
-=============================
-* Import All Vibrator Effects firmware
-=============================
-sm8250-common:
-=============================
-* Build libcodec2_soft_common.vendor for dolby
-* Import GMS Premier Tier xml
-=============================
-frameworks/av:
-=============================
-* converter (Audio): Support 24bit converter
-* libstagefright: Check trackMeta for NULL
-* NuPlayerDrm: explicitly use 32-bit subsample sizes
-* Changing max SampleRate limits for raw audio decoder (96000->192000)
-=============================
-frameworks/native:
-=============================
-* libbinder: O_CLOFORK 
-* Fix the shadow problem caused by layer parent switching
-* It's no need to start the dispatch cycle going if the outbound queue was not previously empty.
-=============================
-frameworks/base:
-=============================
-* SystemUI: add custom QS tiles overlay
-* Add caffeine QS tile
-* Introduce Data Switch QS Tile
-* Add USB tethering QS tile
-* DSU: Only try to install on sdcard if the filesystem in use is vfat
-* KernelCpuUidActiveTimeReader: Do not spam log with negative active time
-=============================
-VoidUI Tiramisu - v3.7.1
-=============================
-- Update to IMMENSITY - X Release 7.1.0
-- sm8250-common: Build android.hardware.bluetooth.a2dp
-- sm8250-common: Drop liba2dpoffload target
-- sm8250-common: Implement support of vendor.qti.hardware.btconfigstore@2.0
-* Import blobs from Alioth Miui 13.0.8.0 Europe
-* Import vendor.qti.hardware.fm impl, declare to compile hal
-* Import com.dsi.ant impl, declare to compile hal
-* Declare to use vendor.qti.hardware.bluetooth_audio@2.0-1
-=============================
-VoidUI Tiramisu - v3.7
-=============================
-sm8250-common:
-=============================
-Vibrator: Import qti vibrator effect
-Vibrator: Rename qti vibrator effect
-Vibrator: Remove duplicated Common_CFlags
-Vibrator: Read vibration effects fifo data from vendor
-Vibrator: Update effect names
-Improve haptic and vibe patterns
-Enable vibration intensity control
-=============================
-Alioth:
-=============================
-Alioth: Import Vibrator Effects firmware
-=============================
-Frameworks/base:
-=============================
-Import new Crowdin Translations 
-Add missing INTERACT_ACROSS_USERS_FULL permission
-Always show APN settings on CDMA carriers
-add check for empty TTS engine name
-disable bluetooth by default
-PixelPropsUtils: Spoof more packages to raven
-=============================
-Settings:
-=============================
-Import new Crowdin Translations
-=============================
-VoidUI Tiramisu - v3.6
-=============================
-Frameworks/base:
-=============================
-- base: add API for disabling gestural navigation 
-- DreamManager: Expose doze state
-- core: Fix menu popup ripple
-- base: Add isPackageInstalled boolean
-- base: Add some static custom utilities
-- CustomUtils: Add method to turn off the screen
-- CustomUtils: Add more Utils helpers
-- CustomUtils: Adapt WiFi only check to A12 
-- CustomUtils: Method to detect a notch'd device
-- CustomUtils: Update notch check logic
-- CustomUtils: Add new cutouttype method
-- CustomUtils: Use Display.getCutout() to check if we have a center notch
-- CustomUtils: Add isVoiceCapableMethod for in-call vibrations
-- base: Forward Port Volume Long Press Skip Tracks [1/2]
-- base: Long press power button to toggle torch [1/2] 
-- frameworks: Add unlinked ringtone and notification volumes 
-- VolumeDialogImpl: Don't vibrate when volume dialog is not visible 
-- SystemUI: runtime configurable audio panel location
-- VolumePanel: Add long click for expand icon
-- VolumeDialogImpl: Respect multiple visible rows in landscape
-- VolumeDialogImpl: Don't hide the default stream when adjusting the music stream
-- VolumeDialogImpl: Fix cuttered layout when on setup or lock task mode 
-- SystemUI: Make the volume dialog expandable
-- SystemUI: VolumeDialogImpl: Fix inactive rows tint 
-- SystemUI: VolumeDialogImpl: Change bg tint for inactive rows
-- SystemUI: Show notification row when it's unlinked to ringer volume
-- VolumeDialog: notifyVisible after the volume panel is fully hidden 
-- VolumeDialog: Display default row when active row is notification
-- SystemUI: Avoid NPE in volume dialog
-- base: support per-app volume [2/3] 
-- SystemUI: Allow to always show settings in volume dialog [1/2]
-=============================
-Settings:
-=============================
-- Don't reset A2DP offload when disabling developer settings
-- Settings: add more controllers to calc gesture visibility 
-- Settings: Forward Port Volume Long Press Skip Tracks [2/2] 
-- Settings: Long press power button to toggle torch [2/2
-- DarkMode Settings: Use List Preference rather ugly Drop Down
-- Settings: Add switch for linked ring and media notification volumes
-- Settings: Add volume panel on left toggle [2/2]
-- Settings: support per-app volume [3/3] 
-- Settings: Allow to always show settings in volume dialog [2/2]
-- Settings: Update all classes which inherit from TogglePreferenceController
-=============================
-Frameworks/av:
-=============================
-- av: support per-app volume [1/3] 
-=============================
-vendor_pixel-framework:
-=============================
-- SettingsGoogle: Add Volume Long Press Skip Tracks
-- SettingsGoogle: Add switch for linked ring and media notification volumes
-- SettingsGoogle: Add volume panel on left toggle
-- SettingsGoogle: Add Support per-app volume
-- SettingsGoogle: Allow to always show settings in volume dialog
-=============================
-VoidUI Tiramisu - v3.5.1
-=============================
-Changelog:
-- sm8250-common: Import more Video Calls related props
-- Import back Android 12.1 GameSpace
-- GameSpace: Adapt for Android 13 Environment
-- GameSpace: Rework from crDroid env with Lineage Deps -> VoidUI A13 Env with Google Pixel SysUI
-- Frameworks/base: add API for disabling gestural navigation
-- FrameworksGoogle: add API for disabling gestural navigation
-
-Added Features in GameSpace vs previous version:
-- Notification Modes selection
-- Blocking Fullscreen Intents
-- Locking Gestures
-- Disable Swipe to Screenshot toggles
-- Disable USB debugging
-- Menu Opacity Level
-=============================
-VoidUI Tiramisu - v3.5
-=============================
-- Sync latest changes from LOS trees: 
-* Updated Statusbar & navbar Padding (Update overlays from stock)
-* Enable back VideoCalls
-* Enable video pause workaround for video calling
-- Update Snapdragon LLVM ARM Compiler to version 14.1.5
-The following are the changes in the 14.1.5 release over the 14.1.4 release:
-1. Fix performance regression seen in a few corner cases
-2. Prevent unaligned reads in optimized memset
-- System Custom Sepolicy:
-* Allowed system_server to read and write to sysfs_battery_supply
-* Allowed platform access for fps info
-* Allowed apps to access usap pool
-=============================
-VoidUI Tiramisu - v3.4
-=============================
-- Make current sources available public in https://github.com/VoidUI-Tiramisu
-- Allow arm-linux-gnueabi "AS" and "LD" for kernel build tools
-- sm8250-common: Sepolicy: Rework thermal part of Sepolicy 
-- Merge TAG: LA.UM.9.12.r1-14700.01-SMxx50.QSSI13.0 to hardware/qcom-caf/sm8250/*
-- Update of vendor_qcom_opensource_vibrator
-=============================
-VoidUI Tiramisu - v3.3
-=============================
-- Update Immensity to latest available version
-- Import initial Crowdin Translations
-=============================
-VoidUI Tiramisu - v3.2
-=============================
-- Added back GameProps
-- Cleaned up Duplicates in PixelPropsUtils
-- Added Material You redesigned apps to spoof list.
-- Tune surface flinger refresh rate timers
-- BT: Import more LDAC deps & Import back legacy BT Audio Target
-=============================
-VoidUI Tiramisu - v3.1
-=============================
-- Fix three-fingers-swipe to screenshot | cutout force full screen for apps | Live Volume Steps customizations
-- Add Double tap to trigger doze  | Add Advanced Reboot Toggle
-- Add back Repainter Service
-- Fix capability to allow tethering to use VPN upstreams
-- BT: Import LDAC and LHDC prebuilts
-- sepolicy: Allow init.qcom.usb.sh to create files in uvc.0 dir
-- Switch to SkiaGL Threaded & Surfaceflinger content detection API
-- Partial Implementation of 60/120hz dynamic
-- Frameworks/av: Don't crash when codec fails to load / Improvements in cases of fails / switch to 64bit native window usage
-=============================
-VoidUI Tiramisu - v3.0
-=============================
-Clean Installation from v2.1 or Monthly Needed
-=============================
-Device Side:
-- Rework of device trees and vendor from scratch, based on latest LineageOS device tree changes
-- Cleanup of previous sepolicy and other implementations
-- Update Trees and generate Vendors from Miui Alioth 13.0.8.0
-- Inherit updatable Google Play APEX
-- Adress Sepolicies related to charging and mdmhelper
-- Update Immensity to latest available version
-=============================
-Rom side:
-- Clean start on top of Beta PE sources
-- Added back Updater | kryo785 support | 24bit audio | Dolby codecs | GameSpace | Recorder Customizations | Hiding Navbar and other misc customizations
-- Frameworks and Settings changes currently are on rework, not all features available and final
+VoidUI Tiramisu - v6.0.0
+=============================
+Clean start from PE base yet again
+=============================
+Installation Type: 
+* From 12.1 / Monthly - Clean mandatory
+* From version 3.0+ and higher - Dirty might be fine
+=============================
+Features that added / Or added back:
+=============================
+* Updater App
+* Re-Ticker 
+* GameSpace
+* Double tap to sleep on statusbar
+* Double tap to check Doze (When display off, dt to show clock and notifs)
+* Advanced Reboot (Recovery / Bootloader)
+* More Rounded corners in SystemUI elements
+* Add and Remove QS tiles by clicking on them
+* Deep sleep information in settings  (Updated version)
+* Screen Recorder: Blinking stop dot | Low Quality options | Option to record longer | Option to remove 3 sec timer
+* Show package name in Settings - Apps - App Details
+* Google Security hub 
+* Battery Temperature in Settings - Battery
+* LiveDisplay Basic Implementation (2.0 / 2.1 + Hide if not used)
+* LiveDisplay QS Tiles
+* Added QS Tiles: Ambient Display | Caffeine | Switch Data Card | Heads Up | Sync | USB Tethering | CPU info | Autobrightness QS Tiles 
+* Require Unlocking for using sensitive QS Tiles: Airplane mode | Battery saver | Bluetooth | DataSaver | Hotspot | NFC | Rotation lock | Internet tile | Work mode
+* Vibration on QS Tiles click
+* Add capability to allow tethering to use VPN upstreams
+* Repainter System Service Integration (To use without root)
+* Ignore notch space for apps (Fullscreen apps)
+* Revert to usual Style of Media Player in QS for not supported apps
+* Statusbar burn-in protection
+* Separate Wi-Fi and Mobile data QS tiles
+* GameProps with reworked PixelPropsUtils
+* Initial Crowdin translations
+* Fixed resets of QS Tiles after reboot
+* Added Window ignore secure feature (Make screenshots of secure apps)
+* Added toggle to switch between AOSP and Google battery Stats
+* Wi-Fi tethering: Hidden SSID Feature | Shutdown timeout settings | Client manager
+* Bluetooth: Show battery percentage graph next to Bluetooth icon in Statusbar
+* Enable LTE+ Icon
+* Allow changing length and radus of navbar
+* Allow to disable back gesture animation and haptic feedback
+=============================
+Features that currently missing:
+=============================
+* Fullscreen Gestures without having bar from down when using keyboard
+* Per-app volume control 
+=============================
+More details available in pinned post: https://t.me/VoidUI_Alioth_Weeklies/56250
+=============================
+Alioth / sm8250-common:
+=============================
+sm8250-common: Rework Dolby / Prebuilts environment:
+- Shrink list of BT products, remove liblhdc as not existing in sources
+- Drop libldacBT from prebuilts files
+- Reimport Bluetooth (aptX) from cheetah - TD1A.220804.031
+- Sort out Dolby libs to different categories
+- Move libstagefrightdolby to Dolby / Media category
+- Generate from scratch sm8250-common vendor
 =============================
