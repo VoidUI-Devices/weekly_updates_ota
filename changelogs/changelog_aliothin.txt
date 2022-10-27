@@ -1,4 +1,18 @@
 =============================
+VoidUI Tiramisu - v6.0.1
+=============================
+- Alioth: Drop Lineage Trees Power Profile
+- Alioth: Import AOSPA Trees Power Profile 
+(Power estimates calculations may be more correct now)
+- Alioth: Camera: Import camxoverridesettings to DT and tune down Debugging flags
+- Add more Cutout Overlays for developer settings
+- Show battery level for all devices
+- Disable part of Debugging / Log / Trace
+- Compile Android Runtime with -O3 Optimization
+- Allow toggling floating rotation button (Settings - Display - Auto Rotation - Use floating rotate button)
+- Additional UI / UX / Backend improvements
+- Import latest Crowdin translations
+=============================
 VoidUI Tiramisu - v6.0.0
 =============================
 Clean start from PE base yet again
