@@ -1,4 +1,14 @@
 =============================
+VoidUI Tiramisu - v6.0.2
+=============================
+- vendor/qcom/opensource/interfaces: Update to latest version
+- sm8250-common: Manifest: Remove Livedisplay PictureAdjustment from mandatory hals
+- sm8250-common: props: Optimise dex flags
+- sm8250-common: props: Optimize package manager dexopt properties
+- sm8250-common: Move msmirqbalance config to DT
+- sm8250-common: Do not balance msm_drm and kgsl-3d0 IRQs
+(These are critical for display performance and should not be balanced in order to improve latency and responsiveness.)
+=============================
 VoidUI Tiramisu - v6.0.1
 =============================
 - Alioth: Drop Lineage Trees Power Profile
