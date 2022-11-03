@@ -1,4 +1,11 @@
 =============================
+VoidUI Tiramisu - v6.0.3
+=============================
+- Switch back to PE/AOSP base
+- sm8250-common: Nuke OTA Preopt Script
+- sm8250-common: Enable ART Flags for A/B as per Google Recommendations
+- Sync latest crowdin translations
+=============================
 VoidUI Tiramisu - v6.0.2
 =============================
 - vendor/qcom/opensource/interfaces: Update to latest version
