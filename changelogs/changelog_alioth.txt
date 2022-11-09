@@ -1,94 +1,12 @@
 =============================
-VoidUI Tiramisu - v6.0.3
+VoidUI Tiramisu - v1.0.0
 =============================
-- Switch back to PE/AOSP base
-- sm8250-common: Nuke OTA Preopt Script
-- sm8250-common: Enable ART Flags for A/B as per Google Recommendations
-- Sync latest crowdin translations
+Based on Pixel Experience Plus
 =============================
-VoidUI Tiramisu - v6.0.2
-=============================
-- vendor/qcom/opensource/interfaces: Update to latest version
-- sm8250-common: Manifest: Remove Livedisplay PictureAdjustment from mandatory hals
-- sm8250-common: props: Optimise dex flags
-- sm8250-common: props: Optimize package manager dexopt properties
-- sm8250-common: Move msmirqbalance config to DT
-- sm8250-common: Do not balance msm_drm and kgsl-3d0 IRQs
-(These are critical for display performance and should not be balanced in order to improve latency and responsiveness.)
-=============================
-VoidUI Tiramisu - v6.0.1
-=============================
-- Alioth: Drop Lineage Trees Power Profile
-- Alioth: Import AOSPA Trees Power Profile 
-(Power estimates calculations may be more correct now)
-- Alioth: Camera: Import camxoverridesettings to DT and tune down Debugging flags
-- Add more Cutout Overlays for developer settings
-- Show battery level for all devices
-- Disable part of Debugging / Log / Trace
-- Compile Android Runtime with -O3 Optimization
-- Allow toggling floating rotation button (Settings - Display - Auto Rotation - Use floating rotate button)
-- Additional UI / UX / Backend improvements
-- Import latest Crowdin translations
-=============================
-VoidUI Tiramisu - v6.0.0
-=============================
-Clean start from PE base yet again
-=============================
-Installation Type: 
-* From 12.1 / Monthly - Clean mandatory
-* From version 3.0+ and higher - Dirty might be fine
-=============================
-Features that added / Or added back:
-=============================
-* Updater App
-* Re-Ticker 
-* GameSpace
-* Double tap to sleep on statusbar
-* Double tap to check Doze (When display off, dt to show clock and notifs)
-* Advanced Reboot (Recovery / Bootloader)
-* More Rounded corners in SystemUI elements
-* Add and Remove QS tiles by clicking on them
-* Deep sleep information in settings  (Updated version)
-* Screen Recorder: Blinking stop dot | Low Quality options | Option to record longer | Option to remove 3 sec timer
-* Show package name in Settings - Apps - App Details
-* Google Security hub 
-* Battery Temperature in Settings - Battery
-* LiveDisplay Basic Implementation (2.0 / 2.1 + Hide if not used)
-* LiveDisplay QS Tiles
-* Added QS Tiles: Ambient Display | Caffeine | Switch Data Card | Heads Up | Sync | USB Tethering | CPU info | Autobrightness QS Tiles 
-* Require Unlocking for using sensitive QS Tiles: Airplane mode | Battery saver | Bluetooth | DataSaver | Hotspot | NFC | Rotation lock | Internet tile | Work mode
-* Vibration on QS Tiles click
-* Add capability to allow tethering to use VPN upstreams
-* Repainter System Service Integration (To use without root)
-* Ignore notch space for apps (Fullscreen apps)
-* Revert to usual Style of Media Player in QS for not supported apps
-* Statusbar burn-in protection
-* Separate Wi-Fi and Mobile data QS tiles
-* GameProps with reworked PixelPropsUtils
-* Initial Crowdin translations
-* Fixed resets of QS Tiles after reboot
-* Added Window ignore secure feature (Make screenshots of secure apps)
-* Added toggle to switch between AOSP and Google battery Stats
-* Wi-Fi tethering: Hidden SSID Feature | Shutdown timeout settings | Client manager
-* Bluetooth: Show battery percentage graph next to Bluetooth icon in Statusbar
-* Enable LTE+ Icon
-* Allow changing length and radus of navbar
-* Allow to disable back gesture animation and haptic feedback
-=============================
-Features that currently missing:
-=============================
-* Fullscreen Gestures without having bar from down when using keyboard
-* Per-app volume control 
-=============================
-More details available in pinned post: https://t.me/VoidUI_Alioth_Weeklies/56250
-=============================
-Alioth / sm8250-common:
-=============================
-sm8250-common: Rework Dolby / Prebuilts environment:
-- Shrink list of BT products, remove liblhdc as not existing in sources
-- Drop libldacBT from prebuilts files
-- Reimport Bluetooth (aptX) from cheetah - TD1A.220804.031
-- Sort out Dolby libs to different categories
-- Move libstagefrightdolby to Dolby / Media category
-- Generate from scratch sm8250-common vendor
+- Android 13 Release 13, based on Pixel 7 Pro AOSP Branches
+- November Security patch
+- Add back Updater
+- Add back GameSpace (min impl as for now)
+- Fix external/faceunlock to be normally compiled with hardware/xiaomi
+- Screen Recorder Customizations
 =============================
