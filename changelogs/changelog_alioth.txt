@@ -1,4 +1,18 @@
 =============================
+VoidUI Tiramisu - v1.0.1
+=============================
+- sm8250-common: Drop QTI Vibrator hal
+- sm8250-common: Import Xiaomi Proprietary vibrator hal
+(Also write sepolicy for it, patch for vndk32 libutils and so on)
+- sm8250-common: Implement back LiveDisplay
+- sm8250-common: Sepolicy: Allow citsensorservice use sysfs_leds
+- sm8250-common: Audio Policy: Remove RAW channel
+- sm8250-common: Sepolicy: Add Palm Sensor to TouchScreen GenFS
+- Alioth: Import all vendor/firmware Xiaomi Vibrator prebuilts
+- hardware_xiaomi: Updated powerhint with changes from LineageOS
+- Settings: Add Security Hub from Pixel devices
+- Resync changes with PE+
+=============================
 VoidUI Tiramisu - v1.0.0
 =============================
 Based on Pixel Experience Plus
