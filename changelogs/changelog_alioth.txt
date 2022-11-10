@@ -1,4 +1,22 @@
 =============================
+VoidUI Tiramisu - v1.0.2
+=============================
+- sm8250-common: Default network type: 5G (NR)
+- sm8250-common: Refresh Rate: Configure props and allow overwrites
+- Alioth: Import Haptics props from Miui Alioth 13.0.6.0 Mi
+( Now vibration patterns are more matching to stock environment)
+- Alioth: Overlays: Configure refresh rate settings
+- frameworks/base: 
+* core/jni/libandroid_runtime: Use ThinLTO 
+* libandroid_defaults: Use ThinLTO
+* libs: hwui: Build using ThinLTO 
+* Change the default value of sync mode to NORMAL
+* base: Add support for window ignore secure
+- Settings:
+* Add window ignore secure feature [2/2] 
+* Settings: Address a memory leak
+- Updater - Update to latest available version, rework for VoidUI, switch to aosp-13 branch
+=============================
 VoidUI Tiramisu - v1.0.1
 =============================
 - sm8250-common: Drop QTI Vibrator hal
