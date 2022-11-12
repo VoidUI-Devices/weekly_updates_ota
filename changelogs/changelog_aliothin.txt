@@ -1,4 +1,24 @@
 =============================
+VoidUI Tiramisu - v1.0.3
+=============================
+- sm8250-common: Audio: Compile Audio Alsa & Debugging (On debug builds) Extensions
+- sm8250-common: Remove config_jitzygoteBootImagePinnerServiceFiles list
+- sm8250-common: VoidUI: Overlays: Update PinnerService for SystemUIGoogle
+- sm8250-common: Provide Sepolicy and overlays for FPS Counter access
+- Alioth: Import missing Audio-Hardware libs 
+- Frameworks/base:
+* Revert "QuickStatusBarHeader: don't disable estimate mode for centered notch devices"
+* Improve scrolling
+* QS: vibrate on QS tile click
+* Initialize QS tiles in inactive state 
+* Require unlocking to use sensitive QS tiles
+* Revert "SystemUI: Enable session-based media actions for all apps"
+* Introduce Data Switch QS Tile 
+* Add Auto Brightness QS Tile
+* Add CPU info Tile
+* Add FPS Info Tile
+* Import initial Crowdin Translations
+=============================
 VoidUI Tiramisu - v1.0.2
 =============================
 - sm8250-common: Default network type: 5G (NR)
