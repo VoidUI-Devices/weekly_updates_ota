@@ -1,4 +1,17 @@
 =============================
+VoidUI Tiramisu - v1.0.4
+=============================
+- Testing Audio: Compile out:
+libaudiohal_default
+libaudiohal@4.0
+libaudiohal@5.0
+libaudiohal@6.0
+libaudiofoundation
+libaudioprocessing
+android.hardware.audio.common-util
+libeffects
+libnbaio
+=============================
 VoidUI Tiramisu - v1.0.3
 =============================
 - sm8250-common: Audio: Compile Audio Alsa & Debugging (On debug builds) Extensions
