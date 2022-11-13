@@ -1,4 +1,10 @@
 =============================
+VoidUI Tiramisu - v1.0.5
+=============================
+- Import QTI MediaCodecs
+- Compile out libcodec2 and android.hardware.media.c2 deps
+- Also import libstagefright qtiflacdec
+=============================
 VoidUI Tiramisu - v1.0.4
 =============================
 - Testing Audio: Compile out:
