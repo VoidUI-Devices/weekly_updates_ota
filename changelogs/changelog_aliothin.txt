@@ -1,4 +1,15 @@
 =============================
+VoidUI Tiramisu - v1.0.6
+=============================
+- Added Reticker
+- Gamespace Normal edition
+- FeatureFactoryImpl + AccountFeatureProvider
+- Initial GameProps implementation
+- Import new Crowdin translations
+- Allow APK signature scheme v1 for API 30+ apps
+- Remove default aspect ratio limit for old apps
+- Remove old app target SDK dialog
+=============================
 VoidUI Tiramisu - v1.0.5
 =============================
 - Import QTI MediaCodecs
