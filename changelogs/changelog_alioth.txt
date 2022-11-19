@@ -1,4 +1,17 @@
 =============================
+VoidUI Tiramisu - v1.0.7
+=============================
+- Kinda like LTS Patchset
+* Selinux: dontaudit rules for debug
+* sm8250-common: Add support of Xiaomi Misys
+* sm8250-common: Sepolicy: Inherit misys sepolicy 
+* sm8250-common: Build android.hidl.memory.block for Xiaomi Misys
+* sm8250-common: Label Miui Multi Display prop
+* sm8250-common: Public libraries: Update from Miui Alioth 13.0.6.0 Mi
+* sm8250-common: Audio Volumes: Update volumes from Google Pixel 7 Pro
+* sm8250-common & alioth: libinit: Add support of .mod_device hides 
+* Alioth: Import 32 bit Camera components
+=============================
 VoidUI Tiramisu - v1.0.6
 =============================
 - Added Reticker
