@@ -1,4 +1,12 @@
 =============================
+VoidUI Tiramisu - v1.0.8
+=============================
+- Compile kernel with Snapdragon LLVM 16.0
+- sm8250-common: Bluetooth: Compile out android.hardware.bluetooth.audio-impl
+- Add missing MiSys libs:
+* vendor/lib64/libcheckpid.so
+* vendor/lib64/liblogwrap_vendor.so
+=============================
 VoidUI Tiramisu - v1.0.7
 =============================
 - Kinda like LTS Patchset
