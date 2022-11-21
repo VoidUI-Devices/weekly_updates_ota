@@ -1,4 +1,11 @@
 =============================
+VoidUI Tiramisu - v1.1.0
+=============================
+- Fix PixelPropsUtils in terms of not applying GameProps
+- Various system improvements
+- Latest arm-optimized-routines
+- Clean rebuild
+=============================
 VoidUI Tiramisu - v1.0.9
 =============================
 - PixelPropsUtils: Adapt for VoidUI Project device name 
