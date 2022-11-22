@@ -1,4 +1,12 @@
 =============================
+VoidUI Tiramisu - v1.1.1 - Testing
+=============================
+- Miui camera early development
+- sm8250-common: sepolicy: miuicamera: Address sepolicy denials 
+- sm8250-common: properties: Add props needed by miuicamera
+- Revert "alioth: camera: Use randomly generated config" 
+- Alioth: Import initial miui camera & provide needed permissions
+=============================
 VoidUI Tiramisu - v1.1.0
 =============================
 - Fix PixelPropsUtils in terms of not applying GameProps
