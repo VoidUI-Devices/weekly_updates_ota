@@ -1,7 +1,16 @@
 =============================
+VoidUI Tiramisu - v1.2
+=============================
+- Merge latest version of ARM-software/optimized-routines
+- Core: Do not call tune2fs for verity on non /data partitions
+- frameworks_av: camera: Expose aux cameras in third party apps
+- Updater: Update to latest version from CrDroid
+- sm8250-common: Add overlays for statusbar padding
+- Removed back Miui Camera
+=============================
 VoidUI Tiramisu - v1.1.1 - Testing
 =============================
-- Miui camera early development
+- Miui camera early development -Abadoned-
 - sm8250-common: sepolicy: miuicamera: Address sepolicy denials 
 - sm8250-common: properties: Add props needed by miuicamera
 - Revert "alioth: camera: Use randomly generated config" 
