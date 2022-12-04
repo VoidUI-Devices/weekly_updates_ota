@@ -1,4 +1,11 @@
 =============================
+VoidUI Tiramisu - v1.2.1
+=============================
+- Add support for application downgrade (Settings - Security - Addvanced Security Settings - Allow application downgrade)
+- Introduce Immersive Navigation (Hide the gesture pill and navigation bar padding)
+- Implement cutout force full screen (FullScreen Apps)
+- Import latest Crowdin translations
+=============================
 VoidUI Tiramisu - v1.2
 =============================
 - Merge latest version of ARM-software/optimized-routines
