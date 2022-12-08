@@ -1,4 +1,13 @@
 =============================
+VoidUI Tiramisu - v1.3
+=============================
+- sm8250-common: powerhint: Decrease launch boost to 1sec
+- sm8250-common: Proprietary Files: Make reorder libs
+- sm8250-common: Import 32bit adsp/cdsp default listener libs
+- Snapdragon LLVM ARM Compiler : Update to version 16.0.1 
+- device_qcom_sepolicy & system_sepolicy : Merge tag LA.QSSI.13.0.r1-08200-qssi.0
+- system_sepolicy: Revert back to AOSP BT Sepolicy Rules *Due to Updatable BT APEX
+=============================
 VoidUI Tiramisu - v1.2.1
 =============================
 - Add support for application downgrade (Settings - Security - Addvanced Security Settings - Allow application downgrade)
