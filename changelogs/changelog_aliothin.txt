@@ -1,4 +1,17 @@
 =============================
+VoidUI Tiramisu - v1.4
+=============================
+Changes by @ahmed_tohamy :
+- Black Background (Theme) support
+- Open app when clicking on icon in App Info
+- Add missing summary for Display size and text 
+- Remove divider from Battery Manager
+- fwb: Disable some debug/log/trace
+- SystemUI: Implement lockscreen quick unlock.
+- Make Build.TYPE and Build.FINGERPRINT consistent for apps
+- SystemUI: Scale mobile data type icon with font size 
+- SystemUI: Improve statusbar mobile type icons padding 
+=============================
 VoidUI Tiramisu - v1.3
 =============================
 - sm8250-common: powerhint: Decrease launch boost to 1sec
