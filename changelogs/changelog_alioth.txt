@@ -1,4 +1,14 @@
 =============================
+VoidUI Tiramisu - v1.4.2
+=============================
+- sm8250-common: Props: Disable QCRIL power saving
+- sm8250-common: Post_boot: Disable Input boost for Kona | And General one also
+- sm8250-common: Audio Policy: Fix Hotword Input channel mask for Hal v6.0
+- sm8250-common: Audio Policy: Drop uplink downlink input configuration
+- sm8250-common: Audio Policy: Drop "voip record" configuration
+- sm8250-common: Audio Policy: Regenerate to Hal v7.0-7.1
+- sm8250-common: Switch to Audio Hal v7.0-7.1
+=============================
 VoidUI Tiramisu - v1.4.1
 =============================
 - Import new Crowdin translations
