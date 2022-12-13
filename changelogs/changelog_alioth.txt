@@ -1,4 +1,21 @@
 =============================
+VoidUI Tiramisu - v1.4.5
+=============================
+- Rework audio compilation targets for Hal Version 7.1:
+libaudiohal@7.1
+android.hardware.audio.common@7.0
+android.hardware.audio.common@7.0-util
+android.hardware.audio.common@7.1-enums
+android.hardware.audio.common@7.1-util
+android.hardware.audio.effect@7.0
+android.hardware.audio.effect@7.0-util
+android.hardware.audio.effect@7.0-impl
+android.hardware.audio@7.0
+android.hardware.audio@7.1
+android.hardware.audio@7.1-util
+android.hardware.audio@7.1-impl
+libaudiohal.effect@7.0
+=============================
 VoidUI Tiramisu - v1.4.4
 =============================
 - hardware_qcom-caf_sm8250_audio - Merge tag 'LA.UM.9.12.r1-14900-SMxx50.QSSI13.0'
