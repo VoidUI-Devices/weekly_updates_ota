@@ -1,4 +1,9 @@
 =============================
+VoidUI Tiramisu - v1.4.6
+=============================
+- Add missing libaudiohal@7.0
+- Drop prebuilt libeffectsproxy, switch to sourcebuilt
+=============================
 VoidUI Tiramisu - v1.4.5
 =============================
 - Rework audio compilation targets for Hal Version 7.1:
