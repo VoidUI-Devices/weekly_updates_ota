@@ -1,4 +1,11 @@
 =============================
+VoidUI Tiramisu - v1.4.8
+=============================
+- Settings: Bluetooth: Don't check persistable uri permission for BtHelper
+- Bluetooth: Add support for showing battery level for AirPods series
+- BtHelper: Initial support for showing battery separately
+- SystemUI: Nuke oriented navbar handle (AKA fake navbar)
+=============================
 VoidUI Tiramisu - v1.4.7
 =============================
 - Update Snapdragon LLVM Compiler to version 16.0.2
