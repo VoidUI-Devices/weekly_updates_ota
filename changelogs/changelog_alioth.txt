@@ -1,4 +1,9 @@
 =============================
+VoidUI Tiramisu - v1.4.7
+=============================
+- Update Snapdragon LLVM Compiler to version 16.0.2
+- Resync with current PE sources (Still nov patch)
+=============================
 VoidUI Tiramisu - v1.4.6
 =============================
 - Add missing libaudiohal@7.0
