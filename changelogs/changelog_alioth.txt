@@ -1,4 +1,13 @@
 =============================
+VoidUI Tiramisu - v1.4.9-Staging
+=============================
+- Switch to SourceBuild soundtrigger
+- Swtich to latest changes from LOS trees
+- Cleanup part of changes according to Bt
+- vendor/aosp: Build BtHelper
+- Cleanup part of commits
+- Drop changes according to Powerhint
+=============================
 VoidUI Tiramisu - v1.4.8
 =============================
 - Settings: Bluetooth: Don't check persistable uri permission for BtHelper
@@ -14,7 +23,7 @@ VoidUI Tiramisu - v1.4.7
 VoidUI Tiramisu - v1.4.6
 =============================
 - Add missing libaudiohal@7.0
-- Drop prebuilt libeffectsproxy, switch to sourcebuilt
+- Drop prebuilt libeffectsproxy, switch to SourceBuild
 =============================
 VoidUI Tiramisu - v1.4.5
 =============================
