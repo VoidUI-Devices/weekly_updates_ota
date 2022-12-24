@@ -1,4 +1,40 @@
 =============================
+VoidUI Tiramisu - v1.5.1
+=============================
+--------
+- bionic: Remove obsolete hacks for the fabs() family. (GCC removed)
+--------
+- system_media:
+--------
+* media: update path for vendor specific config files from Xiaomi Changes
+* audio: Add smart Java to native channel mask conversion
+* Add helper method for config file converter classes used by HAL
+--------
+- frameworks_native: 
+--------
+* Native: IPCThreadState: Import Xiaomi Modifications (workarounds to improve robustness)
+* libbinder: O_CLOFORK
+--------
+- frameworks_av:
+--------
+* VolumeCurve file build fail (Fix for building with debugging on)
+* aaudio: fix command thread busy loop.
+* av: EngineBase: Import Xiaomi Modifications (Loading of mi config from /odm/etc/audio_policy_engine_configuration_mi.xml)
+* av: Import Xiaomi Volume Curve modification 
+* media: OMXStore: Import Xiaomi Modifications (libstagefrightdolby.so loading)
+--------
+- device_xiaomi_sm8250-common:
+--------
+* sm8250-common: sepolicy: update graphics_composer rules
+* Revert "sm8250-common: Audio Policy: Add Speaker Safe support"
+* Remove custom changes of audio_io_policy.conf
+--------
+- device_xiaomi_alioth:
+--------
+* Audio: Import Audio Policy Engine Configurations from Miui 13.0.9.0 EU
+* Move Xiaomi Audio Policy Engine configurations to ODM
+* props: Media Volume Steps: 16 (This is default proper amount for Alioth (0-15 in ACDB))
+=============================
 VoidUI Tiramisu - v1.5.0
 =============================
 - Rework device and vendor backend:
