@@ -1,4 +1,42 @@
 =============================
+VoidUI Tiramisu - v1.5.0
+=============================
+- Rework device and vendor backend:
+--------
+sm8250-common:
+--------
+* Re-check and remove extra changes
+* Remove China Beta blobs
+* sm8250-common: Update Ardeno Firmware from Miui Alioth 13.0.9.0 EU
+* Remove miui camera fallback
+--------
+Alioth:
+--------
+* Drop China beta libs and configs
+* Alioth: Audio: Import more configurations from Miui 13.0.9.0 EU
+* Update Camera Prebuilts from Miui Alioth 13.0.9.0 EU
+* Update IPA Firmware from Miui Alioth 13.0.9.0 EU
+* Update Sensor Blobs from Miui Alioth 13.0.9.0 EU
+* Update ACDB From Miui Alioth 13.0.9.0 EU
+* ACDB: Update to version SM8250.LA.1.0 v12.0.4.1 (Added support for 172kHz, 176.4kHz and 384kHz samplerates.)
+--------
+System:
+--------
+- Base: Core: Add main system apps to allowlist
+- av: Audio Policy: Increase Max Sample Rate Hz to 384k
+- Native: Import DOLBY_AC4_SPLIT_SEC from Miui Android 13
+--------
+hardware/qcom-caf/sm8250/display:
+--------
+* common: Compile with ThinLTO
+* hwc2: set taskprofiles for hwc binder threads 
+* Libperfmgr: Implement hwc display hints to libperfmgr
+* Revert "sdm: Set SDM_EventThread as RealTime task with lowest priority"
+* sdm: Set SDM event thread to SCHED_FIFO
+* sdm: Update fb_config fps with current fps
+* gralloc: Adds MapperExtensions CopyMetadata API
+* composer: Set proper task_profile
+=============================
 VoidUI Tiramisu - v1.4.9-Staging
 =============================
 - Switch to SourceBuild soundtrigger
