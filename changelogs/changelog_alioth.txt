@@ -1,4 +1,16 @@
 =============================
+VoidUI Tiramisu - v1.5.2
+=============================
+- sm8250-common: parts: Fix app mode layout height for Android 13
+- sm8250-common: parts: Set default refresh rate to 120Hz
+- sm8250-common: parts: Set correct default icon to per-app refresh rate
+- sm8250-common: Props: Remove mmap_policy prop
+- sm8250-common: Props: Remove additional audio.offload props
+- sm8250-common: Media: Update from Miui V14.0.22.12.5.DEV Android 13
+- sm8250-common: Switch to Audio Hal v7.0-7.1 (with keeping 6.0 fallback + adding utils)
+- sm8250-common: Compile out android.hardware.bluetooth.audio@2.1-impl 
+- sm8250-common: Import missing audio prebuilts (libdrc & libsurround_3mic_proc)
+=============================
 VoidUI Tiramisu - v1.5.1
 =============================
 --------
