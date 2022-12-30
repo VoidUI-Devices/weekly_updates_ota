@@ -1,4 +1,11 @@
 =============================
+VoidUI Tiramisu - v1.5.5
+=============================
+- Revert "Media: Update from Miui V14.0.22.12.5.DEV Android 13"
+- av: ACodec: Import support of Pcm32bit channel
+- av: Nuplayer: Declare 24Bit Packed & 32Bit support
+- sm8250-common: Audio Effects: Apply Audio Effect "None"
+=============================
 VoidUI Tiramisu - v1.5.4
 =============================
 - sm8250-common: Livedisplay: Drop SDM @2.0 version with PictureAdjustment ( Simple reason - not working and crashing )
