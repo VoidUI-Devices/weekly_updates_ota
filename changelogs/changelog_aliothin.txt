@@ -1,4 +1,30 @@
 =============================
+VoidUI Tiramisu - v2.0.2
+=============================
+Frameworks/base:
+=============================
+- GLSurfaceView: Be less picky about EGLConfig alpha sizes 
+- Don't reset brightness adjustment on clearUserDataPoints() 
+- ViewConfiguration: Set scroll friction to 0.012
+- SystemUI: Speed up actions expansion animation 
+- SystemUI: Reduce scrim color animation duration to 375 ms 
+- AbsListView: Improve scrolling cache
+- Don't send interaction hint for unnecessary events
+- Set scrolling friction to 0.006f
+- NavigationBarEdgePanel: Make the gesture duration always valid
+- Remove default aspect ratio limit for old apps
+- Remove old app target SDK dialog
+- Fix ViewConfiguration's ArrayIndexOutOfBoundsException
+- ImeFocusController: Prevent a rare NPE 
+- BatteryStatsService: limit logspam 
+- Face Unlock animation
+- AudioService: catch RuntimeException for IServiceManager.getService
+- SystemUI: Fix black screen after DOZE
+- Disable some debug/log/traces
+- Remove spaces from screenshot app filename
+- Make Build.TYPE and Build.FINGERPRINT consistent for apps
+- Import Additional Translations to frameworks
+=============================
 VoidUI Tiramisu - v2.0.1
 =============================
 - sm8250-common: Props: Import Blur props from Miui
