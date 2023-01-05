@@ -1,4 +1,9 @@
 =============================
+VoidUI Tiramisu - v2.0.1
+=============================
+- sm8250-common: Props: Import Blur props from Miui
+- Settings: Import big part of translations to different languages (https://crwd.in/voidui-tiramisu)
+=============================
 VoidUI Tiramisu - v2.0.0
 =============================
 New Restart on QPR1 Base | android-13.0.0_r23 | January Security Patch
