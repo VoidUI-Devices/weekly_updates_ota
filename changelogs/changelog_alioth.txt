@@ -1,4 +1,32 @@
 =============================
+VoidUI Tiramisu - v2.0.3
+=============================
+Kernel:
+=============================
+- qcacmn: Add time slice duty cycle attribute into QCA vendor command
+- qcacld-3.0: Add time slice duty cycle in wifi_interface_info
+- net: Prevent useless userpace spam
+=============================
+vendor/pixel-framework:
+=============================
+- SettingsGoogle: Grab screen resolution drawables from cheetah-td1a.220804.031-factory-6152f6f3
+=============================
+Settings:
+=============================
+- InstalledAppDetails: fix refreshing storage summary after force stop
+- InstalledApps: show link to Google Play
+- Observe auto brightness mode changes 
+- Long press to copy wifi password
+=============================
+Frameworks/base:
+=============================
+- Get the most of the media artwork colors
+- Allow APK signature scheme v1 for API 30+ apps
+- Add rounded corners to activity open/close animation
+- FW: use rounded corners in system UI (Partially)
+- Dont call roundStorageSize on Storage API for getting sizes
+- Delete media tests, Remove unnecessary videos
+=============================
 VoidUI Tiramisu - v2.0.2
 =============================
 Frameworks/base:
