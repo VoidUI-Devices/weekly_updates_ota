@@ -1,4 +1,12 @@
 =============================
+VoidUI Tiramisu - v2.0.4
+=============================
+- Drop PE Translations from our side
+- Import PE Translations from PE
+- Sync with latest PE+ Changes
+- Build contains fixups for less drain from Google Apps
+- Show battery stats from AOSP was re-added in this build
+=============================
 VoidUI Tiramisu - v2.0.3
 =============================
 Kernel:
