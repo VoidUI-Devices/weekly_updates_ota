@@ -1,4 +1,10 @@
 =============================
+VoidUI Tiramisu - v2.0.5
+=============================
+- Alioth: Overlays: Import StatusBar burn-in protection config (By SantiagoCross , needs testing)
+- Kernel: qcacld-3.0: Fix uninitalized spinlock usage
+- Frameworks/base: Fix issue with dark panel in landscape in white mode
+=============================
 VoidUI Tiramisu - v2.0.4
 =============================
 - Drop PE Translations from our side
