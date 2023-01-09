@@ -1,4 +1,13 @@
 =============================
+VoidUI Tiramisu - v2.0.6
+=============================
+- Rework all device tree changes
+- Cleanup audio specific changes
+- Revert back to Audio Hal 6.0 (7.0/7.1 Spartializer not supported)
+- Drop Audio Policy custom modifications, revert to close to LOS one
+- Re-check and cleanup part of changes
+- Drop back support of btconfigstore@2.0, revert to @1.0 (As per stock in miui for Alioth)
+=============================
 VoidUI Tiramisu - v2.0.5
 =============================
 - Alioth: Overlays: Import StatusBar burn-in protection config (By SantiagoCross , needs testing)
