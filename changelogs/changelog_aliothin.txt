@@ -1,4 +1,25 @@
 =============================
+VoidUI Tiramisu - v2.0.8
+=============================
+device/xiaomi/sm8250-common:
+=============================
+- Dolby: Add Remove Packages for Dolby Environment
+- Audio Effects: Remove effects types to use Dolby Engine Processing
+- Audio Policy: Import Bluetooth Devices Encodings for Dolby Processing
+=============================
+device/xiaomi/alioth:
+=============================
+- Drop Xiaomi Audio Policy Engine Configurations
+- Drop not working statusBar burn-in protection config changes
+=============================
+Frameworks/base:
+=============================
+- Add null pointer check to avoid system crash. 
+- Move SkiaCanvas::Clip above SkiaCanvas::SkiaCanvas
+- Only create clip bound object when RenderNode is not quick rejected
+- Fix erroneous self deletion on SkImage creation failure
+- ImageUtils: Fix estimated bytes factor for P010
+=============================
 VoidUI Tiramisu - v2.0.7
 =============================
 device/xiaomi/sm8250-common:
