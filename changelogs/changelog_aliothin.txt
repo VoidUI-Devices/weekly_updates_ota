@@ -1,4 +1,23 @@
 =============================
+VoidUI Tiramisu - v2.1.0
+=============================
+frameworks_base:
+=============================
+- Fix potential crash in ImageTransformState
+- Youtube application when moving to PIP animation was very bad
+=============================
+packages_apps_GameSpace:
+=============================
+- GameSpace: Long click Settings icon to open Settings Dashboard 
+- GameSpace: Port auto answer/reject calls feature
+- GameSpace: Notify in-coming call number when receiving/rejecting call
+* Translations for this settings not available -yet-
+=============================
+vendor_aosp:
+=============================
+- charger: Update Pixel charger animation from cheetah TD1A.220804.009.A2
+* Tested, working fine with new animation
+=============================
 VoidUI Tiramisu - v2.0.9
 =============================
 frameworks_base:
