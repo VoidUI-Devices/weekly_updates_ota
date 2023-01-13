@@ -1,4 +1,29 @@
 =============================
+VoidUI Tiramisu - v2.1.2
+=============================
+device/xiaomi/alioth:
+=============================
+- Rework device and vendor tree on top of latest LOS changes
+- Currently statusbar were dropped back to LOS state, los added "alioth: overlay: update rounded corner adjustment"
+- Currently dropped back QTI Ahal libs
+=============================
+device/xiaomi/sm8250-common:
+=============================
+- sm8250-common: Sepolicy: Address additional VibratorFeature nodes
+=============================
+frameworks_native:
+=============================
+- Revert "MIUI13 devices hide their vibrator HAL behind non-default name: "vibratorfeature""
+- Native: VibratorFeature: Import Xiaomi Android 13 Changes
+=============================
+packages_apps_GameSpace:
+=============================
+- Drop previous included translations
+- Added support of our Crowdin translations - https://crwd.in/voidui-tiramisu-gamespace
+- Initial Crowdin Translations import
+=============================
+* Starting from this build was removed support of Black Theme as it is working incorrectly with custom Settings bar
+=============================
 VoidUI Tiramisu - v2.1.1
 =============================
 frameworks_base:
