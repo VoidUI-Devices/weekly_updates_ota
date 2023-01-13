@@ -1,4 +1,27 @@
 =============================
+VoidUI Tiramisu - v2.1.1
+=============================
+frameworks_base:
+=============================
+- Improve performance by resolving MediaCodec.BufferInfo members outside of the frequently called code (like dequeueOutputBuffer)
+- Change the default value of sync mode to NORMAL (SQlite)
+- camera: Add backwards-compatible CaptureResultExtras constructor
+=============================
+hardware_qcom-caf_sm8250_display:
+=============================
+- gralloc: removed TARGET_USES_GRALLOC1 flag. 
+- sdm: Use uint64_t for time computation
+- add vndservicemanager to PRODUCT_PACKAGES
+- gralloc: Change default flexible YUV format to YCbCr_420_SP 
+=============================
+frameworks_native:
+=============================
+- SF: Don't enable expensive rendering for unknown dataspace 
+=============================
+device/xiaomi/sm8250-common:
+=============================
+- sm8250-common: gralloc: removed TARGET_USES_GRALLOC1 flag
+=============================
 VoidUI Tiramisu - v2.1.0
 =============================
 frameworks_base:
