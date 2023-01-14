@@ -1,4 +1,22 @@
 =============================
+VoidUI Tiramisu - v2.1.4
+=============================
+frameworks_base:
+=============================
+- Import latest Crowdin Translations
+=============================
+packages_apps_Settings:
+=============================
+- Import latest Crowdin Translations
+=============================
+packages_apps_GameSpace:
+=============================
+- Import latest Crowdin Translations
+=============================
+vendor/aosp:
+=============================
+- Revert optimized images by imgbot, caused issues when icons and offline charging was not loading this images correctly
+=============================
 VoidUI Tiramisu - v2.1.3-Hotfix
 =============================
 - Alioth: Overlays: Duplicate "rounded_corner_content_padding"
