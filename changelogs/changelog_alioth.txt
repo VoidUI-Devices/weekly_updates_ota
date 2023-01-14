@@ -1,4 +1,10 @@
 =============================
+VoidUI Tiramisu - v2.1.3-Hotfix
+=============================
+- Alioth: Overlays: Duplicate "rounded_corner_content_padding"
+* SystemUI Seems not recognizing it in frameworks/base ** dimens.xml, padding going too far in left corner
+* This change partially reverts ce1170f (alioth: Migrate "rounded_corner_content_padding")
+=============================
 VoidUI Tiramisu - v2.1.3 | Burn-in protection beta
 =============================
 frameworks_base:
