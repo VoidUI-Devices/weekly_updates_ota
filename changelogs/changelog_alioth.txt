@@ -1,4 +1,44 @@
 =============================
+VoidUI Tiramisu - v2.1.5
+=============================
+frameworks_base:
+=============================
+- SystemUI: Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
+- Revert "Remove fixed grant of READ_PHONE_STATE and cleanup"
+- core: Add telephony stack to allowed service state packages
+- DefaultPermissionGrantPolicy: Fix & Grant permissions
+- SystemUI: properly align Notification Icons 
+- base: Import Wi-Fi standard icon [1/2]
+=============================
+vendor_pixel-framework:
+=============================
+- SettingsGoogle: Move Double Tap to Sleep next to DT2W
+=============================
+packages_apps_Settings:
+=============================
+- Settings: Move Double Tap to Sleep next to DT2W
+- Settings: Import Wi-Fi standard icon [2/2] (In StatusBar Settings)
+- Sync with latest Crowdin Translations
+=============================
+system_libhwbinder:
+=============================
+- IPCThreadState: Import Xiaomi Android 13 robustness modification
+=============================
+external_piex:
+=============================
+- Piex: Import Xiaomi camera hal changes
+(Fixing issue with missing symbols " _ZN4piex19GetPreviewImageDataEPNS_15StreamInterfaceEPNS_16PreviewImageDataE" if not using shims)
+=============================
+vendor_xiaomi_alioth:
+=============================
+- Alioth: Update camera libs from Miui 13.0.9.0 EU
+- Alioth: Update IPA firmware from Miui 13.0.9.0 EU
+=============================
+vendor_xiaomi_sm8250-common:
+=============================
+- Cleanly pick from LOS
+- sm8250-common: Update from Miui Alioth 13.0.9.0 EU & Sync with DT changes
+=============================
 VoidUI Tiramisu - v2.1.4
 =============================
 frameworks_base:
