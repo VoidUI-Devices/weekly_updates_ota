@@ -1,4 +1,104 @@
 =============================
+VoidUI Tiramisu - v2.1.7 | Kernel
+=============================
+Kernel changes:
+=============================
+- BACKPORT: msm: kgsl: Add support to get gpu model from device tree
+- BACKPORT: msm: kgsl: Add a property to query gpu model name
+- BACKPORT: msm: kgsl: Add support for KGSL_PROP_VK_DEVICE_ID
+- soc/qcom: ssr: Do not panic kernel in any case 
+- sm8250-common: configs: xiaomi: Set CONFIG_HZ to 300
+- sm8250-common: Disable PASR on kona devices
+- sm8250-common: Skip file system sync in suspend
+- sm8250-common: enable CONFIG_WIREGUARD
+- sm8250-common: xiaomi: Enable Multipath TCP
+- sm8250-common: xiaomi: Enable LZ4 zRAM
+- sm8250-common: ANDROID: Enable XFRM_MIGRATE
+- sm8250-common: xiaomi: unset unused DM_CRYPT Kconfig
+- sm8250-common: ANDROID: enable CONFIG_INIT_ON_ALLOC_DEFAULT_ON
+- sm8250-common: enable CONFIG_ION_SYSTEM_HEAP
+- sm8250-common: disable BALANCE_ANON_FILE_RECLAIM
+- sm8250-common: disable ION_POOL_AUTO_REFILL
+- sm8250-common: CONFIG_CRYPTO_CHACHA20POLY1305=y
+- sm8250-common: disable CONFIG_RSEQ
+- sm8250-common: enable CONFIG_JUMP_LABEL
+- sm8250-common: Disable broken QHEE kernel memory protection
+- sm8250-common: Disable eMMC support
+- sm8250-common: Disable EL2 vector hardening 
+- sm8250-common: Disable stability debug configs
+- sm8250-common: enable mm_event
+- sm8250-common: Disable Controller Area Network (CAN) support
+- sm8250-common: Enable "TTL" target support
+- sm8250-common: Build backlight lcd inline
+- sm8250-common: Disable QTI SPMI Debug Controller
+- sm8250-common: Disable V4L2 Advanced debugging
+- sm8250-common: Disable CONFIG_MSM_DEBUGCC_KONA
+- sm8250-common: Disable unused errata workarounds
+- sm8250-common: Increase contiguous area memory size to 24MB
+- sm8250-common: Disable SCSI debugging
+- sm8250-common: Enable bandwidth limiting options 
+- sm8250-common: Disable CONFIG_SECURITY_SMACK
+- sm8250-common: Expose device async to userspace
+- sm8250-common: enable optimized SHA-512 implementations
+- sm8250-common: Enable wvegas tcp for mptcp
+- sm8250-common: Enable CONFIG_RD_LZ4
+- sm8250-common: Disable qcom crypto ICE
+- sm8250-common: Set westwood as TCP congestion algorithm
+- sm8250-common: Disable I210 driver for Ethernet Card
+- sm8250-common: Enable memory state tracking.
+- ASoC: ops: Shift tested values in snd_soc_put_volsw_sx() by +min
+- ASoC: lsm: Do not create any wakeup_source for keyword detection
+- techpack: display: drm/msm: add idle state sysfs node
+- msm: vidc: disable debug logs
+- techpack: display: disable debug logging
+- msm: msm_bus: Kill transaction logging functionality
+- msm: msm_bus: Never compile debugfs-related code
+- msm: kgsl: Report correct GPU frequency in sysfs
+- msm: kgsl: Increase worker thread priority 
+- memlat: don't read perf event if other CPU is under scm call
+- debug: fix pcie device wakeup reason is unknown issue
+- cpufreq: stats: Replace the global lock with atomic.
+- techpack: display: Move msm_drm_register to async probe
+- drivers: staging: android: Move msm_ion_init to async probe 
+- drivers: soc: qcom: Move icnss_initialize to async probe
+- drivers: gpu: Move kgsl_3d_init to async probe
+- drivers: i2c-qcom-geni: Move geni_i2c_driver_init to async probe
+- drivers: scsi: ufs: Async suspend/resume callbacks.
+- drivers: soc: qcom: icnss2: Async suspend/resume callbacks
+- techpack: display: Async suspend/resume callbacks
+- drivers: char: adsprpc: Specify sync probe for fastrpc
+- drivers: clk: Specify sync probe for videocc-kona. 
+- drivers: clk: Specify sync probe for gcc-kona 
+- drivers: clk: Specify sync probe for gcpu_cc-kona
+- drivers: dma: qcom: Specify sync probe for gpi_dma
+- techpack: display: Specify sync probe for msmdrm_smmu
+- techpack: display: sde: Specify sync probe for sde_wb
+- drivers: i2c: Specify sync probe for dummy i2c driver
+- drivers: iommu: Specify sync probe for arm-smmu-v3 driver
+- drivers: iommu: Specify sync probe for qsmmuv500-tbu
+- drivers: iommu: Specify sync probe for msm_iommu driver 
+- drivers: iommu: Specify sync probe for qcom-iommu 
+- drivers: usb: dwc3: Specify sync probe for dwc3 driver
+- drivers: usb: dwc3: Specify sync probe for msm-dwc3 driver
+- drivers: usb: dwc3: Specify sync probe for dwc3-of-simple.
+- techpack: audio: Mark msm-dai-q6 drivers as sync probe
+- tcp: Enable ECN negotiation by default
+- msm-poweroff: Store restart reason in panic
+- drivers: input: touchscreen: Add an interface to expose TP features to userspace
+- input: touchscreen: Add support for FocalTech ft8719/ft5452 touchscreen drivers
+- drivers: input: touchscreen: focaltech_touch: Implement double_tap node 
+- drivers: input: touchscreen: focaltech_spi: Implement double_tap node
+- drivers: input: touchscreen: fts_521: Implement double_tap node
+- drivers: input: touchscreen: nt36672c: Implement double_tap node 
+- drivers: input: touchscreen: goodix_driver_gt9886: Implement double_tap node
+- drivers: input: touchscreen: nt36523: Implement double_tap node
+- drivers: input: touchscreen: fts_spi: Implement double_tap node
+- input: touchscreen: xiaomi: Prevent unnecessary input sync
+- touchscreen: goodix_driver_gt9886: Fix strict-prototypes errors
+- touchscreen: fts_521: Fix strict-prototypes errors
+- touchscreen: xiaomi_touch: Enable ROI feature on MIUI builds
+- drivers: input: touchscreen: focaltech_3658u: Implement double_tap node
+=============================
 VoidUI Tiramisu - v2.1.6
 =============================
 Kernel:
