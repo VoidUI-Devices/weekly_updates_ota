@@ -1,4 +1,28 @@
 =============================
+VoidUI Tiramisu - v2.1.6
+=============================
+Kernel:
+=============================
+- Initial Redline Kernel release
+Kernel version - 4.19.269
+Kernel CAF (CLO Tag) - LA.UM.9.12.r1-15100-SMxx50.QSSI13.0
+* Based on LOS-20 initial kernel (not released)
+* Fixed errors for Compilation with Snapdragon LLVM 16.0.2
+* Imported missing part of changes required for Ultrasound work
+* Fixed issues with not working vibrations (Haptics)
+* Enabled CPU Frequency stats which are must-have for AOSP roms
+* Enabled stock WiFi Three Antenna driver for Alioth
+=============================
+packages_apps_Aperture:
+=============================
+- Track our Aperture fork
+- Update to latest available version from LineageOS
+- Remove Github Actions workflow
+=============================
+frameworks_base:
+=============================
+- BootReceiver: Return early if trace_pipe doesn't exists
+=============================
 VoidUI Tiramisu - v2.1.5
 =============================
 frameworks_base:
