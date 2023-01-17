@@ -1,4 +1,56 @@
 =============================
+VoidUI Tiramisu - v2.1.8
+=============================
+- Alioth: Power Profile: Drop Lineage Trees Power Profile
+- Alioth: Import AOSPA Trees Power Profile
+- sm8250-common: Enable LZ4 compression for ramdisks
+=============================
+Kernel changes:
+=============================
+- ARM64: dts: Remove address from node-name for reserved-mem regions
+- arm64: dts: Tweak QG SOC to be more linear/monotonic
+- ARM64: dts: k11a: Reduce dimming speed to 16frames
+- scsi: ufs: Add hibern8 stuck workaround for SAMSUNG and WDC UFS devices
+- scsi:Fix block layer elevator stuck issue
+- walt: Set default window size to 8ms
+- PM / devfreq: Make max_freq node read only
+- lib/lz4: update LZ4 decompressor module
+- lz4: do not export static symbol
+- lib/lz4/lz4_decompress.c: document deliberate use of `&' 
+- lz4: fix kernel decompression speed
+- lib/lz4: explicitly support in-place decompression
+- lz4_decompress: declare LZ4_decompress_safe_withPrefix64k static
+- lz4: staticify functions
+- lz4: remove unused functions
+- BACKPORT: lz4: fix LZ4_decompress_safe_partial read out of bound
+- LZ4: Port LZ4 1.9.x FAST_DEC_LOOP and enable it on x86 and ARM64
+- lib/lz4: enable LZ4_FAST_DEC_LOOP on aarch64 Clang builds
+- lib/lz4: fix token in slow decompress loop 
+- lz4: Remove unused functions
+- lz4: Mark unused functions as __maybe_unused
+- include/linux/unaligned: replace kernel.h with the necessary inclusions
+- sm8250-common: Disable CONFIG_CPU_FREQ_TIMES
+- arm64: cache: Set ARCH_DMA_MINALIGN to L1_CACHE_BYTES
+- Optimized Console FrameBuffer for upto 70% increase in Performance
+- techpack: camera: Fix memory leak
+- msm: camera: Fix memory leak in cam_res_mgr_probe()
+- BACKPORT: disp: msm: sde: increase kickoff timeout for doze usecase
+- msm-camera: Unmap secure buffers in secure usecase
+- drivers: power: add timeouts to wakelocks
+- power: smb-lib: Force suspend when cable out.
+- power: smb5: Rerun APSD to ensure proper charger detection
+- power: smb5: Properly opt-out from s/w based health reporting
+- power_supply: don't allocate attrname 
+- power: supply: Classify Battery Monitor Systems as batteries
+- power: step-chg-jeita: Print out additional info
+- qpnp-qg: fix battery coulomb count not monotonic
+- qpnp-qg: adjust QG_SOC when CC_SOC exceeds SOC_FULL
+- qcom: qpnp-pq: Fix -Wpointer-to-int-cast
+- qpnp-qg: fix incorrect vbatt parameter for good ocv re-trigger
+- qpnp-qg: fix the 1% resolution limit of charge_counter
+- power: fg-alg: fix wrong logic in maximum limit
+- power: fg-alg: support maximum limit for capacity learning
+=============================
 VoidUI Tiramisu - v2.1.7 | Kernel
 =============================
 Kernel changes:
