@@ -1,4 +1,20 @@
 =============================
+VoidUI Tiramisu - v2.1.9
+=============================
+- sm8250-common: sepolicy: Provide sysfs access for batterysecret
+- sm8250-common: Audio Effects: Drop system processing
+- sm8250-common: Audio Policy: Remove FM Tuner Leftovers
+- sm8250-common: Audio Policy: Drop Max Open Count & Max Active Count
+- sm8250-common: Audio Policy: Set valid and supported channel mask for earpiece
+- sm8250-common: Props: Disable fm in btconfigstore
+=============================
+Kernel changes: *As result Alioth/in QC Fixed
+=============================
+- Revert "USB: pd: Add support for enabling PD2.0 only as source"
+- Revert "USB: pd: Restart host mode in high speed if no usb3 & dp concurrency"
+- Revert "usb: pd: Add support to disable pps capability"
+- Revert "usb: dwc3: Ensure blocking_sync waits until host mode starts or stops"
+=============================
 VoidUI Tiramisu - v2.1.8
 =============================
 - Alioth: Power Profile: Drop Lineage Trees Power Profile
