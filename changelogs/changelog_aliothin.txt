@@ -1,4 +1,28 @@
 =============================
+VoidUI Tiramisu - v2.2.0
+=============================
+Kernel: Switch back to Immensity
+=============================
+- qpnp-qg: fix battery coulomb count not monotonic
+- qpnp-qg: adjust QG_SOC when CC_SOC exceeds SOC_FULL
+- qcom: qpnp-pq: Fix -Wpointer-to-int-cast
+- qpnp-qg: fix incorrect vbatt parameter for good ocv re-trigger
+- qpnp-qg: fix the 1% resolution limit of charge_counter
+- power: fg-alg: fix wrong logic in maximum limit 
+- power: fg-alg: support maximum limit for capacity learning
+- power: smb5: Properly opt-out from s/w based health reporting
+- include/linux/unaligned: replace kernel.h with the necessary inclusions
+- power: smb-lib: Force suspend when cable out.
+- power: smb5: Rerun APSD to ensure proper charger detection
+- power: supply: Classify Battery Monitor Systems as batteries
+- Optimized Console FrameBuffer for upto 70% increase in Performance
+=============================
+sm8250-common:
+=============================
+- audio: fixup audio io policy voip_rx flags
+- Rewrite MSADP policies
+- Enable SSR for all subsytem types
+=============================
 VoidUI Tiramisu - v2.1.9
 =============================
 - sm8250-common: sepolicy: Provide sysfs access for batterysecret
