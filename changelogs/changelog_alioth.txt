@@ -1,4 +1,13 @@
 =============================
+VoidUI Tiramisu - v2.2.2
+=============================
+- sm8250-common & vendor: Import QTI Mediacodecs
+* Also fix debug.stagefright.ccodec prop, as per miui: vendor/build.prop: debug.stagefright.ccodec=1
+* Add needed android.hardware.media.c2 to FCM, also having manifest.xml part in vendor
+* Also import libvideooptfeature & libvideoutils
+* Build Codec2 Packages on vendor: libcodec2_vndk.vendor | android.hardware.media.c2@1.0.vendor | libcodec2_hidl@1.0.vendor
+( They are required since hals not included in vndk)
+=============================
 VoidUI Tiramisu - v2.2.1
 =============================
 Kernel
