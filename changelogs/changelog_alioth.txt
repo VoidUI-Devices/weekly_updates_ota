@@ -1,4 +1,32 @@
 =============================
+VoidUI Tiramisu - v2.2.1
+=============================
+Kernel
+=============================
+- ARM64: configs: xiaomi: Disable CONFIG_CPU_FREQ_TIMES
+=============================
+packages_apps_Aperture:
+=============================
+- Aperture: Rotate selected views
+=============================
+frameworks_base:
+- Changes by @ahmed_tohamy -
+=============================
+- core: Optimize system resources 
+- InsetsStateController: Replace ArrayMap with HashMap for performance
+- libandroid_defaults: use ThinLTO
+- libandroid_defaults: use whole program vtables lto optimization
+- core/jni/libandroid_runtime: Use ThinLTO
+- SQLite improvements
+- Speed up animations
+- Downscale Task snapshots to 65%
+- Update fling velocity for modern devices 
+- Reduce initial scroll friction
+- Services: Boost gesture flings
+- Cleanup and consistency around system server profiling.
+- Allow profiling for standalone system server jars.
+- Various different optimizations
+=============================
 VoidUI Tiramisu - v2.2.0
 =============================
 Kernel: Switch back to Immensity
