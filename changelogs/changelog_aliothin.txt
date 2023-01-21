@@ -1,4 +1,15 @@
 =============================
+VoidUI Tiramisu - v2.2.3
+=============================
+- Import also vendor/lib/libqcodec2_v4l2codec.so for QTI Mediacodecs
+- sm8250-common: init: Set media XML codecs variant to _kona
+- Alioth: Dolby: Import additional libstagefright deps for Dolby
+* libstagefright_softomx | libstagefright_softomx_plugin | libstagefrighthw
+- sm8250-common: Dolby: Use correct props for android 13 [2/2]
+* ro.vendor.dolby.dax.version -> DAX3_3.6.1.6_r1
+* ro.vendor.audio.dolby.dax.version -> DAX3_3.6
+- Adapt sepolicy for new props
+=============================
 VoidUI Tiramisu - v2.2.2
 =============================
 - sm8250-common & vendor: Import QTI Mediacodecs
