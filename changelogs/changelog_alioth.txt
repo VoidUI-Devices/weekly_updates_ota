@@ -1,4 +1,14 @@
 =============================
+VoidUI Tiramisu - v2.2.4
+=============================
+- Clean Rebuild
+- Add support of Kryo585
+- Switch to Kryo585 (32bit + 64bit, as it meant to be)
+- Alioth: Drop Build Fingerprint overwrites
+- sm8250-common: Drop Build Fingerprint overwrites
+- Connectivity: TrafficStats: Stop the spam
+- Includes dolby subsystem change from Audio Testing
+=============================
 VoidUI Tiramisu - v2.2.3
 =============================
 - Import also vendor/lib/libqcodec2_v4l2codec.so for QTI Mediacodecs
