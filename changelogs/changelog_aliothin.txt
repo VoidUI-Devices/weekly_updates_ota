@@ -1,4 +1,30 @@
 =============================
+VoidUI Tiramisu - v2.2.5
+=============================
+frameworks/base:
+=============================
+- base: Add deep sleep info to uptime preference
+- SystemUI: Implement lockscreen quick unlock.
+- SystemUI: BurnInProtectionController: offset less aggressively
+- core/config: keep recent tasks for more time in memory
+- Fix black screen issue due to wallpaper decoding exceptions
+- base: Add vibration patterns from OOS
+- base: Allow choosing a custom vibration pattern
+- SystemUI: Screenshot: Avoid NPE while getting app label
+- AlarmManager: Handle all gms exact alarm denials
+- Import latest Crowdin translations
+=============================
+frameworks/native:
+=============================
+- Use dalvik.vm.background-dex2oat-* system properties for background 
+- BLASTBufferQueue: Comment out lines causing log spam
+=============================
+system/core:
+=============================
+- init.rc: tune dirty data writebacks
+- task_profiles: Use foreground cpuset for SurfaceFlinger
+- Fix the cgroup v2 thread path 
+=============================
 VoidUI Tiramisu - v2.2.4
 =============================
 - Clean Rebuild
