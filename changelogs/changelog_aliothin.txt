@@ -1,4 +1,11 @@
 =============================
+VoidUI Tiramisu - v2.2.6
+=============================
+- Aperture - Update to latest available version
+- Add Per-App volume support
+- Removal of Quick Unlock due to security breach
+- Update to latest Crowdin translations
+=============================
 VoidUI Tiramisu - v2.2.5
 =============================
 frameworks/base:
