@@ -1,4 +1,19 @@
 =============================
+VoidUI Tiramisu - LTS Edition - v1.0
+=============================
+Changelog:
+- Rebase frameworks/base on top of latest PE+ Changes
+- Resync latest translations
+- Update Copyrights to 2023
+- hardware/interfaces: Support offloading all LDAC qualities 
+(Thanks to @EmanuelCN for mentioning this fix)
+- build/soong: Add support to remove previously built kernel on installclean builds (To rebuild cleanly with #1)
+- Switch to LTS updates description
+=============================
+
+=============================
+Changelog from previous versions:
+=============================
 VoidUI Tiramisu - v2.2.6
 =============================
 - Aperture - Update to latest available version
