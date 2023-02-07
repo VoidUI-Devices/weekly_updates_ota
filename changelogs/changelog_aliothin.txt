@@ -1,4 +1,16 @@
 =============================
+VoidUI Tiramisu - LTS Edition - v1.0.1
+=============================
+Changelog:
+- hardware_qcom-caf_sm8250_display: Removal of custom changes, going back to latest version
+- vendor/qcom/opensource commonsys/display & commonsys-intf/display - Switch to latest tag LA.QSSI.13.0.r1-09000-qssi.0
+- Manifest & vendor/aosp: Switch to new Gapps
+- vendor/aosp: Switch to SourceForge for OTA generation
+- Revert "sm8250-common: Implement LiveDisplay HAL"
+- sm8250-common: sepolicy: allow parts to get SettingsLib prop
+- sm8250-common: Implement HBM & Auto HBM 
+- sm8250-common: Define TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE
+=============================
 VoidUI Tiramisu - LTS Edition - v1.0
 =============================
 Changelog:
