@@ -1,13 +1,16 @@
 =============================
+VoidUI Tiramisu - LTS Edition - v1.0.3
+=============================
+* Switch entirely to commonsys & commonsys-intf_display
+* Depreciate and remove vendor/qcom/opensource/display
+* sm7250 | sm8150 | common - Update Display imports according to current env
+* vendor/aosp: Depreciation of vendor/qcom/opensource/display
+=============================
 VoidUI Tiramisu - LTS Edition - v1.0.2
 =============================
-packages_apps_Aperture: Sync with latest LOS version
+packages_apps_Aperture:
 =============================
-- Aperture: Add DPP QR handling
-- Aperture: Add Wi-Fi QR handling
-- Aperture: Add ripple animation for QR CardView
-- Aperture: Add support for Assistant actions 
-- Additional code improvements ...
+- Aperture: Add DPP QR handling | Wi-Fi QR handling | ripple animation for QR CardView | Assistant actions & more
 =============================
 kernel_xiaomi_sm8250:
 =============================
@@ -19,15 +22,10 @@ kernel_xiaomi_sm8250:
 sm8250-common:
 =============================
 parts: hbm: Improve current implementation [squash]
-
 * hbm: Include a 7-second delay when turning off the HBM
-[The HBM turning off while walking through a shadow was frustrating. Address this issue by verifying if the threshold has been reached after the 7-second delay.]
 * hbm: Avoid writing to the backlight when turning off the HBM
-[Not needed.]
 * hbm: Refresh the QS brightness slider whenever the HBM is activated
-[The brightness slider should be set to 100% when the HBM is activated.]
 * hbm: Deactivate the HBM tile when the screen turns off
-[When the screen is turned off, HBM will shut down and the HBM tile should become inactive.]
 =============================
 VoidUI Tiramisu - LTS Edition - v1.0.1
 =============================
