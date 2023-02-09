@@ -1,4 +1,13 @@
 =============================
+VoidUI Tiramisu - LTS Edition - CTS Fix
+=============================
+- Fix incorrect context classloader initialization in system_server 
+- core: Fix classloader and instrumentation initialization
+- PixelPropsUtils: Use spoofBuildGms for FP and model alteration
+- PixelPropsUtils: Use actual device model name 
+- PixelPropsUtils: Set shipping level to 32 for devices >=33
+- PixelPropsUtils: Make CTS/Play Integrity pass again
+=============================
 VoidUI Tiramisu - LTS Edition - v1.0.3
 =============================
 * Switch entirely to commonsys & commonsys-intf_display
