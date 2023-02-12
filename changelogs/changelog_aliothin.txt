@@ -1,4 +1,44 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.0.4
+=============================
+- Alioth: Update Dolby Engine from Miui China 14.0.4.0
+=============================
+frameworks_base:
+=============================
+* Unblock alarm and vibrate status bar icons 
+* Grant additional permissions for Smartspace 
+=============================
+vendor_pixel-framework:
+=============================
+* Update smartspace to 13-QPR1 
+* Add missing permission for Smartspace. 
+* power: disable some debug services
+=============================
+Settings:
+=============================
+* Sync reverse charging and Pixel battery addons pref with pixel-framework
+* Add missing animations for gestures and features
+=============================
+vendor/aosp:
+=============================
+* Set default status bar height to 28dp
+* Add gesture options overlay
+* Disable safe volume everywhere 
+* Default to automatic dark mode
+* Revert "vendor: Use GMS configurator instead of SimpleDeviceConfig"
+* Revert "vendor: Nuke SimpleDeviceConfig" 
+* device_config: update to android 13
+* device_config: Update Now Playing database to 12/18/22 
+* device_config: Enable smart actions in the clipboard overlay 
+* device_config: Globally enable the new photo picker
+* device_config: Enable additional Pixel Launcher configs
+* device_config: Disable light off predictor for Smartspace
+* device_config: Enable more Pixel launcher search features
+* device_config: Update smartspace flags to QPR1
+* device_config: Force enable Gboard assistant typing and suggestions
+* device_config: Enable Translate action for pixel launcher overview 
+* vendor: fix NexusLauncher for tablet & introduce common_full_tablet flavor
+=============================
 VoidUI Tiramisu - LTS Edition - CTS Fix
 =============================
 - Fix incorrect context classloader initialization in system_server 
