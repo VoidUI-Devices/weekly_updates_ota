@@ -1,4 +1,12 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.0.5
+=============================
+- Rework Updater changes, based on LOS-20 + crdroid impl on top + our adaptation
+- Disable recovery_update flag by default (Not tested)
+- Address sys.recovery_update sepolicy
+- Resync with latest PE changes, and rework our changes on top
+- GameSpace: Remove dim layer from the panel view
+=============================
 VoidUI Tiramisu - LTS Edition - 1.0.4
 =============================
 - Alioth: Update Dolby Engine from Miui China 14.0.4.0
