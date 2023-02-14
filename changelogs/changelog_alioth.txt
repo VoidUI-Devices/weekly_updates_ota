@@ -1,4 +1,22 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.0.6
+=============================
+ART (Android RunTime)
+=============================
+* art: add check for __ARM_FEATURE_ATOMICS that indicates LSE atomics availability on target
+* ART: dex2oat and instruction_set_features: utilize modified runtime capabilities set
+* Additional Improvements
+=============================
+sm8250-common changes:
+=============================
+* sm8250-common: Use 64bit dex2oat on all cores
+* sm8250-common: sepolicy: Address proc watermark denial 
+* sm8250-common: sepolicy: allow vendor_init to change watermark_scale_factor
+* sm8250-common: PinnerService: Update SystemUIGoogle
+* sm8250-common: Build missing C2 media codecs
+* sm8250-common: Move vendor media codecs configs to device trees
+* sm8250-common: Media: Remove OMX.qcom.video.decoder.vp9(.secure)
+=============================
 VoidUI Tiramisu - LTS Edition - 1.0.5
 =============================
 - Rework Updater changes, based on LOS-20 + crdroid impl on top + our adaptation
