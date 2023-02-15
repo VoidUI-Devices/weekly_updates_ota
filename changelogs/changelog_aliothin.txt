@@ -1,4 +1,10 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.0.7
+=============================
+* Settings & Frameworks - Update to latest Crowdin translations
+* TelephonyProvider: Grant missing TelephonyProvider perm
+* Add support of "Ignore window secure flags"
+=============================
 VoidUI Tiramisu - LTS Edition - 1.0.6
 =============================
 ART (Android RunTime)
