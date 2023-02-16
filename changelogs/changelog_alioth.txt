@@ -1,4 +1,9 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.0.8
+=============================
+- Disable Dolby AC4 mediacodec as not working
+- Fix 1080p+ Codecs by enabling more Codec2.0 components by default
+=============================
 VoidUI Tiramisu - LTS Edition - 1.0.7
 =============================
 * Settings & Frameworks - Update to latest Crowdin translations
