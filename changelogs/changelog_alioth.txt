@@ -1,4 +1,15 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.1.0
+=============================
+- Clean rework of all features on top of latest PE changes
+- Cleanup of previous changes
+- Clean reimport of translations from crowdin
+- In this update also fixed AOD Weather / Music info showing
+- Update of Aperture to latest version
+- Update devicesettings translations
+- Cleanup of redundant changes for safetynet bypass
+- Cleanup of features overlays
+=============================
 VoidUI Tiramisu - LTS Edition - 1.0.9
 =============================
 - Merge Android 13 Release 30 | February Security Patch
