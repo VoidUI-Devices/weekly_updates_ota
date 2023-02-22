@@ -1,4 +1,18 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.1.1
+=============================
+- sm8250-common: drop reserving partition size for dynamic partitions
+- sm8250-common: update display blobs from LA.UM.9.12.r1-15100-SMxx50.QSSI13.0
+- sm8250-common: Use sm8250 defconfig + Xiaomi SM8250 config fragment
+- alioth: Include alioth config fragment
+- sm8250-common: Drop support of HBM 
+=============================
+Create and switch on Redline kernel
+=============================
+* Based on ASB-2023-02-05_4.19-stable & LA.UM.9.12.r1-15100-SMxx50.QSSI13.0
+* Fixed QC | Vibrator | Other stuffs
+* Compiled with Snapdragon OEM LLVM 16.0.3
+=============================
 VoidUI Tiramisu - LTS Edition - 1.1.0
 =============================
 - Clean rework of all features on top of latest PE changes
