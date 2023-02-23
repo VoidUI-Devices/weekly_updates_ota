@@ -1,4 +1,17 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.1.2
+=============================
+- sm8250-common: Powerhint: Rework & Update for 8250 [testing]
+- sm8250-common: rootdir: Register more game libraries to sched_lib_name
+- sm8250-common: overlay: Allow VoLTE and VoWiFi/WFC by default
+- sm8250-common: overlay: disable IMS features for TIM Brazil
+- sm8250-common: overlay: Only allow 5G SA on Jio
+- sm8250-common: overlays: Bump default vibration intensity step
+- kernel: techpack: video: msm: vidc: disable decode batching feature
+- kernel: Cleanup part of changes related to display wakeup issue
+- kernel: Generate configs for building kernel inbuilt
+- sm8250-common: Revert of "Media: Remove OMX.qcom.video.decoder.vp9(.secure)"
+=============================
 VoidUI Tiramisu - LTS Edition - 1.1.1
 =============================
 - sm8250-common: drop reserving partition size for dynamic partitions
