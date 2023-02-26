@@ -1,4 +1,17 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.1.4
+=============================
+- Import of DisplayFeature Service
+- Import of TouchFeature Services
+- Import of all Display Calibation configs
+- Add kernel support of Mi_thermald service
+- Fix kernel support of DC Dimming and HBM
+- Add support of DC Dimming and HBM in parts & QS tiles
+- Update VibratorFeature from Munch
+- Add touch profiles for gaming and benchmarking
+- Use game thermal as fallback for GameSpace's listed apps
+- Add touchfeature impl of dt2w
+=============================
 VoidUI Tiramisu - LTS Edition - 1.1.3
 =============================
 - Drop Pixel libperfmgr
