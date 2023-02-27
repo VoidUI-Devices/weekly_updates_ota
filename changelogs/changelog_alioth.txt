@@ -1,4 +1,14 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.1.6
+=============================
+- CachedAppOptimizer : Pageout File pages during system compaction 
+- CachedAppOptimizer : Fix compaction configuration being ignored 
+- Native: REThreaded: Use gen- and delete- textures on all render engines
+- ARM64: dts: alioth: Keep fpc regulator always-on
+- ARM64: dts: k11a: Disable 90hz support on alioth panel
+- sm8250-common: Parts: Remove new icons, they are not matching UI
+- sm8250-common: Parts: Make java code formatting
+=============================
 VoidUI Tiramisu - LTS Edition - 1.1.5
 =============================
 - Import fix of crash of AOD / System by PE
