@@ -1,4 +1,11 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.1.5
+=============================
+- Import fix of crash of AOD / System by PE
+- sm8250-common: parts: Update drawables 
+- sm8250-common: parts: Use S theme in thermal and refresh rate settings 
+- techpack: video: msm: vidc: disable decode batching feature [part 2]
+=============================
 VoidUI Tiramisu - LTS Edition - 1.1.4
 =============================
 - Import of DisplayFeature Service
