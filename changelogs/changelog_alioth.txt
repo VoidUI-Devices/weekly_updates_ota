@@ -1,4 +1,10 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.1.7
+=============================
+- Add support of OEM fast charge recognition
+- Switch to vendor-defined color modes (vivid (default), saturated, original, P3 and sRGB)
+- sepolicy: allow vendor_init to read persist_debug_prop
+=============================
 VoidUI Tiramisu - LTS Edition - 1.1.6
 =============================
 - CachedAppOptimizer : Pageout File pages during system compaction 
