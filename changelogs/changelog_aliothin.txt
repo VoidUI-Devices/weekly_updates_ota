@@ -1,4 +1,13 @@
 =============================
+VoidUI Tiramisu - LTS Edition - 1.1.8
+=============================
+- DeviceSettings: Import HBM , DT2W strings
+- DeviceSettings: Import Crowdin translations
+- sm8250-common: Disable SF composition prediction model
+- sm8250-common: Force device to treat 170M as sRGB in SF
+- sm8250-common: Enable display async powermode 
+- sm8250-common: rootdir: Disable QCOM system daemon [2/2]
+=============================
 VoidUI Tiramisu - LTS Edition - 1.1.7
 =============================
 - Add support of OEM fast charge recognition
