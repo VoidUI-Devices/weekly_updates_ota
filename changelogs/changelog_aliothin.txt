@@ -1,4 +1,16 @@
 =============================
+VoidUI Tiramisu - Final Pre-Release Edition
+=============================
+Required Testing: Everything
+=============================
+- Switch back to Immensity 7.1.0 stable
+- Disable decode batching feature to fix mediacodecs
+- Base: Add various system packages to indicator exemptions
+=============================
+This should be most stable pre-release version. 
+Later versions will go with Monthly and Active development in separate topics in separate Updater branches.
+Please test all main stuffs according to bugs / issues.
+=============================
 VoidUI Tiramisu - LTS Edition - 1.1.8
 =============================
 - DeviceSettings: Import HBM , DT2W strings
