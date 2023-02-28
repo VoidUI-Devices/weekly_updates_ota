@@ -1,4 +1,13 @@
 =============================
+VoidUI Tiramisu - Final Release Edition
+=============================
+- Fix mdmhelper denials / device will be able recover modem if needed
+- Latest Crowdin Translations | Add support of Turkish Language, various fixes
+- Huge cleanup of frameworks/base changes
+- Initial Monthly Release
+- In this update Updater will switch tracking to Monthly releases
+- Weekly/daily releases will be built later separately with future announcement.
+=============================
 VoidUI Tiramisu - Final Pre-Release Edition
 =============================
 Required Testing: Everything
