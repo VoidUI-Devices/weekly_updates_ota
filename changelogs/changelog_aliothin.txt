@@ -1,4 +1,15 @@
 =============================
+VoidUI Thunderstorm | Initial Daily / Weekly Release | v1.0.1
+=============================
+- Revert "PixelPropsUtils: GameProps: Spoof Honor of Kings to Mi 11 Ultra" 
+- base: Force fullscreen for Google Dialer
+- sm8250-common: Drop prebuilt libtinyxml
+- sm8250-common: Drop prebuilt libqservice
+- VibratorFeature: Import missing vendor.awa.wavelib.so 
+- Rework vibratorfeature environment, move from ndk_platfrom to ndk deps
+- Sepolicy: citsensorservice: Allow to read vendor_sensors_prop-s
+- Alioth: Import missing vendor.qti.hardware.sensorscalibrate-V1.0
+=============================
 VoidUI Thunderstorm | Initial Daily / Weekly Release | v1.0.0
 =============================
 VoidUI Tiramisu = Monthly Releases
