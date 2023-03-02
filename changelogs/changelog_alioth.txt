@@ -1,4 +1,9 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.0.2 -- Kernel fixups
+=============================
+- esoc: Avoid kernel panic during modem crash 
+- esoc: Add support to capture modem crashlog when NV gets destroyed
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.0.2
 =============================
 - Switch to Redline Kernel
