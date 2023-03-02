@@ -1,5 +1,17 @@
 =============================
-VoidUI Thunderstorm | Initial Daily / Weekly Release | v1.0.1
+VoidUI Thunderstorm | Daily / Weekly Release | v1.0.2
+=============================
+- Switch to Redline Kernel
+- Kernel: bus: mhi: core: Remove WQ_MEM_RECLAIM flag to avoid warnings
+- sm8250-common: Enable Support of Vulkan for UI
+- hardware/qcom-caf/sm8250_audio:
+* Recheck & Cleanup of not needed / not working commits
+* Update adsprpcd from sm8450
+* Move audio rpc daemon to boot stage
+- base: SettingsProvider: Resolve package name that requires permission
+- Settings: Whitelist WRITE_DEVICE_CONFIG permission
+=============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.0.1
 =============================
 - Revert "PixelPropsUtils: GameProps: Spoof Honor of Kings to Mi 11 Ultra" 
 - base: Force fullscreen for Google Dialer
