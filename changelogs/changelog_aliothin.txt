@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.0.3
+=============================
+- Fix Modem related issues on Redline kernel, no more modem crashes and black screens (hopefully)
+- Remove VulkanAPI for now (Directly causes Instagram graphical issues)
+- Huge entire cleanup of sm8250-common changes
+- sm8250-common: Don't force enable ims features
+- Re-pick full version of techpack: video: msm: vidc: disable decode batching feature
+- Remove QTI mediacodecs, rollback to AOSP one's
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.0.2 -- Kernel fixups
 =============================
 - esoc: Avoid kernel panic during modem crash 
