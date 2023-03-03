@@ -1,4 +1,23 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.0.4
+=============================
+- Revert back to Immensity kernel
+- Heavy cleanup of device trees changes
+- Generate vendors from scratch, based on Miui Alioth 13.0.11.0 EU, Munch 14.0.1.0 Mi
+- sm8250-common: Disable kpti
+- sm8250-common: rootdir: Remove unnecessary configurations
+- sm8250-common: rootdir: Don't install test apps
+- sm8250-common: rootdir: Don't configure zram in init.qcom.post_boot.sh
+- sm8250-common: Enable zram writeback 
+- sm8250-common: Enable H/W Composition
+- sm8250-common: Enable UBWC aligned framebuffer
+- sm8250-common: Enable Rich-Communication Services
+- sm8250-common: Set network mode to Global by default
+- sm8250-common: Add a system property for System UI compiler filter.
+- sm8250-common: rootdir: Mount cgroup
+- Recovery: Add support to switch slots (In Advanced, Beta feature)
+- And more...
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.0.3
 =============================
 - Fix Modem related issues on Redline kernel, no more modem crashes and black screens (hopefully)
