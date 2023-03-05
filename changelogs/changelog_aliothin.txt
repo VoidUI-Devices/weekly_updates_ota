@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.0.5
+=============================
+- Switch back to Redline Kernel
+- cpuidle: lpm-levels: Remove debug event logging 
+- staging: binder - Set binder_debug_mask=0 to suppress logging 
+- Revert "bdi: Do not use freezable workqueue"
+- Merge tag 'LA.UM.9.12.r1-15200-SMxx50.QSSI13.0' to kernel, wlan, audio-kernel
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.0.4
 =============================
 - Revert back to Immensity kernel
