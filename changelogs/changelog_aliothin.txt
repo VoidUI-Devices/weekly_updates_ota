@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.0.6
+=============================
+- Kernel: Switch to ThinLTO compilation
+- Kernel:
+* subsystem_restart: Add delay 3s for load modem module.
+* subsystem_restart: Update crash status as subsystem start 
+* subsystem_restart: Add delay before SSR power-up failure panics
+- hardware/qcom-caf/sm8250 display & media: Merge tag LA.UM.9.12.r1-15200-SMxx50.QSSI13.0
+- vendor/qcom/opensource/commonsys-intf/display: Merge tag LA.QSSI.13.0.r1-09100.04-qssi.0
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.0.5
 =============================
 - Switch back to Redline Kernel
