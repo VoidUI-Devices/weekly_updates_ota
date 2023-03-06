@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.0.7
+=============================
+- Add Volume Steps
+- Clean Resync and Rebuild
+- Import Latest Crowdin Translations for Settings, Frameworks
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.0.6
 =============================
 - Kernel: Switch to ThinLTO compilation
