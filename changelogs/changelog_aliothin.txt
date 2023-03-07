@@ -1,4 +1,16 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.0.8
+=============================
+Updates from Miui 14 part 1
+- sm8250-common: Update QTI Perf Stack from Miui Alioth 14.0.7.0 EU
+- sm8250-common: VibratorFeature: Drop back awalib support 
+- sm8250-common: Update Vibrator/VibratorFeature Stack from Miui Alioth 14.0.7.0 EU
+- sm8250-common: Update MiThermald from Miui Alioth 14.0.7.0 EU
+- sm8250-common: Update TouchFeature from Miui Alioth 14.0.7.0 EU
+- sm8250-common: Update DisplayFeature from Miui Alioth 14.0.7.0 EU
+- sm8250-common: Update Display (SDM) from Miui Alioth 14.0.7.0 EU
+- sm8250-common: Update Graphics (Adreno firmware) from Miui Alioth 14.0.7.0 EU
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.0.7
 =============================
 - Add Volume Steps
