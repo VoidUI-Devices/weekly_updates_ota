@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.1.0
+=============================
+Updates from Miui 14 Final Part
+Miui 14.0.x Firmware Required!
+=============================
+- Alioth: Vibrator firmware: Sync with Miui 14.0.7.0 EU
+- Alioth: Update IPA Firmware from Miui 14.0.7.0 EU
+- sm8250-common: SDM: Import missing libdpps.so
+- Alioth & sm8250-common: Proprietary files: Update unpinned blobs information
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.0.9
 =============================
 Updates from Miui 14 part 2
