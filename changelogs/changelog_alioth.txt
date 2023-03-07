@@ -1,4 +1,40 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.0.9
+=============================
+Updates from Miui 14 part 2
+Miui 14.0.x Firmware Required!
+=============================
+Alioth: Update:
+* Camera Libs
+* HotwordEnrollment
+* Dolby libs
+* ACDB
+* Sensors
+* Listen libs
+* Sensors Configs
+* Audio Libs
+* Fingerprint
+sm8250-common: Update:
+* Sensors (citsensor)
+* QMI
+* DPM
+* Power-off Alarm
+* RIL
+* Audio FX
+* Audio Libs
+* Bluetooth
+* DRM
+* IMS
+* Listen libs
+* Media Configs
+* Media Libs
+* NVRAM
+* OMX
+* SoterService
+* TimeService
+* VPP
+* Patch IMS for AOSP
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.0.8
 =============================
 Updates from Miui 14 part 1
