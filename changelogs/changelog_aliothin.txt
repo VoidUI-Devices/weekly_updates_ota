@@ -1,4 +1,9 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.1.2
+=============================
+- Enable support of VoNR (Vo5G)
+- sm8250-common: Enable VoNR Calls support
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.1.1
 =============================
 - Beta implementation of supported display features: HLG | HDR10_PLUS | DOLBY_VISION
