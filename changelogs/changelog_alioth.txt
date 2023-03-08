@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.1.1
+=============================
+- Beta implementation of supported display features: HLG | HDR10_PLUS | DOLBY_VISION
+- Enabled flag TARGET_HAS_HDR_DISPLAY in compilation time
+- sm8250-common: parts: Override HDR types
+- Alioth: Import additional Dolby Libs from Miui 14.0.7.0
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.1.0
 =============================
 Updates from Miui 14 Final Part
