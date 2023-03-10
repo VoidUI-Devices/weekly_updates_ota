@@ -1,4 +1,15 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.1.4
+=============================
+- Big amount of Kernel changes, including:
+* Fix UltraSound device
+* Implement FUSE passthrough
+* Additional cleanups of kernel wakeups
+* Fix lags in Google Photos videos
+* Various optimizations & imports of missing stuffs
+* Enable CONFIG_CPU_FREQ_STAT, needed by Android
+- sm8250-common: Use FUSE passthrough mode by default
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.1.3
 =============================
 - Entire kernel rework:
