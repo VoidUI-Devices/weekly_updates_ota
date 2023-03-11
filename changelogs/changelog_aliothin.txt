@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.1.5
+=============================
+- sm8250-common: parts: Avoid unsafe boot completed receiver (Faster boot, proper impl)
+- sm8250-common: Import missing IMS Rtp service lib (IMS-VT Fixup)
+- build/soong:
+* Only dexpreopt system server jars for the primary arch. 
+* Dexpreopt: use "speed-profile" if a system server jar has a profile.
+* support system server jars install in system_ext
+* copy JNI from AAR files to android_app APK
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.1.4
 =============================
 - Big amount of Kernel changes, including:
