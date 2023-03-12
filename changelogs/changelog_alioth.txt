@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.1.6
+=============================
+- sm8250-common: Add wakelock to citsensor service group
+- sm8250-common: sepolicy: Initial declarations of /data/vendor/cit
+- sm8250-common: Sepolicy: Declare vib_cal as part of vibratorfeature service
+- Alioth: audio: Add missing voice-headset path
+- Alioth: Import missing vib_cal file | Required by vibratorfeature
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.1.5
 =============================
 - sm8250-common: parts: Avoid unsafe boot completed receiver (Faster boot, proper impl)
