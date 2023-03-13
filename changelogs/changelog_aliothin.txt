@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.1.7
+=============================
+- Drop vibratorfeature & ahaptics (Not used due not having proprietary RichTap SDK integration for AOSP)
+- Import back QTI haptics & QTI Vibrator effects
+- Rework QTI Vibrator effects for proper hz and 16bit data
+- Import init camera-daemon definitions Correctly
+- Cleanup part of changes
+- Generate vendors from scratch from Miui 14.0.7.0 EU
+- Drop 90hz support (yet again)
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.1.6
 =============================
 - sm8250-common: Add wakelock to citsensor service group
