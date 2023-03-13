@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.1.8
+=============================
+- sm8250-common: Drop QTI Thermal Hal @2.0 (Was not initing / not working)
+- sm8250-common: Sepolicy: Rename sysfs_battery_supply to vendor_sysfs_battery_supply
+- sm8250-common: sepolicy: Address mi_thermald denial
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.1.7
 =============================
 - Drop vibratorfeature & ahaptics (Not used due not having proprietary RichTap SDK integration for AOSP)
