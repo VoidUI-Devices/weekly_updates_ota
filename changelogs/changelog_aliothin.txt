@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.1.9
+=============================
+- sm8250-common: Sepolicy: Label more extcon nodes 
+- sm8250-common: Audio: Move to CAF usb audio policy configuration
+- Alioth: Import speakers calibration tools [WIP]
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.1.8
 =============================
 - sm8250-common: Drop QTI Thermal Hal @2.0 (Was not initing / not working)
