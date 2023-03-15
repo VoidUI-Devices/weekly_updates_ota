@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.2.0
+=============================
+- Qualcomm Snapdragon LLVM ARM Toolchain OEM updated to 16.0.5
+- frameworks/base: Don't fail setDeviceConnectionState if not implemented in hal
+- Switch back to Pixel Powerhint
+- libhwbinder: Ignore "Binder threadpool cannot be shrunk after starting" cases
+- Cleanup / Rework part of changes
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.1.9
 =============================
 - sm8250-common: Sepolicy: Label more extcon nodes 
@@ -7,7 +15,6 @@ VoidUI Thunderstorm | Daily / Weekly Release | v1.1.9
 =============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.1.8
 =============================
-- sm8250-common: Drop QTI Thermal Hal @2.0 (Was not initing / not working)
 - sm8250-common: Sepolicy: Rename sysfs_battery_supply to vendor_sysfs_battery_supply
 - sm8250-common: sepolicy: Address mi_thermald denial
 =============================
