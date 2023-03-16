@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.2.1
+=============================
+- Kernel: switch to previous mi_thermald implementation
+- sm8250-common: Correct SoC manufacturer name
+- sm8250-common: Sepolicy: Rework thermal environment rules
+- sm8250-common: Sepolicy: dont allow Parts to access rendering and resampling props
+- sm8250-common: Parts: Thermal Utils: Default config - Evaluation (10)
+* Side note: Mi_Thermald still works not entirely
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.2.0
 =============================
 - Qualcomm Snapdragon LLVM ARM Toolchain OEM updated to 16.0.5
