@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.2.2
+=============================
+- Enable HDR-10 GPU acceleration for videos
+- Build out some missing vendor dependencies for mediacodecs
+- Kernel:
+* sched: core: silence no longer affine to cpu logspam
+* Disable part of Binder spams
+* Import part of Binder backports / upstreams from Immensity 7.1.0
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.2.1
 =============================
 - Kernel: switch to previous mi_thermald implementation
