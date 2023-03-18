@@ -1,4 +1,15 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.2.3
+=============================
+- Add support of 4K 120FPS video recording to Aperture
+- Add support of 1080p 60fps video recording on front camera in Aperture
+- Sync latest version of Aperture
+- Remove Dolby Vision support leftovers as not working
+- Cleanup part of changes
+- Drop part of not needed / not used libs
+- Import IMS app from Renoir *Fixing some weird IMS logspams
+- More...
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.2.2
 =============================
 - Enable HDR-10 GPU acceleration for videos
