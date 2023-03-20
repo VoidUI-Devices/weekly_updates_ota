@@ -1,4 +1,15 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v1.2.4
+=============================
+- Drop support of DisplayFeature:
+* It is not needed for stuffs that may be interesed for us
+* Giving bug with not possible set manually prefered per-app refresh rate
+* No QTI PowerHint / Powerhal used
+- sm8250-common: sepolicy: Allow system_app to write thermal sysfs
+- sm8250-common: Guard qti thermal 2.0 service hals
+- alioth: Drop displayfeature props
+- Kernel: cpufreq: Ensure the minimal frequency is lower than the maximal frequency
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.2.3
 =============================
 - Add support of 4K 120FPS video recording to Aperture
