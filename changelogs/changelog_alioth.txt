@@ -1,4 +1,24 @@
 =============================
+QPR2 Clean start:
+=============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.0.0
+=============================
+- Clean start on new base | Android 13 QPR2 Release 35
+- Based on Pixel Experience Plus QPR2 Release
+- Added back Kryo585 Optimizations
+- Added back ART fixes for 865 series
+- Added back GameProps
+- Added back Immersive (FullScreen Navigation)
+- Ported back Miui Dolby changes (Still testing)
+- Added back our Updater support
+- Dropped GameSpace for now (Will see)
+- Added back IPCThreadState robust fixups
+- Tons of repos upstreams and reworks
+=============================
+Kernel - ARM64: dts: k11a: Enable ULPS Mode
+=============================
+QPR1 Changelogs:
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v1.2.4
 =============================
 - Drop support of DisplayFeature:
