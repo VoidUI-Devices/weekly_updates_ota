@@ -1,4 +1,18 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.0.2
+=============================
+- Rework Cutout Force Full Screen changes, now it's entirely working
+- Add toggle to switch between AOSP and Google Battery Graph & fix AOSP one
+- Use system font for SmartSpace
+- Add per-app volume control & update icon & make it work with multi audio focus
+- Sync reverse charging and Pixel battery addons pref with pixel-framework
+- Sync Security Hub pref with pixel-framework [Still under question if keep]
+- Import part of Crowdin translations for our Customizations
+- Spoof Pixel Launcher for userdebug to make Developer Options available
+- Improve scrolling caches
+- Add various system packages to indicator exemptions
+- Update Snapdragon LLVM to 16.1.0
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.0.1
 =============================
 - Get the most of the media artwork colors
