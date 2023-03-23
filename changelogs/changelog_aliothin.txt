@@ -1,4 +1,19 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.0.1
+=============================
+- Get the most of the media artwork colors
+- Import back Wi-Fi standard icon
+- Ignore window secure flags
+- Calls vibration patterns
+- Implement cutout force full screen
+- Force fullscreen for Google Dialer
+- Remove Build Number from down of About Phone page 
+- Open app when clicking on icon in App Info
+- Fix refreshing storage summary after force stop
+- InstalledApp: Show link to Google Play 
+- Long press to copy wifi password
+- Move Double Tap to Sleep next to DT2W
+=============================
 QPR2 Clean start:
 =============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.0.0
