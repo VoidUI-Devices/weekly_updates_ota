@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.0.4
+=============================
+- Import PE translations & latest changes
+- Import latest Crowdin translations
+- Add delete button for Screenshots and Screen Recorder
+- QS Tiles: Data switch | CPU Info | FPS Info
+- Screen Recorder Customizations: Stop Dot | Low Quality | Record Longer | 3 Sec timer | HEVC
+- Export RecordingService for External Usage (GameSpace)
+- Enable VoNR by default
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.0.3
 =============================
 - Added features:
