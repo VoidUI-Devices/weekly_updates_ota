@@ -1,4 +1,15 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.0.3
+=============================
+- Added features:
+* GameSpace 
+* Reticker 
+* Live Volume Steps 
+* API for disabling gestural navigation
+* Deep sleep in Uptime information
+* Statusbar & Navbar burn-in Protection
+* Limiting AOD to 60hz 
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.0.2
 =============================
 - Rework Cutout Force Full Screen changes, now it's entirely working
