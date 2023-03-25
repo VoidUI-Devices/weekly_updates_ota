@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.0.6
+=============================
+- Disable various debugging
+- Fix big amount of permissions errors including GMS permissions
+- Add missing permission for SmartSpace
+- Fix LTE(+) icon padding
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.0.5
 =============================
 - GameSpace: Update takeScreenshot API in ScreenUtils
