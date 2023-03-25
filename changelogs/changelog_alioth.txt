@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.0.5
+=============================
+- GameSpace: Update takeScreenshot API in ScreenUtils
+- Fix screenshot service not working in GameSpace
+P.s ScreenRecording still not work in GameSpace, use it from QS tiles
+- Fix mobile type icon position in keyguard
+- Kernel:
+* Switch to LZ4 and import LZ4 upstreams [Testing]
+* Import bbrv2 backports & switch to TCP bbrv2
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.0.4
 =============================
 - Import PE translations & latest changes
