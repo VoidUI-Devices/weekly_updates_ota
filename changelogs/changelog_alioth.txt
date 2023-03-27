@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.0.7
+=============================
+- Remove additional debugging removal, more close to stock env
+- Alioth: Update Sensor libs from Miui China V14.0.23.3.13.DEV
+- Alioth: Update mi_thermald configs from 14.0.7.0 EU
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.0.6
 =============================
 - Disable various debugging
