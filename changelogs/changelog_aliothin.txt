@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.0.8
+=============================
+- Finally fix Mi_Thermald service
+- Finally fix Thermal Profiles
+- Add missing libthermalclient.qti and enable back android.hardware.thermal@2.0-service.qti
+- Temporary remove TouchProfiles, HBM, DC dimming, this would be re-checked in future versions
+- Update Aperture to latest version
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.0.7
 =============================
 - Remove additional debugging removal, more close to stock env
