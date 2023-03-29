@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.0.9
+=============================
+- Add back TouchProfiles (Gaming & Benchmark thermal profiles)
+- Add back DC Dimming
+- Keep removed only HBM & AutoHBM
+- Rootdir: Provide thermal profile permissions
+- Rootdir: Move thermal profiles to init stage
+- Rootdir: Write Evaluation profile by default (For boot stage)
+- Default profile for System = 0 , means default
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.0.8
 =============================
 - Finally fix Mi_Thermald service
