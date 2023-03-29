@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.1.0
+=============================
+- Enable System integration of Jetpack Compose
+- Add support of LiveDisplay Hal
+- Remove AntiFlicker support from LiveDisplay
+- Cleanup LiveDisplay Integration for less deps and better work
+- Fix Sunlight Mode (HBM) for non-FOD devices
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.0.9
 =============================
 - Add back TouchProfiles (Gaming & Benchmark thermal profiles)
