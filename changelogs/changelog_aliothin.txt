@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.1.1
+=============================
+- PixelPropsUtils: Spoof back part of Google Apps to Pixel 5:
+* com.google.android.inputmethod.latin
+* com.google.android.setupwizard
+* com.google.android.googlequicksearchbox
+* com.google.android.apps.googleassistant
+- SystemUI: Do not translate FPS to other languages
+- This version is in sync with Monthly but is with Weekly wallpaper, naming and updater.
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.1.0
 =============================
 - Enable System integration of Jetpack Compose
