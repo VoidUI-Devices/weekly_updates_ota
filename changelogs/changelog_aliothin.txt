@@ -1,4 +1,16 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.1.2
+=============================
+- Resync with latst PE changes
+- Rebuild with latest PE+ changes:
+* SystemUIGoogle: elmyra: CentralSurfacesGoogle -> CentralSurfaces 
+* Big amount of SF / GUI changes in frameworks/native
+- Frameworks/base changes by PE:
+* hwui: renderthread/CanvasContext: Reduce the timeout for dequeueing buffers
+* Add null pointer check to avoid system crash. 
+* Fix an issue that the FoldStateListener induces a memory leak 
+* SystemUI: Make mKeyguardBottomArea public (for elmyra service)
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.1.1
 =============================
 - PixelPropsUtils: Spoof back part of Google Apps to Pixel 5:
