@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.1.4
+=============================
+- Additional Dolby Changes rework
+- sm8250-common: CarrierConfig: Enable vonr for Airtel and Jio
+- sm8250-common: CarrierConfig: Enable voLTE/voWIFI/ViLTE for Sri Lankan Networks 
+- sm8250-common: CarrierConfig: enable VoLTE and VoWIFI support for Movistar
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.1.3
 =============================
 - Clean Rebuild
