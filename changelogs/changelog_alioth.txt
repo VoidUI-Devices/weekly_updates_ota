@@ -1,4 +1,21 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.1.3
+=============================
+- Clean Rebuild
+- Track latest changes of frameworks/av from PE:
+* cameraservice: fix deadlock in onewayhidl onPhysicalCameraStatusChanged
+* cameraserver: Correct camera1 -> api2 shim layer handling for video stabilization.
+* Fix an issue that the sensor privacy does not apply to the new camera clients
+* CameraService: Fix deadlock in binder death cleanup
+* cameraserver: clear all requests and signal mRequestSignal from RequestThread during disconnect().
+* Camera: Avoid unnecessary close of buffer acquire fence fds
+* Fix an issue that a free memory is accessed
+- Add own custom changes:
+* Import Xiaomi Image Utils defenition
+* TrackPlayerBase: Import Xiaomi Changes of AudioLock
+* PlayerBase: Import Xiaomi Changes (Make volume multipliers public)
+* OMXStore: Import Xiaomi Changes (Part of parts of AC4)
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.1.2
 =============================
 - Resync with latst PE changes
