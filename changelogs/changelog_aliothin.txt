@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.1.5
+=============================
+- Cleanup of frameworks/native and frameworks/av AC4 related changes
+- Cleanup of Dolby Changes with removal of AC4 Sec leftovers and misc improvements
+- Cleanup of device trees changes, additional fixups for parts
+- Cleanup of sm8250/audio changes
+- Additional improvements for work of parts and device itself
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.1.4
 =============================
 - Additional Dolby Changes rework
