@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.1.6
+=============================
+- PixelPropsUtils: Do not spoof device for ING Italia
+- sm8250-commmon: CarrierConfig: Enable voLTE/voWIFI/ViLTE for IDC Moldova
+- Kernel: Rebase on latest updates: ASB-2023-03-05_4.19-stable & LA.UM.9.12.r1-15200-SMxx50.QSSI13.0
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.1.5
 =============================
 - Cleanup of frameworks/native and frameworks/av AC4 related changes
