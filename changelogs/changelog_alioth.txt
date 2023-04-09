@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.1.7
+=============================
+- VoidUI: Add support of Themes [Beta]
+* Available in Settings - Display - Dark Theme - Use Custom Theme
+* Currently added: Black, Clear (transparent), Vivid, SnowPaintDrop, Espresso
+- Settings: Remove custom header
+- Rework supported Custom Preferences and add big amount of them back
+* Can be used for future various changes
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.1.6
 =============================
 - PixelPropsUtils: Do not spoof device for ING Italia
