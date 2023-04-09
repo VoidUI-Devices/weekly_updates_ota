@@ -1,4 +1,20 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.1.9
+=============================
+- Beta Themes Rework in Process -
+=============================
+- Settings: Add a black background toggle
+- Settings: Toggle the neutral overlay when we toggle dark bg
+- Settings: add animation to dark mode preference
+- Settings: drop divider in dark mode screen
+- Settings: DarkMode: Use List Preference rather ugly Drop Down
+- custom-preferences: Add OverlaySwitchPreference
+- OverlaySwitchPreference: Allow disabling an overlay in addition
+- SystemUI: Reset to textColorPrimaryInverse for light theme 
+- monet: Fix overly low chroma for tones below 90
+- ThemeOverlayController: Don't enable neutral overlay when we use dark bg
+- ThemeOverlayController: Don't enable neutral overlay on boot as well
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.1.8
 =============================
 - Fix GameSpace Screen Recording
