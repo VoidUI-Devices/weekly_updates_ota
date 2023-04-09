@@ -1,4 +1,9 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.1.8
+=============================
+- Fix GameSpace Screen Recording
+- Turn on lava lamp or roving spotlight effect for media player
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.1.7
 =============================
 - VoidUI: Add support of Themes [Beta]
