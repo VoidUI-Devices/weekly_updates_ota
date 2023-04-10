@@ -1,4 +1,18 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.2.0
+=============================
+- Beta Themes Rework in Process -
+=============================
+- SystemUI: Follow light/dark theme in quick settings
+- SystemUI: Add dual-tone light and dark themes for QS
+- SystemUI: Follow light/dark theme in power menu
+- SystemUI: Fix QS mobile icon disappearing on theme switch
+- SystemUI: Match footer actions background with notifications background
+- SystemUI: fix black qqs on keyguard in light theme
+- SystemUI: Apply dark theming to split shade
+- SystemUI: Initialize QS tiles in inactive state
+- SystemUI: Remove nav bar background in QS customizer
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.1.9
 =============================
 - Beta Themes Rework in Process -
