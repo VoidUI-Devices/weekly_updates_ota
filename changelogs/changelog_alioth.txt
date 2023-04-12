@@ -1,4 +1,15 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.2.1
+=============================
+- Beta Themes Rework in Process -
+=============================
+- Remove old implementations of themes
+- Remove previous QS changes
+- Port back themes from yaap which utilizing AOSP Monet
+- Fix Pure Black theme
+- Tons of changes more related to themes engine
+- Add custom Vibration patterns for some usecases
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.2.0
 =============================
 - Beta Themes Rework in Process -
