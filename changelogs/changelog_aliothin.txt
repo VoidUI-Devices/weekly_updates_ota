@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.2.2
+=============================
+- Inital push of Theming related changes to VoidUI public repos
+- Remove back custom vibrations (To pre-2.2.1 version)
+- Cleanup used overlays for theming
+- Initial Crowdin Translations for themes
+(P.s Warning - used Google API Translator, it might be not accurate, Crowdin currently not working properly, will recheck later)
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.2.1
 =============================
 - Beta Themes Rework in Process -
