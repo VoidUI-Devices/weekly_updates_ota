@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.2.3
+=============================
+- Fix Expressive theme style naming
+- Update Crowdin Settings Translations
+- Cleanup additional Settings changes
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.2.2
 =============================
 - Inital push of Theming related changes to VoidUI public repos
