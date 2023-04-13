@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.2.4
+=============================
+- overlay: Disable AiAiTranslationService usage
+- Settings: Volume Steps: Cleanup duplicated delcarations
+- Settings: Live Volume Steps: Enable additional steps options
+* 60 | 45 | 30 | 25 | 20 | 16 | 15 | 11 | 7 | 5
+- Once again update Crowdin Settings translations
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.2.3
 =============================
 - Fix Expressive theme style naming
