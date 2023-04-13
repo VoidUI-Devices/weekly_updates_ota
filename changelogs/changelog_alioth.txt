@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.2.5
+=============================
+- device_config: Remove extra pixel launcher search features
+* causes increased drain in non tensor devices
+- Paint: Enable subpixel text positioning by default
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.2.4
 =============================
 - overlay: Disable AiAiTranslationService usage
