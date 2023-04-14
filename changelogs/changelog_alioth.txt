@@ -1,4 +1,15 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.2.6
+=============================
+- vendor/custom-preferences:
+* Rework entirely all custom changes
+* Clean import of ColorPicker with adapting all changes to current enviromnent
+* Clean import of CustomSeekbarPreference
+* Clean import of SwitchPreference
+* Update of ColorPicker, CustomSeekbarPreference to latest versions
+* Cleanup huge amount of unused changes
+- This update fixing charging ripple animations and making Themes looks and work way better
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.2.5
 =============================
 - device_config: Remove extra pixel launcher search features
