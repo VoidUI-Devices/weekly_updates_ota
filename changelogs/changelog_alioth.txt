@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.2.7
+=============================
+- Update Snapdragon LLVM ARM Compiler to 16.1.0.1 (*16.1.0 Fixup version by Qualcomm)
+- Black Background: Make more values black
+- Update Aperture to latest available version
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.2.6
 =============================
 - vendor/custom-preferences:
