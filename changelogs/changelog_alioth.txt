@@ -1,4 +1,8 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.2.9
+=============================
+- Rebuild with latest Crowdin translations
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.2.8
 =============================
 - Fix QS clock overlapping on UI mode change
