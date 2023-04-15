@@ -1,4 +1,15 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.2.8
+=============================
+- Fix QS clock overlapping on UI mode change
+- Fix QS mobile icon disappearing on theme switch
+- AuthRippleView: Less Boring Dwell Ripple
+- Avoid unnecessary keyguard indication controller recreation
+- Fix background activity start. 
+- Use lighter material you shades for charging animation
+- Allow scheduling always on display
+(Settings -> Display -> Lock Screen -> Always on display scheldule)
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.2.7
 =============================
 - Update Snapdragon LLVM ARM Compiler to 16.1.0.1 (*16.1.0 Fixup version by Qualcomm)
