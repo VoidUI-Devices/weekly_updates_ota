@@ -1,4 +1,9 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.3.0
+=============================
+- Settings: AppInfo: Add time spent in app from Wellbeing 
+- Immersive Navigation: Add missing fb/SettingsProvider changes
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.2.9
 =============================
 - Rebuild with latest Crowdin translations
