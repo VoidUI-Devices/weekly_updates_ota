@@ -1,4 +1,31 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.3.1
+=============================
+Sync repos with latest Pixel Experience fixups pushes (Still March patch):
+=============================
+Frameworks/base:
+=============================
+- Revert "PixelPropsUtils: Spoof Pixel 7 Pro to some Google apps" 
+- PixelPropsUtils: Don't spoof fewer apps
+- JobScheduler: Respect allow-in-power-save perm
+- PhoneWindowManager: Fix wakeup and long-press actions of assistant key
+- SystemUI: Avoid unnecessary keyguard indication controller recreation
+- MetaKeyKeyListener: Disable locking of toggled modifier keys 
+- InputDevices: Fix Hungarian language overlay
+=============================
+packages/services/Telecomm:
+=============================
+- InCallController: use click & double click effect for connect and disconnect
+- Telecomm: fix vibrate feedback not being provided with call connect for incoming
+- Change in-call vibration behavior
+=============================
+frameworks/av:
+=============================
+- WifiDisplaySource: raise supported resolution to 1920x1080p60
+- WifiDisplaySource: allow overriding max wfd resolution with prop
+
+And other fixes...
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.3.0
 =============================
 - Settings: AppInfo: Add time spent in app from Wellbeing 
