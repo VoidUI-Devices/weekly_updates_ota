@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.3.2
+=============================
+- Clean Resync / Clean Rebuild (Was reinstalling system)
+- SystemUI: Make clock & battery clickable again
+- Fixed VPN QS Tile
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.3.1
 =============================
 Sync repos with latest Pixel Experience fixups pushes (Still March patch):
