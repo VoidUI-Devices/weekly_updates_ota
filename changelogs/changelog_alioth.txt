@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.3.5
+=============================
+- vendor: Enable monochromatic monet style 
+- vendor: overlay: DarkBgOverlay: Turn more elements into black [Testing]
+- frameworks_native: Import PE Thirteen branch changes:
+* Fix unintended buffer canceling
+* Avoid vsync enabled when in DOZE mode (AOD).
+* Skip dumping backtraces for cached processes 
+* sf: Reset validateWasSkipped in PostCommit phase
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.3.4
 =============================
 - Add an option to force LTE CA
