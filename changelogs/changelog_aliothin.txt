@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.3.4
+=============================
+- Add an option to force LTE CA
+(LTE Carrier Aggregation, means to connect to several LTE in same time)
+- Add Crowdin translations
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.3.3
 =============================
 - April Sec Patch Merge
