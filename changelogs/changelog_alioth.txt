@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.3.8
+=============================
+- Import back changes from Immensity:
+* Revert "genirq/irqdomain: Don't try to free an interrupt that has no mapping"
+* subsystem_restart: Always performs soft resets when subsystems crash
+- sm8250-common: Enable support of 5G/NR by default
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.3.7
 =============================
 - Import working DC Dimming from lmi adaptation
