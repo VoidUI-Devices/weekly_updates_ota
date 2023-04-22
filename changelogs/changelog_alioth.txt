@@ -1,4 +1,18 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.3.6
+=============================
+- Revert changes of frameworks_native from 2.3.5
+- Sync hardware/xiaomi with latest LOS changes
+* Source buildable android.hardware.sensors@1.0-impl-xiaomi etc
+- Huge rework of device/xiaomi/sm8250-common
+* Includes latest LOS changes, such as:
+Build Xiaomi sensors impl 
+overlay: Enable config_dozePulsePickup 
+parts: Drop doze related features 
+* Includes huge commits cleanup and adaptation to current enviromnent
+* Drop all modem related changes
+* Way more...
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.3.5
 =============================
 - vendor: Enable monochromatic monet style 
