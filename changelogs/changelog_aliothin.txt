@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.3.7
+=============================
+- Import working DC Dimming from lmi adaptation
+* Based on OnePlus dimlayer exposure
+* It's entirely different from previous implementations and seems working
+* Requires kernel support, so will work only on Redline for now
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.3.6
 =============================
 - Revert changes of frameworks_native from 2.3.5
