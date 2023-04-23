@@ -1,4 +1,18 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.4.2
+=============================
+Frameworks/base:
+- [Bugfix]Switch back to the application on /system when UID and path changed
+- [Bugfix]fix NullPointException when pkg is null
+- [Bugfix]fix NullPointException when PackageInfo's verifiers is null 
+- Return no optmization info for package "android"
+- Apply wakelock for notification sound
+* Changes by t.me/NextWorksGFX :
+- sm8250-common: Properly disable phantom process killing
+- sm8250-common: CarrierConfig: Enable voLTE/voWIFI/ViLTE for entire 515 mcc
+- sm8250-common: Remove useless attempt to chmod /system/bin/ip
+- sm8250-common: wifi: Relax WiFi re-association RSSI thresholds
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.4.1
 =============================
 * Changes by t.me/NextWorksGFX :
