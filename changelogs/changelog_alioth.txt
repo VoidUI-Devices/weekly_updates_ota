@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.4.1
+=============================
+* Changes by t.me/NextWorksGFX :
+- frameworks/base: PowerStatsService: Prevent NPE in BatteryTrigger.
+- sm8250-common: Speed profile services and wifi-service to reduce RAM and storage
+- sm8250-common: Remove unused IOP props
+- sm8250-common: Remove max ZRAM compression streams setting
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.4.0
 =============================
 - Add toggle for 3-button navbar inversion
