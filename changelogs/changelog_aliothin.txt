@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.3.9
+=============================
+- Rework kernel DC Dimming enviromnent to be more properly looking
+- k11a, k11r: Increase minimum backlight level for panels (It might be 2 by stock for this panels)
+- Clean regenerate of kernel configs for building
+- sm8250: Disable panic on SSR timeout
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.3.8
 =============================
 - Import back changes from Immensity:
