@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.4.0
+=============================
+- Add toggle for 3-button navbar inversion
+- Add toggle for 60Hz refresh rate on battery saver
+- Import Latest Crowdin translations
+- sm8250-common: Drop ADSP modules (aptX) prebuilts
+- sm8250-common: Rootdir: Store Socket ID for drivers
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.3.9
 =============================
 - Rework kernel DC Dimming enviromnent to be more properly looking
