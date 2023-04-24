@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.4.3
+=============================
+- Add back APT-X prebuilts | Thanks to t.me/candy2001 for testing / reporting
+- Cleanly rework Alioth trees and vendor according to t.me/althafvly V14.0.4.0.TKHMIXM update
+- vendor_custom-preference: Fixup change related to SwitchPreference
+- Remove "Apply wakelock for notification sound" change
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.4.2
 =============================
 Frameworks/base:
