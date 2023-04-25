@@ -1,4 +1,9 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.4.4
+=============================
+- After various tests in different environments decided just to update only Dolby Service
+* From Motorolla Cancun | cancun-user 13 TLB33.40 eng.jenkin.20230423.030550 release-keys
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.4.3
 =============================
 - Add back APT-X prebuilts | Thanks to t.me/candy2001 for testing / reporting
