@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.4.5
+=============================
+- Revert to same OnePlus DAX service
+- Entirely rework Dolby App and Dolby service permissions
+* Decompile them with jadx
+* Import basic Android Dependencies to list
+* Import DAX service protected broadcast permissions
+* Cleanup and match permissions that found in decompiled apps
+* Boot, Test profiles, Profiles are changing without any delays with ultra fast performance
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.4.4
 =============================
 - After various tests in different environments decided just to update only Dolby Service
