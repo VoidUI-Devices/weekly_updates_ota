@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.4.6
+=============================
+- Add back miui fingerprints hide
+- Remove kernel changes related to fixing battery percentage and display timing
+- Aperture: Updated to latest available version
+- Settings: Don't sort user profiles by serial number, sort alphabetically
+- frameworks/base:
+* libhwui: Performance optimizations
+* os: Process: Fix wrong code in isThreadInProcess
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.4.5
 =============================
 - Revert to same OnePlus DAX service
