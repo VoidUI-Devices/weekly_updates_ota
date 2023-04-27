@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.4.7
+=============================
+- Misc update: sm8250-common: Set VENDOR_SECURITY_PATCH To PLATFORM
+* Now vendor security patch will match to platform security patch
+* Mostly used by device hals / drivers to check matches, we use always latest miui libs, so let's go ahead with latest
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.4.6
 =============================
 - Add back miui fingerprints hide
