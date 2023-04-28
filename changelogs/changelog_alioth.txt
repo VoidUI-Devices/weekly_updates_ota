@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.4.9
+=============================
+- Revert Google Dialer Call Recording overlay
+- Sync with latest PE+ Display repos updates:
+* displayConfig: Add size validation for client input parameters 
+* displayconfig: Restrict the scope of death_service_mutex_ 
+* displayConfig: Add size validation for client input parameter 
+* gralloc: Add handling for custom content metadata
+* gralloc: Introduce custom content metadata structure 
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.4.8
 =============================
 - Alioth: overlay: Define Dual Sim slots counts
