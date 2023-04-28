@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.4.8
+=============================
+- Alioth: overlay: Define Dual Sim slots counts
+- Alioth: audio: Add missing voice-headset path
+- Alioth: overlays: Enabled/Added Support For Google Dialer Call Recording [Testing needed]
+- sm8250-common: Revert fingerprint sepolicies changes
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.4.7
 =============================
 - Misc update: sm8250-common: Set VENDOR_SECURITY_PATCH To PLATFORM
