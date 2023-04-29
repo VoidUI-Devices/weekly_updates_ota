@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.5.0
+=============================
+- SystemUI: StatusIconContainer: Shorten entry animations
+- sm8250-common: sepolicy: Address vendor_mdm_helper denials
+- sm8250-common: sepolicy: Label xiaomi modem boot devices
+- sm8250-common: props: Set max active modem count 
+* This are minimal changes, hoping that might fullfix rare crashes
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.4.9
 =============================
 - Revert Google Dialer Call Recording overlay
