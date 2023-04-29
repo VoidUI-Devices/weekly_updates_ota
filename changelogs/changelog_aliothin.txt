@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.5.1
+=============================
+- Revert "drop reserving partition size for dynamic partitions"
+* Theoretically this may allow edit stuffs with root again
+- hardware_qcom-caf_sm8250: Display, Media and Audio: Merge tag LA.UM.9.12.r1-15400-SMxx50.QSSI13.0
+* Latest updates by Qualcomm 2023
+- Kernel: arch: arm64: configs: xiaomi: disable per-cgroup pressure tracking
+* Android does not use per-cgroup psi information.
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.5.0
 =============================
 - SystemUI: StatusIconContainer: Shorten entry animations
