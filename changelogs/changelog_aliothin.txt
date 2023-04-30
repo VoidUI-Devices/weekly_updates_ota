@@ -1,4 +1,17 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.5.2
+=============================
+- Redline Kernel:
+* Entire rework on top of ASB-2023-04-05_4.19-stable & LA.UM.9.12.r1-15300-SMxx50.QSSI12.0
+* Revert added changes from LA.UM.9.15.r1-07300-KAMORTA.QSSI13.0 (We are Kona, not Bengal, no, thanks)
+* techpack/audio: soc: Add check condition before enabling irq
+* techpack/audio: dsp: elliptic: Fix compilation issues
+- sm8250-common: props: Disable sf EGL image tracking 
+- sm8250-common: audio: remove unsupported configuration options
+- sm8250-common: Disable FRP
+- Screenshot: Remove text from expanded screenshot chip
+- SystemUI: Reduce screenshot dismiss delay to 3 seconds 
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.5.1
 =============================
 - Revert "drop reserving partition size for dynamic partitions"
