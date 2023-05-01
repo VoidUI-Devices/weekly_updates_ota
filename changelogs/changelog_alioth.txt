@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.5.3
+=============================
+- sm8250-common: overays: Enable 5G SA and NSA
+- Redline Kernel:
+* techpack: rmnet: Build it inline
+* techpack/codecs: AAC: Hardcode max_bitrate to 384k 
+* techpack: asoc: Add supported formats for all cases
+* techpack/audio: Kbuild: target User build variants
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.5.2
 =============================
 - Redline Kernel:
