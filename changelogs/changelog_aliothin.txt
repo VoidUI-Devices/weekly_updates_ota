@@ -1,4 +1,9 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.5.4
+=============================
+- May patch
+- More modules inlined
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.5.3
 =============================
 - sm8250-common: overays: Enable 5G SA and NSA
