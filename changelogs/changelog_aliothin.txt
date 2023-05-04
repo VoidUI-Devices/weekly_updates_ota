@@ -1,4 +1,16 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.5.5
+=============================
+- Sync with latest PE Changes:
+* camera2: Add non burst sizes to mandatory streams for ultra high resolution sensors
+* Select the proper request list size
+* base: Add mock oplus LinearmotorVibratorService
+* sepolicy: Label LinearmotorVibratorService
+- Import latest Crowdin translations for: Frameworks/base, Settings, Updater
+- Rework updater on top of latest LOS Changes
+* Translations updates
+* Updater: Show the correct percentage during package installation
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.5.4
 =============================
 - May patch
