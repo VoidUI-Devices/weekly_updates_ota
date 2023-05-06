@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.5.6
+=============================
+- Alioth: Import missing Vibrator Effects for QTI Effects Hal
+- soc: subsystem_restart: Always ignore ssr failures
+- SystemUI: VolumeDialogImpl: Change bg tint for inactive rows
+* Fixing VolumeDialogImpl in white theme
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.5.5
 =============================
 - Sync with latest PE Changes:
