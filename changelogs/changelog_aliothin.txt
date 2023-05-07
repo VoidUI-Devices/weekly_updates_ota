@@ -1,4 +1,9 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.5.7
+=============================
+- Resync Crowdin translations
+- Add support of data usage view on QS footer (Available in display settings)
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.5.6
 =============================
 - Alioth: Import missing Vibrator Effects for QTI Effects Hal
