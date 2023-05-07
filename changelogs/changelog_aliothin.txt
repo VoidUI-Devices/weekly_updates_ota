@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.5.9 | Audio Testing
+=============================
+- Recompile without frameworks/av Miui Dolby Changes | Requires proper testing
+* First of all Reset OnePlus Dolby app audio profiles, switch between all of them to recalibrate
+* Open Settings -> Audio -> Mi Sound -> Enable, Disable it back
+* Best idea also to switch between MiSound and Dolby while listening music several times for system to re-cache environment
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.5.8
 =============================
 - Update Aperture to latest version
