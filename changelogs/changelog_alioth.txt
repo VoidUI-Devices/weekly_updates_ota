@@ -1,4 +1,17 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.5.8
+=============================
+- Update Aperture to latest version
+Includes changes:
+* Aperture: Split ZSL toggle from photo capture mode
+* Aperture: Move to androidx.core.location compats
+* Aperture: Update androidx.media3 to 1.0.1
+* Aperture: Drop Media3's UnstableApi annotation
+* Aperture: Update CameraX to 1.3.0-alpha06 
+* Aperture: Get supported camera video frame rates from CameraX
+- Cleanup various frameworks/base custom commits, stick most close to stock AOSP (With keeping same customizations)
+- Re-import latest crowdin translations
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.5.7
 =============================
 - Resync Crowdin translations
