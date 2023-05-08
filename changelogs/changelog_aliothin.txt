@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.6.0
+=============================
+- Kernel: bus: mhi: pci_generic: Remove WQ_MEM_RECLAIM flag from state workqueue
+- sm8250-common: Parts: Declare BootCompletedReceiver as exported reciever
+- sm8250-common: sepolicy: Allow vendor init to set SSR property
+- sm8250-common: Enable SSR for all subsytem types
+- sm8250-common: Sepolicy: Inherit mdmhelper permissions
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.5.9 | Audio Testing
 =============================
 - Recompile without frameworks/av Miui Dolby Changes | Requires proper testing
