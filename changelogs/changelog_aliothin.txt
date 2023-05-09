@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.6.1
+=============================
+- Rebased hardware_qcom-caf_sm8250 display, audio and media repos to latest tags with commits re-check
+- Tracking our fork of device_qcom_sepolicy_vndr-legacy-um and device_qcom_sepolicy
+- device_qcom_sepolicy: Merge tag LA.QSSI.13.0.r1-09900-qssi.0
+- device_qcom_sepolicy_vndr-legacy-um: Merge tag LA.UM.9.12.r1-15400-SMxx50.QSSI13.0, switch on top of latest LOS branch
+- Remove "sm8250-common: Sepolicy: Inherit mdmhelper permissions"
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.6.0
 =============================
 - Kernel: bus: mhi: pci_generic: Remove WQ_MEM_RECLAIM flag from state workqueue
