@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.6.2
+=============================
+- Alioth: Update IPA Firmware from Miui 14.0.7.0 EU
+- Alioth: Update NFC configuration file
+- Alioth: Update Camera Libs from Miui 14.0.7.0 EU
+- Alioth: Update Sensors lib from Miui 14.0.7.0 EU
+- Kernel: Rebase on ASB-2023-04-05_4.19-stable | LA.UM.9.12.r1-15400-SMxx50.QSSI13.0
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.6.1
 =============================
 - Rebased hardware_qcom-caf_sm8250 display, audio and media repos to latest tags with commits re-check
