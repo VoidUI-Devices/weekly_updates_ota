@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.6.4
+=============================
+- sm8250-common: props: Disable client composition cache 
+* Disabling client composition cache improves system smoothness and might fix issues like lags when media output is showed on qs panel
+- sm8250-common: props: Disable SF composition prediction model 
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.6.3
 =============================
 - sm8250-common: Update and patch ims.apk from Alioth V14.0.7.0 EU
