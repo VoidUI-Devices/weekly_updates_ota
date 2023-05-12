@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.6.3
+=============================
+- sm8250-common: Update and patch ims.apk from Alioth V14.0.7.0 EU
+- sm8250-common: powerhint: Decrease launch boost to 3sec 
+- sm8250-common: powerhint: set /dev/cpu_dma_latency value in hex
+- sm8250-common: powerhint: Remove hints for Adaptive Battery CPU Throttling
+- vendor/aosp: common: Enable R8 optimizations for system_server and SystemUI 
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.6.2
 =============================
 - Alioth: Update IPA Firmware from Miui 14.0.7.0 EU
