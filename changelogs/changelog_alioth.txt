@@ -1,4 +1,15 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.6.6
+=============================
+- vendor_qcom_opensource_interfaces: IQtiMapper: Add HAL for CRC buffer calculation.
+- vendor_qcom_opensource_commonsys-intf_display: display: Add CRC calculation related code.
+- vendor_qcom_opensource_commonsys_display: display: Add CRC calculation related code.
+- Kernel:
+* input: aw8697_haptics: Disable Debugging 
+* input: misc: aw8697: Fix memory leak in aw8697_file_write
+* cpufreq: schedutil: Introduce screen-off rate limits
+(Allow using more power-friendly rate limits when the screen is off.)
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.6.5
 =============================
 - Sync with latest PE changes:
