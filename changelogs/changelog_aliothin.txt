@@ -1,4 +1,18 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.6.7
+=============================
+- sm8250-common: Remove "Disable sf EGL image tracking" change * Was working in oppostite way, disabled by default
+- Update GameSpace:
+* Use relative-location on landscape as well 
+* Trim expand button width 
+* Update gradle config and dependencies & update deprecated API usages
+* Fix layout jumps after dragging the bar
+* Remove duplicate drawables
+* safely update rootBarView's LayoutParam
+* Do not translate GameSpace app name
+* Make Font size for GameSpace and Clock a bit less 
+* Import latest crowdin translations
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.6.6
 =============================
 - vendor_qcom_opensource_interfaces: IQtiMapper: Add HAL for CRC buffer calculation.
