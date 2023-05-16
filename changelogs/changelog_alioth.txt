@@ -1,4 +1,18 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.6.9
+=============================
+Big rework of kernel camera related changes:
+- Based on latest kernel_qcom_sm8250
+- Remove previous bengal reverts
+- techpack: camera: Import custom camera techpacks:
+* camera-xiaomi: psyche-r-oss, camera-nonedxo
+* camera-xiaomi-cas: alioth-r-oss, camera-cas
+* camera-xiaomi-tablet: dagu-s-oss, camera
+- arch: arm64: configs: vendor: xiaomi: Enable device-specific camera configs
+- arch: arm64: boot: dts: vendor: qcom: camera: Import Xiaomi changes
+* From alioth-r-oss
+- sm8250: Techpack: Camera-Xiaomi: Fix missing type specifier
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.6.8
 =============================
 - vendor_qcom_opensource_commonsys-intf_display: Merge tag LA.QSSI.13.0.r1-09900-qssi.0
