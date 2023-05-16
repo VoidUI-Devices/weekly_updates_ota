@@ -1,4 +1,16 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.7.0
+=============================
+frameworks/base:
+- SystemUI: Enable camera & flashlight keyguard affordance
+- SystemUI: Use better icon for camera keyguard affordance
+frameworks/av:
+- camera: Add backwards-compatible CaptureResultExtras constructor
+- SessionConfigurationUtils: Allow privileged camera apps to create raw streams for raw capable cameras
+- stagefright: add changes related to high-framerates in CameraSource
+- Camera: Add support for preview frame fd
+- Changing max SampleRate limits for raw audio decoder 
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.6.9
 =============================
 Big rework of kernel camera related changes:
