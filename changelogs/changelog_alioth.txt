@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.7.2
+=============================
+- sm8250-common: Inherit SDX55M tombstones sepolicy rules for mdmhelper
+* Allow to create and have R/W /data/vendor/tombstones/SDX55M
+* Allow to have R/W for files in /data/vendor/tombstones
+- sm8250-common: rootdir: Declare vendor.imsrcsservice service
+* It is disabled by default
+* It is frequently asked by imsdatadaemon:
+init: Control message: Could not find 'vendor.imsrcsservice' for ctl.stop from pid: 1532 (/vendor/bin/imsdatadaemon)
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.7.1
 =============================
 - Revert "alioth: camera: Use randomly generated config" 
