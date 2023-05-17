@@ -1,4 +1,16 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.7.1
+=============================
+- Revert "alioth: camera: Use randomly generated config" 
+- Alioth: Ship camera config in tree
+* From Miui Alioth 14.0.7.0 EU
+- Alioth: Do not patch stock Camera lib
+* No longer needed after providing stock st_license
+- Kernel Related Changes:
+* soc/qcom: ssr: Default to RESET_SUBSYS_COUPLED
+* soc: qcom: ssr: Prevent kernel panic caused by modem crash
+* soc: qcom: ssr: Prevent kernel panic caused by adsp crash
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.7.0
 =============================
 frameworks/base:
