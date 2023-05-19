@@ -1,4 +1,19 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.7.3
+=============================
+- Frameworks/base: Sync with Latest PE Changes:
+* Revert "AudioService: do not log sound effects in audio dumpsys"
+(Reason for revert: It seems causing media volume decreasing and not returning to the last value after a notification sound)
+* Apply wakelock for notification sound
+* NotificationPlayer: use AUDIOFOCUS_GAIN_TRANSIENT instead of AUDIOFOCUS_GAIN in looping mode
+(A voip app will usually use notification with FLAG_INSISTENT when a new voip call comes, if the duration hint was AUDIOFOCUS_GAIN the music app will not continue after the voip call end.)
+- Import latest Crowdin translations (GameSpace, Frameworks)
+- Import latest Aperture Translations (Same as in Monthly)
+- Cleanup Alioth Audio Configs changes
+- Kernel: Drop "cpufreq: schedutil: Introduce screen-off rate limits"
+(Caused laggy UI when screen almost locked and you start using device)
+- Clean Rebuild
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.7.2
 =============================
 - sm8250-common: Inherit SDX55M tombstones sepolicy rules for mdmhelper
