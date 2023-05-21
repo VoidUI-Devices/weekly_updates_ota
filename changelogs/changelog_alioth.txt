@@ -1,4 +1,20 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.7.4
+=============================
+Camera Test Builds:
+- Revert "Add ability to enable scudo-free 32-bit libc variant." 
+- Switch to jemalloc memory allocator 
+- Verify that allocated memory is always zeroed.
+- Alioth:
+* Revert "alioth: Add libpiex_shim for com.mi.node.watermark.so"
+* Revert "alioth: Patch vendor.qti.hardware.camera.postproc@1.0-service-impl.so"
+- Big amount of changes related to revert of A13 "Updated" camera hal backend which is not matching with 8250 expectations
+- Camera: Call corresponding unlock for every lockAsync
+- camera: include: Don't override possible overlayed header
+- Camera: Avoid roundBufferDimensionsNearest also for blob streams
+- cameraserver: Let multiple cameras opened by stock camera application 
+- Other related to topic changes
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.7.3
 =============================
 - Frameworks/base: Sync with Latest PE Changes:
