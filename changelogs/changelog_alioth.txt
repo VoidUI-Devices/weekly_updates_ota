@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.7.5
+=============================
+- Apply camera related changes to public sources
+- Add latest Crowdin translations for frameworks/base
+- sm8250-common: Overlays: Add back AOSP-defined color modes
+Currently available: 
+AOSP colors: Natural | Boosted | Automatic
+Qualcomm colors: Vivid | Saturated | Original | P3 | sRGB
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.7.4
 =============================
 Camera Test Builds:
