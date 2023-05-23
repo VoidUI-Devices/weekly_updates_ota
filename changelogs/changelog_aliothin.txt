@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.7.7
+=============================
+- Kernel: arm64: configs: debugfs.config: Disable MSM_IDLE_STATS & PAGE_EXTENSION
+- sm8250-common: Rebase on latest LOS Changes:
+* sm8250-common: Update CarrierConfig from munch V14.0.1.0.TLMMIXM 
+* sm8250-common: CarrierConfig: Enable editable_enhanced_4g_lte_bool globally
+- In this update all previous CarrierConfig changes were removed. It is important to re-check Jio 5G work and other providers.
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.7.6
 =============================
 - Camera: FlashlightController: Disable sending intent
