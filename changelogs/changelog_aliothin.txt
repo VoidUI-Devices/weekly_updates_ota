@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.7.6
+=============================
+- Camera: FlashlightController: Disable sending intent
+- Alioth: Enable 1080p 60fps for front and back camera
+- Alioth: Drop AOSPA power profiles
+- Alioth: Update power profile from Miui Alioth 14.0.7.0 EU
+- Alioth: Power Profile: Import 3187 MHz CPU speed declaration
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.7.5
 =============================
 - Apply camera related changes to public sources
