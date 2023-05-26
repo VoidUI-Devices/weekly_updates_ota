@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.7.9
+=============================
+- overlay: Enable Quick Launch V2 in Pixel Launcher
+- Revert "SystemUI: Adjust qqs top margin dimension"
+- Clean rebuild
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.7.8
 =============================
 - SystemUI: Adjust qqs top margin dimension 
