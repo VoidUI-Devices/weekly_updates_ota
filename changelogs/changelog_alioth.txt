@@ -1,4 +1,25 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.8.0
+=============================
+- hardware/interfaces: Update HIDL overrideFormat from HAL 
+- frameworks/av: Camera: Import Xiaomi BufferProducerDetachListener changes 
+- frameworks/native:
+* Native: Camera: Import Release Slot Xiaomi Changes
+* Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+- Alioth: Inherit Miui Camera Repository
+- Alioth-MiuiCamera Repository [EARLY BETA]:
+* Alioth Miui Camera: Initial Repository (Based on previous work of t.me/darkphnx)
+* Enitre removal of previous sepolicy
+* Update to 14.0.7.0 EU Camera Sources
+* Add support of vendor.xiaomi.hardware.misys
+* Import Camera Post Processing libs
+* Import Camera DLC & Extensions deps
+* Rework structure of miui camera repository to keep it clean and clear
+* Add minimal sepolicy rules to make camera work
+* Add minimal sepolicy rules to make misys and post processing work
+* Build legacy android.hidl.memory.block@1.0.vendor for misys
+* Move VintF declarations of MiSys & Campostproc to sm8250-common
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.7.9
 =============================
 - overlay: Enable Quick Launch V2 in Pixel Launcher
