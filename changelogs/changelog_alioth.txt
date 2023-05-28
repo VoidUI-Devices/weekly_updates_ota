@@ -1,4 +1,21 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.8.1
+=============================
+- Frameworks/base: Camera2: Notify fps as Session Based Parameter
+- Frameworks/av changes:
+* Camera: Flush Improvements - Result drain optimization
+* libstagefright: Support YVU420SemiPlanar camera format
+* camera: Don't segfault if we get a NULL parameter
+* camera2 vndk: Improve error handling
+* camera: Workaround for GCC-compiled HAL3 drivers
+- alioth-miuicamera:
+* Miui Camera: Allow platform app to read vendor_display_prop 
+* Miui Camera: Allow access to proc/stat
+* Miui Camera: Import Miui Camera Properties
+* Miui Camera: Import wechat video beauty switch prop
+* MiuiCamera: Import f2player binary
+* Miui Camera: Inherit permissions of camerax-vendor-extensions
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.8.0
 =============================
 - hardware/interfaces: Update HIDL overrideFormat from HAL 
