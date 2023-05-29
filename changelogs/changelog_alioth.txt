@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.8.2
+=============================
+- frameworks_av: CAMX: CHI: Added support for handling jpeg debug data.
+- Miui Camera: Import libcameraimpl libs [Testing]
+- Miui Camera: Drop Overwrites of aosp camera libs
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.8.1
 =============================
 - Frameworks/base: Camera2: Notify fps as Session Based Parameter
