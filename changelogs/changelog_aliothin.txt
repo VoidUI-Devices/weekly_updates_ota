@@ -1,4 +1,31 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.8.3
+=============================
+- Remove "Miui Camera: Import libcameraimpl libs"
+- Frameworks/base:
+* camera: Allow selected camera apps to skip unconfigure
+* Camera: Don't throw exceptions when value pairs have spaces in them
+* Allow sending vendor- or device-specific commands to the camera HAL.
+* Fix Photosphere/Camera FCs 
+* CameraManager: Fixup exposing aux camera to apps 
+* Camera: Ignore torch status update for aux or compsite camera
+* Guard in short-circuit evaluations for stringSplit methods.
+* Camera: Extend face detection
+* Camera: Clearing exception for Extended Face
+* camera: Support exposing aux camera to apps
+* Add config overlay to force enable multi resolution for camera
+* CameraManager: HAX for depth sensor on Miui Camera [1/2]
+* Camera: Don't crash when trying to disable shutter sound
+* Camera: Fix size list parceling
+* CameraManager: Handle NPE with ActivityThread.currentOpPackageName()
+* Camera: Avoid possible NPE after extension session configuration
+* Camera: Prevent crash with prebuilt camera metadata
+- Frameworks/av:
+* HACK: libcameraservice: Make system cameras available to all camera apps 
+* Camera: Add support for manual 3A.
+* libstagefright: Allow HFR-60 in HAL-3 recording 
+* libcameraservice: HAX for depth sensor on Miui Camera [2/2]
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.8.2
 =============================
 - frameworks_av: CAMX: CHI: Added support for handling jpeg debug data.
