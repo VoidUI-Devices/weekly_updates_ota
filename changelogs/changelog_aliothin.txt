@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.8.4
+=============================
+frameworks/base: Import Xiaomi Image Tags defenitions
+frameworks/av: Import Xiaomi Image Tags defenitions
+* This changes are needed for more proper Camera Sensor recognition
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.8.3
 =============================
 - Remove "Miui Camera: Import libcameraimpl libs"
