@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.8.6
+=============================
+- MiuiCamera: Import missing libc++_shared for libSNPE
+- MiuiCamera: Include missed Miui Gallery required libs
+- MiuiCamera: Allow platform app to read vendor_display_prop 
+- MiuiCamera: Allow access to proc/stat 
+- MiuiCamera: sepolicy: allow camera HAL to access system_server
+- MiuiCamera: Inherit xiaomi postproc sepolicy
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.8.5
 =============================
 - Entirely remove previous work on Miui Camera
