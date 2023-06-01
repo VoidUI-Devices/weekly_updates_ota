@@ -1,4 +1,20 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.8.5
+=============================
+- Entirely remove previous work on Miui Camera
+- sm8250-common: Import Xiaomi Misys Hal
+* Import Xiaomi Misys hal for camera processing
+* Build Legacy android.hidl.memory.block, android.hidl.manager for misys serivce
+- Miui Camera Repository:
+* Clean start based on haydn repository (Miui Galery and Videos included)
+* Adapt for alioth-miuicamera location
+* Import missing permission for VideoPlayer
+* Adapt for Alioth product_mod_device
+* Import missing libbeauty_face and device features
+* Import missing libs for Alioth/in
+* Import missing libsqliteX.so from decompiled haydn Miui Gallery Global
+* Remove removal of Google Photos and Aperture
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.8.4
 =============================
 frameworks/base: Import Xiaomi Image Tags defenitions
