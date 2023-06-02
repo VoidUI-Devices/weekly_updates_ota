@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.8.7
+=============================
+- MiuiCamera: sepolicy: Resolve some MIUI Camera denials
+- MiuiCamera: Keep miui_multi_display declaration only in sepolicy/private
+- MiuiCamera: Label generic props for Miui/Leica Camera
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.8.6
 =============================
 - MiuiCamera: Import missing libc++_shared for libSNPE
