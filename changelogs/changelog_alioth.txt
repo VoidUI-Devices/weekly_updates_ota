@@ -1,4 +1,17 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.8.8
+=============================
+- Big rework of PixelPropsUtils:
+* Drop previous GameProps
+* Imported updated GameProps with better code to apply props for games and apps
+* Spoof only walleye fingerprint for Play Store for CTS, show correct device itself for apps
+* Switch some services to Pixel 7 Pro
+* Hide Call of Duty, Black Desert, Fifa, Asphalt 9 to ROG6
+* Allow spoofing device model for Netflix
+* Add Gameprops for Battlegrounds Mobile India (BGMI) (Smooth-Extreme to HDR-Extreme)
+Changes available in https://github.com/VoidUI-Tiramisu/frameworks_base/commits/aosp-13
+- Update frameworks crowdin translations to latest version
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.8.7
 =============================
 - MiuiCamera: sepolicy: Resolve some MIUI Camera denials
