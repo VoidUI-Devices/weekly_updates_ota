@@ -1,4 +1,12 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.8.9
+=============================
+- MiuiCamera: Drop Sepolicy hacks
+- MiuiCamera: Initial Labels for used libs
+- MiuiCamera & MiuiGallery: Extract used libs to system partition manually
+- Settings: Enable copying content for IMEI2 
+- PixelPropsUtils: Switch Honor of Kings hide to Xiaomi 13 Pro (China) (2210132C)
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.8.8
 =============================
 - Big rework of PixelPropsUtils:
