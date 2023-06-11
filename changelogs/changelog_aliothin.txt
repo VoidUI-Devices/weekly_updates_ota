@@ -1,4 +1,21 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.9.0
+=============================
+- Contains changes from latest -beta- :
+> Alioth: Update IPA Firmware from Miui Alioth 14.0.7.0 Mi
+> Alioth: Update Camera Libs from Miui Alioth 14.0.7.0 Mi
+> Remove big amount of MiuICamera Changes
+> MiuiCamera: Move MiuiGallery to product & Clean deps
+> Update Mi Video from Miui 14.0.7.0 Mi
+> Miui Gallery can now be disabled
+> Mi Video can not be disabled
+> Aperture is now removed
+> Miui Camera (Leica) is possible to disable
+New changes:
+- Import Proprietary Dolby Headers
+- OMXStore | AudioFlinger | Audio Threads - Import minimal Dolby Headers includes
+- EffectDapController_impl.h Rework for AOSP compilation, enable DOLBY_DAP_BYPASS_SOUND_TYPES by default
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.8.9
 =============================
 - MiuiCamera: Drop Sepolicy hacks
