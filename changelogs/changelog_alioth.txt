@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.9.2
+=============================
+- sm8250-common: GNSS: Import missing vendor.qti.hardware.cacert
+- MiuiCamera Repo:
+* Move MiVideo to system/app
+* Drop MiVideo permissions (They are needed for priv-app)
+* Update MiVideo from Miui 14.0.9.0 Europe
+* Testing: Import OpenCL libs
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.9.1
 =============================
 Alioth: Update IPA Firmware from Miui 14.0.9.0 EU
