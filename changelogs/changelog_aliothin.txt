@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.9.3
+=============================
+- MiuiCamera Repo:
+* Add back MiuiGallery libs
+* Cleanup previous changes
+* Resort available Apps and Prebuilts 
+* Update Leica Camera mod to 4.7.230127.0 (GLNRALR Full Edition)
+* Import all required libraries for proper work
+* Make Leica Camera app signed to pass system checks
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.9.2
 =============================
 - sm8250-common: GNSS: Import missing vendor.qti.hardware.cacert
