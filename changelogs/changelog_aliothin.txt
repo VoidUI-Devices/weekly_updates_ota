@@ -1,4 +1,25 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.9.5
+=============================
+Redline Kernel Update:
+- Rework on top of June (ASB-2023-06-05_4.19-stable) Security patch
+- Includes also changes from LOS kernel:
+* page_alloc: fix invalid watermark check on a negative value 
+* qcacld-3.0: Fix OOB in wma_scan_roam.c 
+* input: touchscreen: Fix error due to assumption of CONFIG_FB always being set
+* techpack: display: drm/msm: add idle state sysfs node
+* techpack: audio: Add missing FM recording mixer setup
+* techpack: camera: Remove duplicate check
+* kona-perf: defconfig: Enable Wireguard support 
+- Rework power supply related drivers/usb changes:
+* Clean previous changes
+* fixup! drivers: usb: Import Xiaomi changes
+* Revert "USB: pd: Add support for enabling PD2.0 only as source" 
+* Revert "usb: dwc3: Ensure blocking_sync waits until host mode starts or stops"
+* Revert "usb: pd: Add support to disable pps capability"
+* Revert "USB: pd: Restart host mode in high speed if no usb3 & dp concurrency"
+Test: Booted, connected USB PD 65w GaN charger, device having Quick Charge | Same with stock Xiaomi Charger
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.9.4
 =============================
 - alioth: libinit: Update variant props from stock 
