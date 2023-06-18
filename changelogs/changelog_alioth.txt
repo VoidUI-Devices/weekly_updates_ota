@@ -1,4 +1,17 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.9.4
+=============================
+- alioth: libinit: Update variant props from stock 
+- Alioth: Libinit: Make proper mod devices hide
+- sm8250-common: Import OzoAudio Engine Effect & Prebuilts
+- MiuiCamera Repo:
+* Remove previous MiuiGallery app
+* Add Permissions skeleton for Gallery and Gallery Editor from MiuiCamera
+* Import Updated Miui Gallery and Miui Gallery Editor 
+  - Miui Gallery 3.5.2.5 verison
+  - Miui Gallery Editor 1.3.1.10.3 version
+( Now video editor and Leica photo edit features are available)
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.9.3
 =============================
 - MiuiCamera Repo:
