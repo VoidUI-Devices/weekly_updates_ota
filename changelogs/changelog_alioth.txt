@@ -1,4 +1,18 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.9.6
+=============================
+- Resync with latest PE changes (QPR2)
+* Settings: Properly set Wi-Fi Privacy spinner initial state
+* Settings | Frameworks | Devicesettings - Automatic translation import 
+* vendor/aosp: Fix now playing configs
+* Frameworks/base:
+Revert "SystemUI: Only apply tuning changes when the fragment is attached"
+SystemUI: Avoid using null Context in onTuningChanged() 
+fixup! Configurable 0, 90, 180 and 270 degree rotation 
+Request correct rendering type for EGL config
+SystemUI: React to PrivacyConfig changes properly
+- Minor fixes and reworks
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.9.5
 =============================
 Redline Kernel Update:
