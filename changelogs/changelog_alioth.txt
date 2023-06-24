@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.9.7
+=============================
+- sm8250-common: Parts: Reformat Java Code
+- sm8250-common: Parts: Update Clear Speaker description
+- Revert "sm8250-common: parts: dirac: Update vector icons to MD2 versions"
+- sm8250-common: Disable hvdcp_opti deamon pps control
+- sm8250-common: Compile out android.hardware.bluetooth.audio@2.0-impl and 2.1 versions
+- Kernel: drivers: input: touchscreen: Prevent unnecessary input sync (*For Apollo/n compability)
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.9.6
 =============================
 - Resync with latest PE changes (QPR2)
