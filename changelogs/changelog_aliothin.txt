@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.9.8
+=============================
+- Alioth: Overlays: Set default Settings.Global.DEVICE_NAME according to MIUI
+- Alioth: libinit: Hide Redmi K40 .mod_device as Poco F3 Global
+- Alioth: Libinit: Hide device with stock Product name
+- sm8250-common: libinit: Add support of hiding device product name
+- vendor/aosp:
+* config: Move IAntiFlicker to fqname
+* fixup! config: Move IAntiFlicker to fqname
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.9.7
 =============================
 - sm8250-common: Parts: Reformat Java Code
