@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v2.9.9
+=============================
+Redline Kernel:
+- Cleanup part of Miui Related Changes
+- Cleanup part of not needed changes
+- Enable QTI Smart Link Aggregation driver
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.9.8
 =============================
 - Alioth: Overlays: Set default Settings.Global.DEVICE_NAME according to MIUI
