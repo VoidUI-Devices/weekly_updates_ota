@@ -1,4 +1,9 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v3.0.0
+=============================
+- Clean Resync and Rebuild
+- Resync vendor_qcom_opensource_commonsys-intf_display and vendor_qcom_opensource_commonsys_display with PE
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v2.9.9
 =============================
 Redline Kernel:
