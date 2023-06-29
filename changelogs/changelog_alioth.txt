@@ -1,4 +1,17 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v3.0.1
+=============================
+- Frameworks/base:
+* Camera: Avoid holding locks during advanced extension initialization 
+* Camera: Always release the extension session after configuration
+* Camera: Release advanced extension references 
+* Camera: Quit extension handler thread during release
+* Fix the memory leak during high speed recording
+- Frameworks/av:
+* libcameraservice: Import Xiaomi Exif Camera Modifications
+* libcameraservice: Import Xiaomi DistortionMapper Modifications
+- MiuiCamera: NameSpace Repository
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v3.0.0
 =============================
 - Clean Resync and Rebuild
