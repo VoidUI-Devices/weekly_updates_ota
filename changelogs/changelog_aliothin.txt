@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v3.0.2
+=============================
+- libinit: Change alioth_in to aliothin, now camera watermark and features might work correctly on Mi11x
+* Recommended to clear Camera and Gallery app data to apply changes followup
+- Alioth: Import Qualcomm CameraX Vendor Extensions
+- MiuiCamera: sepolicy: let camera hal access /data/misc files
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v3.0.1
 =============================
 - Frameworks/base:
