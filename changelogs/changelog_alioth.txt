@@ -1,4 +1,14 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v3.0.3
+=============================
+- Aliothin: Hide again for alioth_global
+- Clean rebuild of full rom
+- Update bionic changes from PE:
+* Fix stack use-after-scope in async_safe_log.
+* Fix mte build breakage.
+* Make tmpfile() respect $TMPDIR. 
+- Update vendor/aosp from PE
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v3.0.2
 =============================
 - libinit: Change alioth_in to aliothin, now camera watermark and features might work correctly on Mi11x
