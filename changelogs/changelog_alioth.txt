@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v3.0.4
+=============================
+- Alioth: Import 32bit camera stack
+* We are utilizing mostly 64bit one, but having 32bit by default also.
+As far as we are using close to stock Miui (Leica) camera - we need to keep environment close to stock for better backwards compatibility.
+- Frameworks/native: BlastBufferQueque: Import Xiaomi Android 13 BlastBuffer Changes
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v3.0.3
 =============================
 - Aliothin: Hide again for alioth_global
