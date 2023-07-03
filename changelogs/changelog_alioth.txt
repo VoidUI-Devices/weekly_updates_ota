@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v3.0.5
+=============================
+- MiuiCamera: Update dependencies according to latest Leica from Ishtar V14.0.1.0.TMAMIXM
+* Also update version for mimojifu2 to 1.1.6@230508
+- Alioth: add missing thermal configs
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v3.0.4
 =============================
 - Alioth: Import 32bit camera stack
