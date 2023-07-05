@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v3.0.6
+=============================
+- system/core: debuggerd: Disable scudo usage
+- Frameworks/base:
+* base: Introduce PowerOffAlarmService
+* base: PowerOffAlarmService: Add a notification 
+* libhwui: Enable O3 when compiling with LTO 
+* Shrink by 0.5 for YUV TextViews
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v3.0.5
 =============================
 - MiuiCamera: Update dependencies according to latest Leica from Ishtar V14.0.1.0.TMAMIXM
