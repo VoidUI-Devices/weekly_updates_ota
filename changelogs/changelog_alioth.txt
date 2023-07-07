@@ -1,4 +1,15 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v3.0.7
+=============================
+- sm8250-common: add fastcharge implementation
+- sm8250-common: fastcharge: Make user setting persistent
+- sm8250-common: fastcharge: Use pragma once
+- sm8250-common: fastcharge: Migrate to blueprint
+- sm8250-common: Build fastcharge implementation
+- sm8250-common: Sepolicy: Label FastCharge more general
+- sm8250-common: Sepolicy: Fastcharge: Provide needed permissions
+- Kernel: Cleanup thermal related changes
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v3.0.6
 =============================
 - system/core: debuggerd: Disable scudo usage
