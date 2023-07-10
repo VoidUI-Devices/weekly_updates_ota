@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v3.0.8
+=============================
+- Alioth: Fix paths for Qualcomm CameraX Vendor Extensions
+- MiuiCamera: move Miui Video Player to product apps, Update prebuilts after rebuild
+- MiuiCamera: Import Android.hardware.camera permissions
+- MiuiCamera: Enable MultiCamera support, match some stock flags
+- hardware/interfaces: Revert "fpc: keep fpc in system-background"
+- frameworks/native: Fix libgui cts crash bug 
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v3.0.7
 =============================
 - sm8250-common: add fastcharge implementation
