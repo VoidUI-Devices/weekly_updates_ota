@@ -1,7 +1,15 @@
 =============================
-VoidUI Thunderstorm | Daily / Weekly Release | v4.0.0
+VoidUI Thunderstorm | Daily / Weekly Release | v4.0.1
 =============================
-- Android 13 QPR3 | February 2024 Security Patch
+- Revert back to Android 13 QPR3 January Security patch [Various reasons]
+- Clean rework of kernel changes with cleanup of custom changes [+Added support of HBM]
+- Switch to reworked and cleaned Miui Camera Repo - https://gitlab.com/johnmart19/vendor_xiaomi_camera
+- Cleanup of device trees from A14 changes
+- Improve Dynamic HZ Change
+- Create and push rom manifests & clean resync & clean rebuild
+- More...
+=============================
+VoidUI Thunderstorm | Daily / Weekly Release | v4.0.0
 =============================
 - CTS Pass
 - Heavy cleanup of project changes for QPR3
