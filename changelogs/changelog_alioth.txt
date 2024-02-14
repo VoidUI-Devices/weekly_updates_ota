@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v4.0.2
+=============================
+- Update DC Dimming toggle env
+- Update kernel to latest base [LA.UM.9.12.r1-18100-SMxx50.QSSI14.0 | ASB-2024-02-05_4.19-stable ]
+- Include support of Apollo Battery data in Alioth kernel
+- Remove 90Hz support
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v4.0.1
 =============================
 - Revert back to Android 13 QPR3 January Security patch [Various reasons]
