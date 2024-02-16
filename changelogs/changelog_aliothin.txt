@@ -1,4 +1,10 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v4.0.3
+=============================
+- Kernel: Disable Haptics debugging
+- Kernel: Disable Binder debugging
+- Alioth: Import missing libaudioconfigstore for AudioHalExt
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v4.0.2
 =============================
 - Update DC Dimming toggle env
