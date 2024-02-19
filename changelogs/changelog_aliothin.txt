@@ -1,4 +1,11 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v4.0.5
+=============================
+- sm8250-common: Camera: Enable newer HIDL overrideFormat
+* Following change fixes Front Camera Video Recording
+- Fixed CTS (Google Certified)
+- Disabled Volume Leveler for Dolby
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v4.0.4
 =============================
 - build/soong: Update cortex-a76 optimizations
