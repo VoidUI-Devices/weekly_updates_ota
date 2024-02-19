@@ -1,4 +1,15 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v4.0.4
+=============================
+- build/soong: Update cortex-a76 optimizations
+- frameworks/av: Import vendor tags change from aospa for proper exposure
+- Misc camera-related changes
+- MiuiCamera/Leica: Switch to 5.0 Version + 1.7.7.2.0 ExtraPhoto
+Known issues: Front Camera Video Recording
+- Miui Gallery: Switch to 3.7.0.2 Mod + 1.3.1.10.3 Media Editor + 2.0-2024012316 Mi Ai
+Known issues: Clip option not working/bugged, please don't use it.
+- Switch to previous Dolby Atmos app and service (Android 13)
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v4.0.3
 =============================
 - Kernel: Disable Haptics debugging
