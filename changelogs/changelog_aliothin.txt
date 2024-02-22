@@ -1,4 +1,13 @@
 =============================
+VoidUI Thunderstorm | Daily / Weekly Release | v4.0.7
+=============================
+Camera changes & Cleanup
+- Remove MiuiGallery, Mi AI and Gallery Editor
+- Restart Miui Camera Repo from scratch
+- Switch to Documents V2 processing
+- Remove MiuiExtraPhotos
+- Import OpenCL Prebuilts
+=============================
 VoidUI Thunderstorm | Daily / Weekly Release | v4.0.6
 =============================
 - Hide Alioth, Alioth_global and aliothin appropriately
